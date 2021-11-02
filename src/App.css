@@ -165,8 +165,17 @@ select#languages:focus {
     left: 50%;
     position: absolute;
     transform: translate(-50%, -50%);
+
+  }
+  #header #logo img {
+    cursor: pointer;
+    max-height: 40px;
+    position: unset !important;
   }
 }
 #header #logo img {
+  cursor: pointer;
   max-height: 40px;
+  position: absolute;
+  top: 16px;
 }

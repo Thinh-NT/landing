@@ -1,7 +1,8 @@
 import React from "react";
 import styled from "styled-components";
 import { FaBars } from "react-icons/fa";
-import Logo from '../assets/logo.png';
+import Logo from "../assets/logo.png";
+import { Link } from "react-scroll";
 export const MobileIcon = styled.div`
   display: none;
   @media screen and (max-width: 768px) {
@@ -16,12 +17,14 @@ export const MobileIcon = styled.div`
   }
 `;
 function Header(props) {
-  const { lang, setLang, data,toggle } = props;
+  const { lang, setLang, data, toggle } = props;
   return (
     <header id="header" className="header-scrolled">
       <div className="container-fluid">
         <div id="logo" className="pull-left">
-          <img src={Logo} alt='logo' />
+          <Link to="intro" smooth>
+            <img src={Logo} alt="logo" />
+          </Link>
         </div>
 
         <nav id="nav-menu-container">
@@ -62,13 +65,13 @@ function Header(props) {
                 {lang}
               </a>
               <div className="dropdown-menu">
-                <div  className="dropdown-item" onClick={()=>setLang('EN')}>
+                <div className="dropdown-item" onClick={() => setLang("EN")}>
                   English
                 </div>
-                <div className="dropdown-item" onClick={()=>setLang('VI')}>
+                <div className="dropdown-item" onClick={() => setLang("VI")}>
                   VietNamese
                 </div>
-                <div className="dropdown-item" onClick={()=>setLang('KO')}>
+                <div className="dropdown-item" onClick={() => setLang("KO")}>
                   Korea
                 </div>
               </div>
@@ -76,8 +79,8 @@ function Header(props) {
           </ul>
         </nav>
         <MobileIcon onClick={toggle}>
-            <FaBars />
-          </MobileIcon>
+          <FaBars />
+        </MobileIcon>
       </div>
     </header>
   );
