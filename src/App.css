@@ -139,3 +139,8 @@ select#languages:focus {
   margin-bottom: 0;
   margin-top: 20px;
 }
+.dropdown-menu div.dropdown-item {
+  cursor: pointer;
+  font-family: "Montserrat", sans-serif;
+  padding: 5px 15px;
+}
