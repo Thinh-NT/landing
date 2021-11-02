@@ -17,6 +17,7 @@ import { BrowserRouter as Router, Switch, Route } from "react-router-dom";
 import { useState } from "react";
 import { headerCons } from "./components/constants/headerCons";
 import { servicesCons } from "./components/constants/servicesCons";
+import Sidebar from "./Sidebar";
 export const scroll = new SmoothScroll('a[href*="#"]', {
   speed: 500,
   speedAsDuration: true,
@@ -27,12 +28,29 @@ function App() {
     Header: headerCons,
     Services: servicesCons,
   };
+  const [isOpen, setIsOpen] = useState(false);
+  const toggle = () => {
+    setIsOpen(!isOpen);
+  };
   return (
     <Router>
       <Switch>
-        <Route  exact path="/">
+        <Route exact path="/">
           <div>
-            <Header data={data} setLang={setLang} lang={lang} />
+            <Sidebar
+              isOpen={isOpen}
+              toggle={toggle}
+              data={data}
+              lang={lang}
+              setLang={setLang}
+            />
+            <Header
+              data={data}
+              setLang={setLang}
+              lang={lang}
+              isOpen={isOpen}
+              toggle={toggle}
+            />
             <Section />
             <main id="main">
               <ServiceSection />
@@ -52,7 +70,7 @@ function App() {
             </div>
           </div>
         </Route>
-        <Route >
+        <Route>
           <div>404</div>
         </Route>
       </Switch>

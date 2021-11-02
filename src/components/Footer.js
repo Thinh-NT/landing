@@ -9,7 +9,7 @@ function Footer() {
             <div className="col-lg-3 col-md-6 footer-info">
               <h3>Uni Consulting</h3>
               <p>
-                Cras fermentum odio eu feugiat lide par naso tierra. Justo eget
+                Thảo xinh dep odio eu feugiat lide par naso tierra. Justo eget
                 nada terra videa magna derita valies darta donna mare fermentum
                 iaculis eu non diam phasellus. Scelerisque felis imperdiet proin
                 fermentum leo. Amet volutpat consequat mauris nunc congue.
@@ -78,20 +78,11 @@ function Footer() {
                 magna veniam enim veniam illum dolore legam minim quorum culpa
                 amet magna export quem marada parida nodela caramase seza.
               </p>
-              <form action="" method="post">
-                <input type="email" name="email" />
-                <input type="submit" value="Subscribe" />
-              </form>
+              
             </div>
           </div>
         </div>
       </div>
-{/* 
-      <div className="container">
-        <div className="copyright">
-          &copy; Copyright <strong>BizPage</strong>. All Rights Reserved
-        </div>
-      </div> */}
     </footer>
   );
 }
