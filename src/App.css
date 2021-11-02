@@ -160,4 +160,13 @@ select#languages:focus {
     cursor: pointer;
     margin-top: 10px
   }
+  #header #logo{
+    top: 50%;
+    left: 50%;
+    position: absolute;
+    transform: translate(-50%, -50%);
+  }
+}
+#header #logo img {
+  max-height: 40px;
 }

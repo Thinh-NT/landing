@@ -30,7 +30,7 @@ export const SidebarContainer = styled.aside`
   transition: all 0.5s ease;
 
   opacity: ${({ isOpen }) => (isOpen ? 1 : 0)};
-  top: ${({ isOpen }) => (isOpen ? 0 : "-100%")};
+  left: ${({ isOpen }) => (isOpen ? 0 : "-100%")};
 `;
 
 export const CloseIcon = styled(FaTimes)`
@@ -67,19 +67,19 @@ const Sidebar = ({ toggle, isOpen, data, lang, setLang }) => {
       </Icon>
       <SidebarWrapper>
         <SidebarMenu>
-          <SidebarLink to="intro" className="btn__mobile" onClick={toggle}> 
+          <SidebarLink to="intro" className="btn__mobile" onClick={toggle} smooth={true}> 
             {data.Header[lang].home}
           </SidebarLink>
-          <SidebarLink to="about" className="btn__mobile" onClick={toggle}>
+          <SidebarLink to="about" className="btn__mobile" onClick={toggle} smooth={true}>
             {data.Header[lang].about}
           </SidebarLink>
-          <SidebarLink to="services" className="btn__mobile" onClick={toggle}>
+          <SidebarLink to="services" className="btn__mobile" onClick={toggle} smooth={true}>
             {data.Header[lang].services}
           </SidebarLink>
-          <SidebarLink to="carrer" className="btn__mobile" onClick={toggle}>
+          <SidebarLink to="carrer" className="btn__mobile" onClick={toggle} smooth={true}>
             {data.Header[lang].carrer}
           </SidebarLink>
-          <SidebarLink to="contact" className="btn__mobile" onClick={toggle}>
+          <SidebarLink to="contact" className="btn__mobile" onClick={toggle} smooth={true}>
             {data.Header[lang].contact}
           </SidebarLink>
           <div className="nav-item dropdown">

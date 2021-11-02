@@ -1,15 +1,15 @@
 import React from "react";
 import styled from "styled-components";
 import { FaBars } from "react-icons/fa";
-
+import Logo from '../assets/logo.png';
 export const MobileIcon = styled.div`
   display: none;
   @media screen and (max-width: 768px) {
     display: block;
     position: absolute;
     top: 0;
-    right: 0;
-    transform: translate(-100%, 60%);
+    left: 0;
+    transform: translate(100%, 60%);
     font-size: 1.8rem;
     cursor: pointer;
     color: #fff;
@@ -21,11 +21,7 @@ function Header(props) {
     <header id="header" className="header-scrolled">
       <div className="container-fluid">
         <div id="logo" className="pull-left">
-          <h1>
-            <a href="#intro" className="scrollto">
-              Uni
-            </a>
-          </h1>
+          <img src={Logo} alt='logo' />
         </div>
 
         <nav id="nav-menu-container">
