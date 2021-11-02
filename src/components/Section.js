@@ -53,7 +53,7 @@ function Section() {
           <div className="carousel-item" style={{backgroundImage: `url('img/intro-carousel/5.jpg')`}}>
             <div className="carousel-container">
               <div className="carousel-content">
-                <h2>Minh crush on Thao</h2>
+                <h2>Minh crush on Thảooooo</h2>
                 <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat.</p>
                 <a href="#featured-services" className="btn-get-started scrollto">Get Started</a>
               </div>

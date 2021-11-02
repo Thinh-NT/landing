@@ -144,3 +144,20 @@ select#languages:focus {
   font-family: "Montserrat", sans-serif;
   padding: 5px 15px;
 }
+/* .dropdown-menu.show{
+  position: absolute;
+  top: 180% !important;
+  left: 50% !important;
+  transform: translate(-50%, -50%) !important;
+} */
+.btn__mobile{
+  width:fit-content;
+}
+@media screen and (max-width: 768px) {
+  .nav-link.dropdown-toggle.btn__mobile{
+    padding:unset !important;
+    font-size:1.5rem;
+    cursor: pointer;
+    margin-top: 10px
+  }
+}
