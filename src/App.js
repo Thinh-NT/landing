@@ -74,17 +74,17 @@ function App() {
             <Section />
             <main id="main">
               <ServiceSection />
-              <About />
+              <About lang={lang} />
               <Services data={data} lang={lang} />
               {/* <CallToAction /> */}
               {/* <Skill /> */}
               {/* <Facts /> */}
               {/* <PortPolio /> */}
-              <Clients />
-              <Career />
-              <Contact />
+              <Clients lang={lang} />
+              <Career lang={lang} />
+              <Contact lang={lang} />
             </main>
-            <Footer />
+            <Footer lang={lang} />
             <div style={{ cursor: "pointer" }} className="back-to-top">
               <i className="fa fa-chevron-up"></i>
             </div>
