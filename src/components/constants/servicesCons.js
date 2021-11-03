@@ -659,7 +659,7 @@ export const servicesCons = {
             className="btn btn-uni description123"
             onClick={() => setAntiD(!antiD)}
           >
-            Show {antiD ? "Less" : "More"}
+            {antiD ? "Thu gọn" : "Xem thêm"}
           </button>
         </div>
       );
@@ -734,7 +734,7 @@ export const servicesCons = {
           className="btn btn-uni description123"
           onClick={() => setCustom(!custom)}
         >
-          Show {custom ? "Less" : "More"}
+          {custom ? "Thu gọn" : "Xem thêm"}
         </button>
       </div>
     ),
@@ -814,7 +814,7 @@ export const servicesCons = {
           className="btn btn-uni description123"
           onClick={() => setFta(!fta)}
         >
-          Show {fta ? "Less" : "More"}
+          {fta ? "Thu gọn" : "Xem thêm"}
         </button>
       </div>
     ),
@@ -886,7 +886,7 @@ export const servicesCons = {
           className="btn btn-uni description123"
           onClick={() => setSale(!sale)}
         >
-          Show {sale ? "Less" : "More"}
+          {sale ? "Thu gọn" : "Xem thêm"}
         </button>
       </div>
     ),
@@ -956,7 +956,7 @@ export const servicesCons = {
           className="btn btn-uni description123"
           onClick={() => setLogistic(!logistic)}
         >
-          Show {logistic ? "Less" : "More"}
+          {logistic ? "Thu gọn" : "Xem thêm"}
         </button>
       </div>
     ),
@@ -1051,7 +1051,7 @@ export const servicesCons = {
           className="btn btn-uni description123"
           onClick={() => setMarket(!market)}
         >
-          Show {market ? "Less" : "More"}
+          {market ? "Thu gọn" : "Xem thêm"}
         </button>
       </div>
     ),
@@ -1127,7 +1127,7 @@ export const servicesCons = {
           className="btn btn-uni description123"
           onClick={() => setRebuild(!rebuild)}
         >
-          Show {rebuild ? "Less" : "More"}
+          {rebuild ? "Thu gọn" : "Xem thêm"}
         </button>
       </div>
     ),
@@ -1190,7 +1190,7 @@ export const servicesCons = {
           className="btn btn-uni description123"
           onClick={() => setTariff(!tariff)}
         >
-          Show {tariff ? "Less" : "More"}
+          {tariff ? "Thu gọn" : "Xem thêm"}
         </button>
       </div>
     ),
