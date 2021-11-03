@@ -55,13 +55,12 @@ export const servicesCons = {
               </div>
             )}
           </div>
-          <button
-            type="button"
-            className="btn btn-uni description123"
+          <div
+            className="text-primary description123"
             onClick={() => setAntiD(!antiD)}
           >
             Show {antiD ? "Less" : "More"}
-          </button>
+          </div>
         </div>
       );
     },
@@ -129,13 +128,12 @@ export const servicesCons = {
             </div>
           )}
         </div>
-        <button
-          type="button"
-          className="btn btn-uni description123"
+        <div
+          className="text-primary description123"
           onClick={() => setCustom(!custom)}
         >
           Show {custom ? "Less" : "More"}
-        </button>
+        </div>
       </div>
     ),
     FTA: (fta, setFta) => (
@@ -211,13 +209,12 @@ export const servicesCons = {
             </div>
           )}
         </div>
-        <button
-          type="button"
-          className="btn btn-uni description123"
+        <div
+          className="text-primary description123"
           onClick={() => setFta(!fta)}
         >
           Show {fta ? "Less" : "More"}
-        </button>
+        </div>
       </div>
     ),
     Sale: (sale, setSale) => (
@@ -229,7 +226,7 @@ export const servicesCons = {
         <div className="icon">
           <i className="ion-ios-speedometer-outline"></i>
         </div>
-        <h4 className="title">Giấy xác nhận ưu đãi</h4>
+        <h4 className="title">Certificate of Incentives</h4>
         <div className="description">
           <span className="span__description">
             Why do businesses need a Certificate of Incentives "Project for
@@ -275,13 +272,12 @@ export const servicesCons = {
             </div>
           )}
         </div>
-        <button
-          type="button"
-          className="btn btn-uni description123"
+        <div
+          className="text-primary description123"
           onClick={() => setSale(!sale)}
         >
           Show {sale ? "Less" : "More"}
-        </button>
+        </div>
       </div>
     ),
     Logistics: (logistic, setLogistic) => (
@@ -344,13 +340,12 @@ export const servicesCons = {
             </div>
           )}
         </div>
-        <button
-          type="button"
-          className="btn btn-uni description123"
+        <div
+          className="text-primary description123"
           onClick={() => setLogistic(!logistic)}
         >
           Show {logistic ? "Less" : "More"}
-        </button>
+        </div>
       </div>
     ),
     MarketReseach: (market, setMarket) => (
@@ -443,13 +438,12 @@ export const servicesCons = {
             </div>
           )}
         </div>
-        <button
-          type="button"
-          className="btn btn-uni description123"
+        <div
+          className="text-primary description123"
           onClick={() => setMarket(!market)}
         >
           Show {market ? "Less" : "More"}
-        </button>
+        </div>
       </div>
     ),
     Setup: (rebuild, setRebuild) => (
@@ -517,13 +511,12 @@ export const servicesCons = {
             </div>
           )}
         </div>
-        <button
-          type="button"
-          className="btn btn-uni description123"
+        <div
+          className="text-primary description123"
           onClick={() => setRebuild(!rebuild)}
         >
           Show {rebuild ? "Less" : "More"}
-        </button>
+        </div>
       </div>
     ),
     Tariff: (tariff, setTariff) => (
@@ -583,13 +576,12 @@ export const servicesCons = {
             </div>
           )}
         </div>
-        <button
-          type="button"
-          className="btn btn-uni description123"
+        <div
+          className="text-primary description123"
           onClick={() => setTariff(!tariff)}
         >
           Show {tariff ? "Less" : "More"}
-        </button>
+        </div>
       </div>
     ),
   },
@@ -654,13 +646,12 @@ export const servicesCons = {
               </div>
             )}
           </div>
-          <button
-            type="button"
-            className="btn btn-uni description123"
+          <div
+            className="text-primary description123"
             onClick={() => setAntiD(!antiD)}
           >
             {antiD ? "Thu gọn" : "Xem thêm"}
-          </button>
+          </div>
         </div>
       );
     },
@@ -729,13 +720,12 @@ export const servicesCons = {
             </div>
           )}
         </div>
-        <button
-          type="button"
-          className="btn btn-uni description123"
+        <div
+          className="text-primary description123"
           onClick={() => setCustom(!custom)}
         >
           {custom ? "Thu gọn" : "Xem thêm"}
-        </button>
+        </div>
       </div>
     ),
     FTA: (fta, setFta) => (
@@ -809,13 +799,12 @@ export const servicesCons = {
             </div>
           )}
         </div>
-        <button
-          type="button"
-          className="btn btn-uni description123"
+        <div
+          className="text-primary description123"
           onClick={() => setFta(!fta)}
         >
           {fta ? "Thu gọn" : "Xem thêm"}
-        </button>
+        </div>
       </div>
     ),
     Sale: (sale, setSale) => (
@@ -881,13 +870,12 @@ export const servicesCons = {
             </div>
           )}
         </div>
-        <button
-          type="button"
-          className="btn btn-uni description123"
+        <div
+          className="text-primary description123"
           onClick={() => setSale(!sale)}
         >
           {sale ? "Thu gọn" : "Xem thêm"}
-        </button>
+        </div>
       </div>
     ),
     Logistics: (logistic, setLogistic) => (
@@ -951,13 +939,12 @@ export const servicesCons = {
             </div>
           )}
         </div>
-        <button
-          type="button"
-          className="btn btn-uni description123"
+        <div
+          className="text-primary description123"
           onClick={() => setLogistic(!logistic)}
         >
           {logistic ? "Thu gọn" : "Xem thêm"}
-        </button>
+        </div>
       </div>
     ),
     MarketReseach: (market, setMarket) => (
@@ -1046,13 +1033,12 @@ export const servicesCons = {
             </div>
           )}
         </div>
-        <button
-          type="button"
-          className="btn btn-uni description123"
+        <div
+          className="text-primary description123"
           onClick={() => setMarket(!market)}
         >
           {market ? "Thu gọn" : "Xem thêm"}
-        </button>
+        </div>
       </div>
     ),
     Setup: (rebuild, setRebuild) => (
@@ -1122,13 +1108,12 @@ export const servicesCons = {
             </div>
           )}
         </div>
-        <button
-          type="button"
-          className="btn btn-uni description123"
+        <div
+          className="text-primary description123"
           onClick={() => setRebuild(!rebuild)}
         >
           {rebuild ? "Thu gọn" : "Xem thêm"}
-        </button>
+        </div>
       </div>
     ),
     Tariff: (tariff, setTariff) => (
@@ -1185,13 +1170,12 @@ export const servicesCons = {
             </div>
           )}
         </div>
-        <button
-          type="button"
-          className="btn btn-uni description123"
+        <div
+          className="text-primary description123"
           onClick={() => setTariff(!tariff)}
         >
           {tariff ? "Thu gọn" : "Xem thêm"}
-        </button>
+        </div>
       </div>
     ),
   },

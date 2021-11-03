@@ -149,7 +149,9 @@ select#languages:focus {
   margin-left: 60px;
   line-height: 24px;
   margin-bottom: 0;
-  margin-top: 20px;
+  padding: 8px 0;
+  display: inline-block;
+  cursor: pointer;
 }
 .dropdown-menu div.dropdown-item {
   cursor: pointer;
