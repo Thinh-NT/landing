@@ -1,4 +1,8 @@
-select#languages{
+.btn.btn-uni {
+  background-color: var(--uni-color);
+}
+
+select#languages {
   margin-left: 10px;
 }
 select#languages:focus {
@@ -6,24 +10,24 @@ select#languages:focus {
 }
 #about .about-col h2:hover {
   cursor: pointer;
-  color: #18d26e;
+  color: var(--uni-color);
 }
 .bounceInUp h4.title:hover {
   cursor: pointer;
-  color: #18d26e;
+  color: var(--uni-color);
 }
-.Footer__content{
+.Footer__content {
   justify-content: space-around;
 }
-.span__description{
+.span__description {
   font-weight: bold;
 }
-#services__modal.modal-dialog{
-  max-width:unset;
+#services__modal.modal-dialog {
+  max-width: unset;
   width: 90%;
   margin: 1.75rem auto;
 }
-#career{
+#career {
   padding: 60px 0;
 }
 
@@ -40,10 +44,11 @@ select#languages:focus {
   font-size: 48px;
   display: inline-block;
   margin-bottom: 10px;
-  color: #18d26e;
+  color: var(--uni-color);
 }
 
-#career .career-info address, #career .career-info p {
+#career .career-info address,
+#career .career-info p {
   margin-bottom: 0;
   color: #000;
 }
@@ -61,15 +66,19 @@ select#languages:focus {
 }
 
 #career .career-info a:hover {
-  color: #18d26e;
+  color: var(--uni-color);
 }
 
-#career .career-address, #career .career-phone, #career .career-email {
+#career .career-address,
+#career .career-phone,
+#career .career-email {
   margin-bottom: 20px;
 }
 
 @media (min-width: 768px) {
-  #career .career-address, #career .career-phone, #career .career-email {
+  #career .career-address,
+  #career .career-phone,
+  #career .career-email {
     padding: 20px 0;
   }
 }
@@ -82,8 +91,8 @@ select#languages:focus {
 }
 
 #career .form #sendmessage {
-  color: #18d26e;
-  border: 1px solid #18d26e;
+  color: var(--uni-color);
+  border: 1px solid var(--uni-color);
   display: none;
   text-align: center;
   padding: 15px;
@@ -101,7 +110,9 @@ select#languages:focus {
   margin-bottom: 15px;
 }
 
-#career .form #sendmessage.show, #career .form #errormessage.show, #career .form .show {
+#career .form #sendmessage.show,
+#career .form #errormessage.show,
+#career .form .show {
   display: block;
 }
 
@@ -113,7 +124,8 @@ select#languages:focus {
   font-size: 13px;
 }
 
-#career .form input, #career .form textarea {
+#career .form input,
+#career .form textarea {
   padding: 10px 14px;
   border-radius: 0;
   box-shadow: none;
@@ -121,7 +133,7 @@ select#languages:focus {
 }
 
 #career .form button[type="submit"] {
-  background: #18d26e;
+  background: var(--uni-color);
   border: 0;
   padding: 10px 30px;
   color: #fff;
@@ -150,22 +162,21 @@ select#languages:focus {
   left: 50% !important;
   transform: translate(-50%, -50%) !important;
 } */
-.btn__mobile{
-  width:fit-content;
+.btn__mobile {
+  width: fit-content;
 }
 @media screen and (max-width: 768px) {
-  .nav-link.dropdown-toggle.btn__mobile{
-    padding:unset !important;
-    font-size:1.5rem;
+  .nav-link.dropdown-toggle.btn__mobile {
+    padding: unset !important;
+    font-size: 1.5rem;
     cursor: pointer;
-    margin-top: 10px
+    margin-top: 10px;
   }
-  #header #logo{
+  #header #logo {
     top: 50%;
     left: 50%;
     position: absolute;
     transform: translate(-50%, -50%);
-
   }
   #header #logo img {
     cursor: pointer;

@@ -22,8 +22,22 @@ export const scroll = new SmoothScroll('a[href*="#"]', {
   speed: 500,
   speedAsDuration: true,
 });
+
+const Lang = {
+  get: function () {
+    return localStorage.getItem("lang");
+  },
+  set: function (lang) {
+    localStorage.setItem("lang", lang);
+  },
+  init: function () {
+    localStorage.setItem("lang", "VI");
+    return this.get();
+  },
+};
+
 function App() {
-  const [lang, setLang] = useState("EN");
+  const [lang, setLang] = useState(() => Lang.get() || Lang.init());
   const data = {
     Header: headerCons,
     Services: servicesCons,
@@ -32,6 +46,12 @@ function App() {
   const toggle = () => {
     setIsOpen(!isOpen);
   };
+
+  const handleSetLang = (lang) => {
+    Lang.set(lang);
+    setLang(lang);
+  };
+
   return (
     <Router>
       <Switch>
@@ -42,11 +62,11 @@ function App() {
               toggle={toggle}
               data={data}
               lang={lang}
-              setLang={setLang}
+              setLang={handleSetLang}
             />
             <Header
               data={data}
-              setLang={setLang}
+              setLang={handleSetLang}
               lang={lang}
               isOpen={isOpen}
               toggle={toggle}

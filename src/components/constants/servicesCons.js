@@ -57,7 +57,7 @@ export const servicesCons = {
           </div>
           <button
             type="button"
-            className="btn btn-success description123"
+            className="btn btn-uni description123"
             onClick={() => setAntiD(!antiD)}
           >
             Show {antiD ? "Less" : "More"}
@@ -131,7 +131,7 @@ export const servicesCons = {
         </div>
         <button
           type="button"
-          className="btn btn-success description123"
+          className="btn btn-uni description123"
           onClick={() => setCustom(!custom)}
         >
           Show {custom ? "Less" : "More"}
@@ -213,7 +213,7 @@ export const servicesCons = {
         </div>
         <button
           type="button"
-          className="btn btn-success description123"
+          className="btn btn-uni description123"
           onClick={() => setFta(!fta)}
         >
           Show {fta ? "Less" : "More"}
@@ -277,14 +277,14 @@ export const servicesCons = {
         </div>
         <button
           type="button"
-          className="btn btn-success description123"
+          className="btn btn-uni description123"
           onClick={() => setSale(!sale)}
         >
           Show {sale ? "Less" : "More"}
         </button>
       </div>
     ),
-    Logistics: (logistic,setLogistic) => (
+    Logistics: (logistic, setLogistic) => (
       <div
         className="col-lg-12 col-md-6 box wow bounceInUp"
         data-wow-delay="0.1s"
@@ -308,51 +308,52 @@ export const servicesCons = {
           packaging, customer service... To specialize work and save time and
           costs. , then businesses use logistics services.
           <br />
-          {logistic&&<div>
-          <span className="span__description">
-            Why should you choose UNI as your consulting unit?
-          </span>
-          <br />
-          With in-depth knowledge and practical understanding, we are committed
-          to connecting businesses with a team of experienced, leading
-          consultants and analysts in the field of trade and customs. UNI
-          experts will act on behalf of businesses to carry out customs
-          clearance of goods, book ships, containers, and domestic
-          transportation. Support businesses in consulting on how to import
-          tax-free materials, logistics, take advantage of FTAs, import
-          equipment and machinery, ... quickly, efficiently with the most
-          optimal cost.
-          <br />
-          <span className="span__description">
-            Services UNI experts provide:
-          </span>
-          <br />
-          The team of experts at UNI offers the following items:
-          <ul>
-            <li>Import/export/local export clearance Agency</li>
-            <li>Import price(Tariff assessment)</li>
-            <li>Import and export consulting</li>
-            <li>Consulting certificate of origin C/O </li>
-            <li>Register for export license Certificate of origin (C/O)</li>
-            <li>Import-export authorization</li>
-            <li>Sea/air/express shipping </li>
-            <li>Domestic transport </li>
-            <li>Container and bulk cargo transportation </li>
-            <li>Other </li>
-          </ul>
-          </div>}
-
+          {logistic && (
+            <div>
+              <span className="span__description">
+                Why should you choose UNI as your consulting unit?
+              </span>
+              <br />
+              With in-depth knowledge and practical understanding, we are
+              committed to connecting businesses with a team of experienced,
+              leading consultants and analysts in the field of trade and
+              customs. UNI experts will act on behalf of businesses to carry out
+              customs clearance of goods, book ships, containers, and domestic
+              transportation. Support businesses in consulting on how to import
+              tax-free materials, logistics, take advantage of FTAs, import
+              equipment and machinery, ... quickly, efficiently with the most
+              optimal cost.
+              <br />
+              <span className="span__description">
+                Services UNI experts provide:
+              </span>
+              <br />
+              The team of experts at UNI offers the following items:
+              <ul>
+                <li>Import/export/local export clearance Agency</li>
+                <li>Import price(Tariff assessment)</li>
+                <li>Import and export consulting</li>
+                <li>Consulting certificate of origin C/O </li>
+                <li>Register for export license Certificate of origin (C/O)</li>
+                <li>Import-export authorization</li>
+                <li>Sea/air/express shipping </li>
+                <li>Domestic transport </li>
+                <li>Container and bulk cargo transportation </li>
+                <li>Other </li>
+              </ul>
+            </div>
+          )}
         </div>
         <button
           type="button"
-          className="btn btn-success description123"
+          className="btn btn-uni description123"
           onClick={() => setLogistic(!logistic)}
         >
           Show {logistic ? "Less" : "More"}
         </button>
       </div>
     ),
-    MarketReseach: (market,setMarket) => (
+    MarketReseach: (market, setMarket) => (
       <div
         className="col-lg-12 col-md-6 box wow bounceInUp"
         data-wow-delay="0.1s"
@@ -376,79 +377,82 @@ export const servicesCons = {
           leading to wrong business decisions. Therefore, entrepreneurs will
           need to a professional agency to take care of it better.
           <br />
-          {market&&<div>
-          <span className="span__description">
-            Why should you choose UNI as your consulting unit?
-          </span>
-          <br />
-          With in-depth knowledge and practical understanding, UNI is a
-          consulting company, specializing in providing professional and
-          prestigious services for import-export, manufacturing and
-          foreign-invested enterprises in Vietnam. Through the actually working
-          process, we provide and connect a team of experienced consultants who
-          are always ready to listen and offer the best effective solutions for
-          businesses.
-          <br />
-          <span className="span__description">
-            How can UNI support customers?
-          </span>
-          <br />
-          Our goal is to provide an integrated service of collecting data,
-          analyzing and proposing solutions, helping businesses come up with an
-          optimal strategy. In addition, the UNI team also specializes in parts,
-          including:
-          <br />
-          <ul>
-            <li>Import and export specialist, customs </li>
-            <li>
-              Consulting group by field:
+          {market && (
+            <div>
+              <span className="span__description">
+                Why should you choose UNI as your consulting unit?
+              </span>
+              <br />
+              With in-depth knowledge and practical understanding, UNI is a
+              consulting company, specializing in providing professional and
+              prestigious services for import-export, manufacturing and
+              foreign-invested enterprises in Vietnam. Through the actually
+              working process, we provide and connect a team of experienced
+              consultants who are always ready to listen and offer the best
+              effective solutions for businesses.
+              <br />
+              <span className="span__description">
+                How can UNI support customers?
+              </span>
+              <br />
+              Our goal is to provide an integrated service of collecting data,
+              analyzing and proposing solutions, helping businesses come up with
+              an optimal strategy. In addition, the UNI team also specializes in
+              parts, including:
+              <br />
               <ul>
-                <li>Legal advisory group </li>
-                <li>Accounting consulting group </li>
-                <li>International trade group </li>
-                <li>IT team handling big data </li>
+                <li>Import and export specialist, customs </li>
+                <li>
+                  Consulting group by field:
+                  <ul>
+                    <li>Legal advisory group </li>
+                    <li>Accounting consulting group </li>
+                    <li>International trade group </li>
+                    <li>IT team handling big data </li>
+                  </ul>
+                </li>
               </ul>
-            </li>
-          </ul>
-          In particular, our team of market research specialists always pay
-          attention to procedural, legal issues, opportunities and challenges
-          arising from the market for each business objective. Therefore, UNI
-          makes it easy for customers to grasp trends, manage potential risks,
-          identify opportunities and gain competitive advantages, and devise
-          effective strategies.
-          <br />
-          <span className="span__description">
-            Services UNI experts provide:
-          </span>
-          <br />
-          UNI can support businesses through the investment strategy making
-          process as well as advise on a series of issues including:
-          <ul>
-            <li>Skills and know-how in Vietnam's import-export industry </li>
-            <li>Analyze input and output information </li>
-            <li>Find out the exact target audience </li>
+              In particular, our team of market research specialists always pay
+              attention to procedural, legal issues, opportunities and
+              challenges arising from the market for each business objective.
+              Therefore, UNI makes it easy for customers to grasp trends, manage
+              potential risks, identify opportunities and gain competitive
+              advantages, and devise effective strategies.
+              <br />
+              <span className="span__description">
+                Services UNI experts provide:
+              </span>
+              <br />
+              UNI can support businesses through the investment strategy making
+              process as well as advise on a series of issues including:
+              <ul>
+                <li>
+                  Skills and know-how in Vietnam's import-export industry{" "}
+                </li>
+                <li>Analyze input and output information </li>
+                <li>Find out the exact target audience </li>
 
-            <li>
-              Provide accurate information on import and export quantities and
-              prices
-            </li>
-            <li>Partner connection </li>
-            <li>Competitor information </li>
-            <li>Other</li>
-          </ul>
-          </div>}
-          
+                <li>
+                  Provide accurate information on import and export quantities
+                  and prices
+                </li>
+                <li>Partner connection </li>
+                <li>Competitor information </li>
+                <li>Other</li>
+              </ul>
+            </div>
+          )}
         </div>
         <button
           type="button"
-          className="btn btn-success description123"
+          className="btn btn-uni description123"
           onClick={() => setMarket(!market)}
         >
           Show {market ? "Less" : "More"}
         </button>
       </div>
     ),
-    Setup: (rebuild,setRebuild) => (
+    Setup: (rebuild, setRebuild) => (
       <div
         className="col-lg-12 col-md-6 box wow bounceInUp"
         data-wow-delay="0.1s"
@@ -471,56 +475,58 @@ export const servicesCons = {
           businesses now choose factory setup services from professional units
           instead of professional companies. for doing it yourself.
           <br />
-          {rebuild&&<div>
-          <span className="span__description">
-            Why should you choose UNI as your consulting unit?
-          </span>
-          <br />
-          With in-depth knowledge and practical understanding, we connect
-          businesses with a team of experienced consultants and analysts,
-          leading in the field of trade and customs. UNI experts support
-          businesses with advice on how to import tax-free materials, logistics,
-          take advantage of FTAs, import machinery and equipment, customs
-          procedures... Help businesses save costs and limit Risks and
-          advantages of setting up a factory or M&A.
-          <br />
-          <span className="span__description">
-            Services UNI experts provide:
-          </span>
-          <br />
-          The team of experts at UNI offers the following items:
-          <br />
-          Factory set-up: <br />
-          <ul>
-            <li>Import material tax refund consulting </li>
-            <li>
-              Cargo forwarding consulting
+          {rebuild && (
+            <div>
+              <span className="span__description">
+                Why should you choose UNI as your consulting unit?
+              </span>
+              <br />
+              With in-depth knowledge and practical understanding, we connect
+              businesses with a team of experienced consultants and analysts,
+              leading in the field of trade and customs. UNI experts support
+              businesses with advice on how to import tax-free materials,
+              logistics, take advantage of FTAs, import machinery and equipment,
+              customs procedures... Help businesses save costs and limit Risks
+              and advantages of setting up a factory or M&A.
+              <br />
+              <span className="span__description">
+                Services UNI experts provide:
+              </span>
+              <br />
+              The team of experts at UNI offers the following items:
+              <br />
+              Factory set-up: <br />
               <ul>
-                <li>FTA usage consulting </li>
-                <li>Accounting consulting group </li>
-                <li>Machinery import consulting </li>
+                <li>Import material tax refund consulting </li>
                 <li>
-                  Agency of customs new registration procedure M&A:
+                  Cargo forwarding consulting
                   <ul>
-                    <li>Simulated tariff audit</li>
-                    <li>Customs risks assessment</li>
+                    <li>FTA usage consulting </li>
+                    <li>Accounting consulting group </li>
+                    <li>Machinery import consulting </li>
+                    <li>
+                      Agency of customs new registration procedure M&A:
+                      <ul>
+                        <li>Simulated tariff audit</li>
+                        <li>Customs risks assessment</li>
+                      </ul>
+                    </li>
                   </ul>
                 </li>
               </ul>
-            </li>
-          </ul>
-          </div>}
+            </div>
+          )}
         </div>
         <button
           type="button"
-          className="btn btn-success description123"
+          className="btn btn-uni description123"
           onClick={() => setRebuild(!rebuild)}
         >
           Show {rebuild ? "Less" : "More"}
         </button>
       </div>
     ),
-    Tariff: (tariff,setTariff) => (
+    Tariff: (tariff, setTariff) => (
       <div
         className="col-lg-12 col-md-6 box wow bounceInUp"
         data-wow-delay="0.1s"
@@ -544,40 +550,42 @@ export const servicesCons = {
           and do exactly that job on their behalf in order to save time, costs
           as well as minimize risks. risk for the business.
           <br />
-          {tariff&&<div>
-          <span className="span__description">
-            Why should you choose UNI as your consulting unit?
-          </span>
-          <br />
-          With in-depth knowledge and practical understanding, we are committed
-          to connecting businesses with a team of experienced, leading
-          consultants and analysts in the field of trade and customs. UNI
-          experts will act on behalf of enterprises to carry out customs
-          clearance of goods, support businesses with advice on how to import
-          tax-free materials, logistics, take advantage of FTAs, import
-          equipment and machinery,... quickly, efficiency with the most optimal
-          cost.
-          <br />
-          <span className="span__description">
-            Services UNI experts provide:
-          </span>
-          <br />
-          The team of experts at UNI offers the following items:
-          <br />
-          <ul>
-            <li>Import/export/local export clearance Agency </li>
-            <li>
-              Import price(Tariff assessment)
-              <li>HS Code dispute prevention </li>
-              <li>Import tax refund code consulting </li>
-              <li>Other </li>
-            </li>
-          </ul>
-          </div>}
+          {tariff && (
+            <div>
+              <span className="span__description">
+                Why should you choose UNI as your consulting unit?
+              </span>
+              <br />
+              With in-depth knowledge and practical understanding, we are
+              committed to connecting businesses with a team of experienced,
+              leading consultants and analysts in the field of trade and
+              customs. UNI experts will act on behalf of enterprises to carry
+              out customs clearance of goods, support businesses with advice on
+              how to import tax-free materials, logistics, take advantage of
+              FTAs, import equipment and machinery,... quickly, efficiency with
+              the most optimal cost.
+              <br />
+              <span className="span__description">
+                Services UNI experts provide:
+              </span>
+              <br />
+              The team of experts at UNI offers the following items:
+              <br />
+              <ul>
+                <li>Import/export/local export clearance Agency </li>
+                <li>
+                  Import price(Tariff assessment)
+                  <li>HS Code dispute prevention </li>
+                  <li>Import tax refund code consulting </li>
+                  <li>Other </li>
+                </li>
+              </ul>
+            </div>
+          )}
         </div>
         <button
           type="button"
-          className="btn btn-success description123"
+          className="btn btn-uni description123"
           onClick={() => setTariff(!tariff)}
         >
           Show {tariff ? "Less" : "More"}
@@ -586,7 +594,7 @@ export const servicesCons = {
     ),
   },
   VI: {
-    AntiDumping: () => {
+    AntiDumping: (antiD, setAntiD) => {
       return (
         <div
           className="col-lg-12 col-md-6 box wow bounceInUp"
@@ -612,39 +620,51 @@ export const servicesCons = {
             thường chưa có nhiều kinh nghiệm trong việc ứng phó với biện pháp
             chống bán phá giá, dẫn đến việc các mặt hàng xuất nhập khẩu của
             doanh nghiệp bị áp các mức thuế cao hơn. <br />
-            <span className="span__description">
-              Tại sao nên chọn UNI làm đơn vị tư vấn
-            </span>
-            <br />
-            Với kiến thức chuyên sâu và hiểu biết thực tế, chúng tôi cung cấp
-            đội ngũ chuyên gia tư vấn và phân tích giàu kinh nghiệm, hàng đầu
-            trong lĩnh vực thương mại và hải quan. Chuyên gia tư vấn UNI mảng
-            chuẩn bị hồ sơ miễn trừ biện pháp chống bán phá giá một cách nhanh
-            chóng, chính xác và chuyên nghiệp nhất. Hỗ trợ doanh nghiệp tất cả
-            các vấn đề liên quan đến tất cả hàng hóa xuất nhập khẩu.
-            <br />
-            <span className="span__description">
-              UNI có thể hỗ trợ khách hàng như thế nào?
-            </span>
-            <br />
-            Mục tiêu của chúng tôi là cung cấp dịch vụ tư vấn, hỗ trợ, đại diện
-            khách hàng trong các thủ tục nhằm giảm thiểu thuế chống bán phá giá
-            đối với các mặt hàng xuất nhập khẩu của khách hàng. Ngoài ra, đội
-            ngũ tư vấn có thể hỗ trợ về phân loại chính xác các mặt hàng và
-            chứng nhận xuất xứ để nhận được các lợi ích về thuế quan, cũng như
-            tư vấn trong suốt quá trình thương mại. Các phương tiện truyền thông
-            khác nhau, công văn, quyết định thuế và quy định cần được theo dõi
-            chặt chẽ, nghiên cứu và phản hồi kịp thời khi có thông tin và nội
-            dung mới… <br />
-            <span className="span__description">
-              Đội ngũ chuyên gia tại UNI cung cấp các hạng mục sau:
-            </span>
-            <br />
+            {antiD && (
+              <div>
+                <span className="span__description">
+                  Tại sao nên chọn UNI làm đơn vị tư vấn
+                </span>
+                <br />
+                Với kiến thức chuyên sâu và hiểu biết thực tế, chúng tôi cung
+                cấp đội ngũ chuyên gia tư vấn và phân tích giàu kinh nghiệm,
+                hàng đầu trong lĩnh vực thương mại và hải quan. Chuyên gia tư
+                vấn UNI mảng chuẩn bị hồ sơ miễn trừ biện pháp chống bán phá giá
+                một cách nhanh chóng, chính xác và chuyên nghiệp nhất. Hỗ trợ
+                doanh nghiệp tất cả các vấn đề liên quan đến tất cả hàng hóa
+                xuất nhập khẩu.
+                <br />
+                <span className="span__description">
+                  UNI có thể hỗ trợ khách hàng như thế nào?
+                </span>
+                <br />
+                Mục tiêu của chúng tôi là cung cấp dịch vụ tư vấn, hỗ trợ, đại
+                diện khách hàng trong các thủ tục nhằm giảm thiểu thuế chống bán
+                phá giá đối với các mặt hàng xuất nhập khẩu của khách hàng.
+                Ngoài ra, đội ngũ tư vấn có thể hỗ trợ về phân loại chính xác
+                các mặt hàng và chứng nhận xuất xứ để nhận được các lợi ích về
+                thuế quan, cũng như tư vấn trong suốt quá trình thương mại. Các
+                phương tiện truyền thông khác nhau, công văn, quyết định thuế và
+                quy định cần được theo dõi chặt chẽ, nghiên cứu và phản hồi kịp
+                thời khi có thông tin và nội dung mới… <br />
+                <span className="span__description">
+                  Đội ngũ chuyên gia tại UNI cung cấp các hạng mục sau:
+                </span>
+                <br />
+              </div>
+            )}
           </div>
+          <button
+            type="button"
+            className="btn btn-uni description123"
+            onClick={() => setAntiD(!antiD)}
+          >
+            Show {antiD ? "Less" : "More"}
+          </button>
         </div>
       );
     },
-    CustomsDecitionComplaint: () => (
+    CustomsDecitionComplaint: (custom, setCustom) => (
       <div
         className="col-lg-12 col-md-6 box wow bounceInUp"
         data-wow-duration="1.4s"
@@ -666,43 +686,59 @@ export const servicesCons = {
           thủ tục nên doanh nghiệp vẫn còn nhiều lúng túng dẫn đến việc khiếu
           nại gặp nhiều khó khăn, thiếu hợp lý và không thành công.
           <br />
-          <span className="span__description">
-            Tại sao nên chọn UNI làm đơn vị tư vấn
-          </span>
-          <br />
-          Với kiến thức chuyên sâu và hiểu biết thực tế, chúng tôi cung cấp đội
-          ngũ chuyên gia tư vấn và phân tích giàu kinh nghiệm, hàng đầu trong
-          lĩnh vực thương mại và hải quan. Chuyên gia tư vấn UNI mảng pháp lý sẽ
-          kết nối với các chuyên gia mảng liên quan khác để hỗ trợ doanh nghiệp
-          xem xét các quyết định hải quan, thực hiện các thủ tục, giấy tờ để
-          khiểu nại quyết định hợp lý và nhanh chóng nhất. UNI hỗ trợ doanh
-          nghiệp tất cả các vấn đề liên quan đến tất cả hàng hóa xuất nhập khẩu.
-          <br />
-          <span className="span__description">
-            UNI có thể hỗ trợ khách hàng như thế nào?
-          </span>
-          <br />
-          Mục tiêu của chúng tôi là tích hợp các dịch vụ kiểm tra số liệu, quản
-          lý và tư vấn các hoạt động xuất nhập khẩu cho doanh nghiệp. Ngoài ra,
-          đội ngũ tư vấn có thể hỗ trợ về phân loại chính xác các mặt hàng và
-          chứng nhận xuất xứ để nhận được các lợi ích về thuế quan, cũng như tư
-          vấn trong suốt quá trình thương mại.
-          <br />
-          <span className="span__description">
-            Dịch vụ chuyên gia UNI cung cấp:
-          </span>
-          <br />
-          Đội ngũ chuyên gia tại UNI cung cấp các hạng mục sau: <br />
-          <ul>
-            <li>Đơn phản đối quyết định ấn định thuế của Tổng cục Hải quan</li>
-            <li>Thủ tục khiếu nại quyết định về thuế của Tổng cục Hải quan</li>
-            <li>Xem xét lại quyết định về HS </li>
-            <li>Khác</li>
-          </ul>
+          {custom && (
+            <div>
+              <span className="span__description">
+                Tại sao nên chọn UNI làm đơn vị tư vấn
+              </span>
+              <br />
+              Với kiến thức chuyên sâu và hiểu biết thực tế, chúng tôi cung cấp
+              đội ngũ chuyên gia tư vấn và phân tích giàu kinh nghiệm, hàng đầu
+              trong lĩnh vực thương mại và hải quan. Chuyên gia tư vấn UNI mảng
+              pháp lý sẽ kết nối với các chuyên gia mảng liên quan khác để hỗ
+              trợ doanh nghiệp xem xét các quyết định hải quan, thực hiện các
+              thủ tục, giấy tờ để khiểu nại quyết định hợp lý và nhanh chóng
+              nhất. UNI hỗ trợ doanh nghiệp tất cả các vấn đề liên quan đến tất
+              cả hàng hóa xuất nhập khẩu.
+              <br />
+              <span className="span__description">
+                UNI có thể hỗ trợ khách hàng như thế nào?
+              </span>
+              <br />
+              Mục tiêu của chúng tôi là tích hợp các dịch vụ kiểm tra số liệu,
+              quản lý và tư vấn các hoạt động xuất nhập khẩu cho doanh nghiệp.
+              Ngoài ra, đội ngũ tư vấn có thể hỗ trợ về phân loại chính xác các
+              mặt hàng và chứng nhận xuất xứ để nhận được các lợi ích về thuế
+              quan, cũng như tư vấn trong suốt quá trình thương mại.
+              <br />
+              <span className="span__description">
+                Dịch vụ chuyên gia UNI cung cấp:
+              </span>
+              <br />
+              Đội ngũ chuyên gia tại UNI cung cấp các hạng mục sau: <br />
+              <ul>
+                <li>
+                  Đơn phản đối quyết định ấn định thuế của Tổng cục Hải quan
+                </li>
+                <li>
+                  Thủ tục khiếu nại quyết định về thuế của Tổng cục Hải quan
+                </li>
+                <li>Xem xét lại quyết định về HS </li>
+                <li>Khác</li>
+              </ul>
+            </div>
+          )}
         </div>
+        <button
+          type="button"
+          className="btn btn-uni description123"
+          onClick={() => setCustom(!custom)}
+        >
+          Show {custom ? "Less" : "More"}
+        </button>
       </div>
     ),
-    FTA: () => (
+    FTA: (fta, setFta) => (
       <div
         className="col-lg-12 col-md-6 box wow bounceInUp"
         data-wow-duration="1.4s"
@@ -727,47 +763,62 @@ export const servicesCons = {
           pháp kiểm dịch động, thực vật, sở hữu trí tuệ… đòi hỏi các DN Việt Nam
           cần nắm rõ và áp dụng linh hoạt, trung thực theo quy định.
           <br />
-          <span className="span__description">
-            Tại sao nên chọn UNI làm đơn vị tư vấn
-          </span>
-          <br />
-          Với kiến thức chuyên sâu và hiểu biết thực tế, chúng tôi cung cấp đội
-          ngũ chuyên gia tư vấn và phân tích giàu kinh nghiệm, hàng đầu trong
-          lĩnh vực thương mại và hải quan. Chuyên gia tư vấn UNI mảng pháp lý sẽ
-          tích cực hỗ trợ doanh nghiệp thực hiện các thủ tục, giấy tờ tận dụng
-          triệt để các FTA. Hỗ trợ doanh nghiệp tất cả các vấn đề liên quan đến
-          tất cả hàng hóa xuất nhập khẩu.
-          <br />
-          <span className="span__description">
-            UNI có thể hỗ trợ khách hàng như thế nào?
-          </span>
-          <br />
-          Mục tiêu của chúng tôi là cung cấp dịch vụ kiểm tra số liệu, quản lý
-          và tư vấn các hoạt động sau thông quan giúp doanh nghiệp. Ngoài ra,
-          đội ngũ tư vấn có thể hỗ trợ về phân loại chính xác các mặt hàng và
-          chứng nhận xuất xứ để nhận được các lợi ích về thuế quan, cũng như tư
-          vấn trong suốt quá trình thương mại. Các phương tiện truyền thông khác
-          nhau, công văn, quyết định thuế và quy định cần được theo dõi chặt
-          chẽ, nghiên cứu và phản hồi kịp thời khi có thông tin và nội dung mới…
-          <br />
-          <span className="span__description">
-            Dịch vụ chuyên gia UNI cung cấp:
-          </span>
-          <br />
-          Đội ngũ chuyên gia tại UNI cung cấp các hạng mục sau:
-          <ul>
-            <li>EU-VIET FTA / CPTPP</li>
-            <li>
-              Đăng ký cấp Giấy chứng nhận GSP, mã số REX – Tự chứng nhận xuất xứ
-            </li>
-            <li>Đăng ký giấy phép xuất khẩu </li>
-            <li>Tư vấn áp dụng FTA cho từng sản phẩm, ngành hàng cụ thể </li>
-            <li>Khác </li>
-          </ul>
+          {fta && (
+            <div>
+              <span className="span__description">
+                Tại sao nên chọn UNI làm đơn vị tư vấn
+              </span>
+              <br />
+              Với kiến thức chuyên sâu và hiểu biết thực tế, chúng tôi cung cấp
+              đội ngũ chuyên gia tư vấn và phân tích giàu kinh nghiệm, hàng đầu
+              trong lĩnh vực thương mại và hải quan. Chuyên gia tư vấn UNI mảng
+              pháp lý sẽ tích cực hỗ trợ doanh nghiệp thực hiện các thủ tục,
+              giấy tờ tận dụng triệt để các FTA. Hỗ trợ doanh nghiệp tất cả các
+              vấn đề liên quan đến tất cả hàng hóa xuất nhập khẩu.
+              <br />
+              <span className="span__description">
+                UNI có thể hỗ trợ khách hàng như thế nào?
+              </span>
+              <br />
+              Mục tiêu của chúng tôi là cung cấp dịch vụ kiểm tra số liệu, quản
+              lý và tư vấn các hoạt động sau thông quan giúp doanh nghiệp. Ngoài
+              ra, đội ngũ tư vấn có thể hỗ trợ về phân loại chính xác các mặt
+              hàng và chứng nhận xuất xứ để nhận được các lợi ích về thuế quan,
+              cũng như tư vấn trong suốt quá trình thương mại. Các phương tiện
+              truyền thông khác nhau, công văn, quyết định thuế và quy định cần
+              được theo dõi chặt chẽ, nghiên cứu và phản hồi kịp thời khi có
+              thông tin và nội dung mới…
+              <br />
+              <span className="span__description">
+                Dịch vụ chuyên gia UNI cung cấp:
+              </span>
+              <br />
+              Đội ngũ chuyên gia tại UNI cung cấp các hạng mục sau:
+              <ul>
+                <li>EU-VIET FTA / CPTPP</li>
+                <li>
+                  Đăng ký cấp Giấy chứng nhận GSP, mã số REX – Tự chứng nhận
+                  xuất xứ
+                </li>
+                <li>Đăng ký giấy phép xuất khẩu </li>
+                <li>
+                  Tư vấn áp dụng FTA cho từng sản phẩm, ngành hàng cụ thể{" "}
+                </li>
+                <li>Khác </li>
+              </ul>
+            </div>
+          )}
         </div>
+        <button
+          type="button"
+          className="btn btn-uni description123"
+          onClick={() => setFta(!fta)}
+        >
+          Show {fta ? "Less" : "More"}
+        </button>
       </div>
     ),
-    Sale: () => (
+    Sale: (sale, setSale) => (
       <div
         className="col-lg-12 col-md-6 box wow bounceInUp"
         data-wow-delay="0.1s"
@@ -796,38 +847,50 @@ export const servicesCons = {
           trình tự, thủ tục để được cấp Giấy xác nhận ưu đãi “dự án sản xuất sản
           phẩm công nghiệp hỗ trợ”.
           <br />
-          <span className="span__description">
-            Tại sao nên chọn UNI làm đơn vị tư vấn
-          </span>
-          <br />
-          Với kiến thức chuyên sâu và hiểu biết thực tế, chúng tôi cung cấp đội
-          ngũ chuyên gia tư vấn và phân tích giàu kinh nghiệm, hàng đầu trong
-          lĩnh vực thương mại và hải quan. Chuyên gia tư vấn UNI mảng pháp lý sẽ
-          tích cực hỗ trợ doanh nghiệp thực hiện các thủ tục, giấy tờ để được
-          cấp Giấy xác nhận ưu đãi “dự án sản xuất sản phẩm công nghiệp hỗ trợ”.
-          Hỗ trợ doanh nghiệp tất cả các vấn đề liên quan đến ngành công nghiệp
-          hỗ trợ nhanh chóng và chính xác nhất.
-          <br />
-          <span className="span__description">
-            UNI có thể hỗ trợ khách hàng như thế nào?
-          </span>
-          <br />
-          Mục tiêu của chúng tôi là cung cấp dịch vụ kiểm tra số liệu, quản lý
-          và tư vấn các hoạt động sau thông quan giúp doanh nghiệp. Ngoài ra,
-          đội ngũ tư vấn có thể hỗ trợ về phân loại chính xác các mặt hàng và
-          chứng nhận xuất xứ để nhận được các lợi ích về thuế quan, cũng như tư
-          vấn trong suốt quá trình thương mại. Các phương tiện truyền thông khác
-          nhau, công văn, quyết định thuế và quy định cần được theo dõi chặt
-          chẽ, nghiên cứu và phản hồi kịp thời khi có thông tin và nội dung mới…
-          <br />
-          <span className="span__description">
-            Dịch vụ chuyên gia UNI cung cấp:
-          </span>
-          <br />
+          {sale && (
+            <div>
+              <span className="span__description">
+                Tại sao nên chọn UNI làm đơn vị tư vấn
+              </span>
+              <br />
+              Với kiến thức chuyên sâu và hiểu biết thực tế, chúng tôi cung cấp
+              đội ngũ chuyên gia tư vấn và phân tích giàu kinh nghiệm, hàng đầu
+              trong lĩnh vực thương mại và hải quan. Chuyên gia tư vấn UNI mảng
+              pháp lý sẽ tích cực hỗ trợ doanh nghiệp thực hiện các thủ tục,
+              giấy tờ để được cấp Giấy xác nhận ưu đãi “dự án sản xuất sản phẩm
+              công nghiệp hỗ trợ”. Hỗ trợ doanh nghiệp tất cả các vấn đề liên
+              quan đến ngành công nghiệp hỗ trợ nhanh chóng và chính xác nhất.
+              <br />
+              <span className="span__description">
+                UNI có thể hỗ trợ khách hàng như thế nào?
+              </span>
+              <br />
+              Mục tiêu của chúng tôi là cung cấp dịch vụ kiểm tra số liệu, quản
+              lý và tư vấn các hoạt động sau thông quan giúp doanh nghiệp. Ngoài
+              ra, đội ngũ tư vấn có thể hỗ trợ về phân loại chính xác các mặt
+              hàng và chứng nhận xuất xứ để nhận được các lợi ích về thuế quan,
+              cũng như tư vấn trong suốt quá trình thương mại. Các phương tiện
+              truyền thông khác nhau, công văn, quyết định thuế và quy định cần
+              được theo dõi chặt chẽ, nghiên cứu và phản hồi kịp thời khi có
+              thông tin và nội dung mới…
+              <br />
+              <span className="span__description">
+                Dịch vụ chuyên gia UNI cung cấp:
+              </span>
+              <br />
+            </div>
+          )}
         </div>
+        <button
+          type="button"
+          className="btn btn-uni description123"
+          onClick={() => setSale(!sale)}
+        >
+          Show {sale ? "Less" : "More"}
+        </button>
       </div>
     ),
-    Logistics: () => (
+    Logistics: (logistic, setLogistic) => (
       <div
         className="col-lg-12 col-md-6 box wow bounceInUp"
         data-wow-delay="0.1s"
@@ -851,39 +914,53 @@ export const servicesCons = {
           hàng... Để chuyên môn hóa công việc và tiết kiệm thời gian, chi phí,
           thì các doanh nghiệp sử dụng dịch vụ logistics.
           <br />
-          <span className="span__description">
-            Tại sao nên chọn UNI làm đơn vị tư vấn
-          </span>
-          <br />
-          Với kiến thức chuyên sâu và hiểu biết thực tế, chúng tôi cam kết kết
-          nối doanh nghiệp với đội ngũ chuyên gia tư vấn và phân tích giàu kinh
-          nghiệm, hàng đầu trong lĩnh vực thương mại và hải quan. Các chuyên gia
-          UNI sẽ thay doanh nghiệp thực hiện thông quan hàng hóa, book tàu,
-          container, vận chuyển nội địa. Hỗ trợ doanh nghiệp về tư vấn về cách
-          nhập khẩu nguyên liệu miễn thuế, logistics, tận dụng các FTA, nhập
-          thiết bị máy móc,... nhanh chóng, hiểu quả với chi phí tối ưu nhất.
-          <br />
-          <span className="span__description">
-            Dịch vụ chuyên gia UNI cung cấp:
-          </span>
-          <br />
-          Đội ngũ chuyên gia tại UNI cung cấp các hạng mục sau:
-          <ul>
-            <li>Đại lý hải quan </li>
-            <li>Trị giá hải quan </li>
-            <li>Tư vấn xuất nhập khẩu </li>
-            <li>Đăng ký giấy phép xuất khẩu Certificate of origin (C/O) </li>
-            <li>Xuất nhập khẩu ủy thác</li>
-            <li>Vận chuyển đường biển/hàng không/chuyển phát nhanh </li>
-            <li>Vận tải nội địa</li>
-            <li>Domestic transport </li>
-            <li>Dịch vụ vận chuyển container và hàng rời</li>
-            <li>Khác </li>
-          </ul>
+          {logistic && (
+            <div>
+              <span className="span__description">
+                Tại sao nên chọn UNI làm đơn vị tư vấn
+              </span>
+              <br />
+              Với kiến thức chuyên sâu và hiểu biết thực tế, chúng tôi cam kết
+              kết nối doanh nghiệp với đội ngũ chuyên gia tư vấn và phân tích
+              giàu kinh nghiệm, hàng đầu trong lĩnh vực thương mại và hải quan.
+              Các chuyên gia UNI sẽ thay doanh nghiệp thực hiện thông quan hàng
+              hóa, book tàu, container, vận chuyển nội địa. Hỗ trợ doanh nghiệp
+              về tư vấn về cách nhập khẩu nguyên liệu miễn thuế, logistics, tận
+              dụng các FTA, nhập thiết bị máy móc,... nhanh chóng, hiểu quả với
+              chi phí tối ưu nhất.
+              <br />
+              <span className="span__description">
+                Dịch vụ chuyên gia UNI cung cấp:
+              </span>
+              <br />
+              Đội ngũ chuyên gia tại UNI cung cấp các hạng mục sau:
+              <ul>
+                <li>Đại lý hải quan </li>
+                <li>Trị giá hải quan </li>
+                <li>Tư vấn xuất nhập khẩu </li>
+                <li>
+                  Đăng ký giấy phép xuất khẩu Certificate of origin (C/O){" "}
+                </li>
+                <li>Xuất nhập khẩu ủy thác</li>
+                <li>Vận chuyển đường biển/hàng không/chuyển phát nhanh </li>
+                <li>Vận tải nội địa</li>
+                <li>Domestic transport </li>
+                <li>Dịch vụ vận chuyển container và hàng rời</li>
+                <li>Khác </li>
+              </ul>
+            </div>
+          )}
         </div>
+        <button
+          type="button"
+          className="btn btn-uni description123"
+          onClick={() => setLogistic(!logistic)}
+        >
+          Show {logistic ? "Less" : "More"}
+        </button>
       </div>
     ),
-    MarketReseach: () => (
+    MarketReseach: (market, setMarket) => (
       <div
         className="col-lg-12 col-md-6 box wow bounceInUp"
         data-wow-delay="0.1s"
@@ -907,66 +984,78 @@ export const servicesCons = {
           thậm chí kết quả không chính xác dẫn đến quyết định kinh doanh sai
           lầm.
           <br />
-          <span className="span__description">
-            Tại sao nên chọn UNI làm đơn vị tư vấn
-          </span>
-          <br />
-          Với kiến thức chuyên sâu và hiểu biết thực tế, UNI là công ty tư vấn,
-          cung cấp dịch vụ chuyên nghiệp, uy tín cho các doanh nghiệp kinh doanh
-          xuất nhập khẩu, sản xuất và doanh nghiệp nước ngoài đầu tư tại Việt
-          Nam. Qua quá trình thực tế, chúng tôi cung cấp và kết nối đội ngũ
-          chuyên gia tư vấn giàu kinh nghiệm, luôn sẵn sàng lắng nghe và đưa ra
-          giải pháp hiệu quả tốt nhất cho doanh nghiệp.
-          <br />
-          <span className="span__description">
-            UNI có thể hỗ trợ khách hàng như thế nào?
-          </span>
-          <br />
-          Mục tiêu của chúng tôi là cung cấp dịch vụ tích hợp thu thập số liệu,
-          phân tích và đề xuất giải pháp, giúp doanh nghiệp đưa ra chiến lược
-          tối ưu. Ngoài ra, đội ngũ UNI cũng được chuyên môn hóa các bộ phận,
-          bao gồm:
-          <br />
-          <ul>
-            <li>Chuyên gia xuất nhập khẩu, hải quan </li>
-            <li>
-              Nhóm tư vấn theo lĩnh vực:
+          {market && (
+            <div>
+              <span className="span__description">
+                Tại sao nên chọn UNI làm đơn vị tư vấn
+              </span>
+              <br />
+              Với kiến thức chuyên sâu và hiểu biết thực tế, UNI là công ty tư
+              vấn, cung cấp dịch vụ chuyên nghiệp, uy tín cho các doanh nghiệp
+              kinh doanh xuất nhập khẩu, sản xuất và doanh nghiệp nước ngoài đầu
+              tư tại Việt Nam. Qua quá trình thực tế, chúng tôi cung cấp và kết
+              nối đội ngũ chuyên gia tư vấn giàu kinh nghiệm, luôn sẵn sàng lắng
+              nghe và đưa ra giải pháp hiệu quả tốt nhất cho doanh nghiệp.
+              <br />
+              <span className="span__description">
+                UNI có thể hỗ trợ khách hàng như thế nào?
+              </span>
+              <br />
+              Mục tiêu của chúng tôi là cung cấp dịch vụ tích hợp thu thập số
+              liệu, phân tích và đề xuất giải pháp, giúp doanh nghiệp đưa ra
+              chiến lược tối ưu. Ngoài ra, đội ngũ UNI cũng được chuyên môn hóa
+              các bộ phận, bao gồm:
+              <br />
               <ul>
-                <li>Nhóm tư vấn pháp lý </li>
-                <li>Nhóm tư vấn kế toán </li>
-                <li>Nhóm thương mại quốc tế </li>
-                <li>Nhóm CNTT xử lý dữ liệu lớn </li>
+                <li>Chuyên gia xuất nhập khẩu, hải quan </li>
+                <li>
+                  Nhóm tư vấn theo lĩnh vực:
+                  <ul>
+                    <li>Nhóm tư vấn pháp lý </li>
+                    <li>Nhóm tư vấn kế toán </li>
+                    <li>Nhóm thương mại quốc tế </li>
+                    <li>Nhóm CNTT xử lý dữ liệu lớn </li>
+                  </ul>
+                </li>
               </ul>
-            </li>
-          </ul>
-          Đặc biệt, đội ngũ chuyên viên về nghiên cứu thị trường của chúng tôi
-          luôn chú tâm đến các vấn đề thủ tục, pháp lý, cơ hội và thách thức
-          phát sinh từ thị trường cho từng mục tiêu của doanh nghiệp. Do đó, UNI
-          giúp khách hàng dễ dàng nắm bắt xu hướng, quản lý rủi ro tiềm tàng,
-          xác định cơ hội và giành lợi thế cạnh tranh, đưa ra được các chiến
-          lược hiệu quả.
-          <br />
-          <span className="span__description">
-            Dịch vụ chuyên gia UNI cung cấp:
-          </span>
-          <br />
-          UNI có thể hỗ trợ doanh nghiệp xuyên suốt quy trình lập chiến lược đầu
-          tư cũng như tư vấn chuỗi các vấn đề bao gồm:
-          <ul>
-            <li>Kỹ năng bí quyết ngành xuất nhập khẩu Việt Nam </li>
-            <li>Phân tích thông tin nhập và xuất </li>
-            <li>Tìm ra đối tượng khách hàng mục tiêu chính xác </li>
-            <li>
-              Cung cấp thông tin chính xác về số lượng và giá cả xuất nhập khẩu
-            </li>
-            <li>Kết nối đối tác </li>
-            <li>Thông tin đối thủ cạnh tranh</li>
-            <li>Khác </li>
-          </ul>
+              Đặc biệt, đội ngũ chuyên viên về nghiên cứu thị trường của chúng
+              tôi luôn chú tâm đến các vấn đề thủ tục, pháp lý, cơ hội và thách
+              thức phát sinh từ thị trường cho từng mục tiêu của doanh nghiệp.
+              Do đó, UNI giúp khách hàng dễ dàng nắm bắt xu hướng, quản lý rủi
+              ro tiềm tàng, xác định cơ hội và giành lợi thế cạnh tranh, đưa ra
+              được các chiến lược hiệu quả.
+              <br />
+              <span className="span__description">
+                Dịch vụ chuyên gia UNI cung cấp:
+              </span>
+              <br />
+              UNI có thể hỗ trợ doanh nghiệp xuyên suốt quy trình lập chiến lược
+              đầu tư cũng như tư vấn chuỗi các vấn đề bao gồm:
+              <ul>
+                <li>Kỹ năng bí quyết ngành xuất nhập khẩu Việt Nam </li>
+                <li>Phân tích thông tin nhập và xuất </li>
+                <li>Tìm ra đối tượng khách hàng mục tiêu chính xác </li>
+                <li>
+                  Cung cấp thông tin chính xác về số lượng và giá cả xuất nhập
+                  khẩu
+                </li>
+                <li>Kết nối đối tác </li>
+                <li>Thông tin đối thủ cạnh tranh</li>
+                <li>Khác </li>
+              </ul>
+            </div>
+          )}
         </div>
+        <button
+          type="button"
+          className="btn btn-uni description123"
+          onClick={() => setMarket(!market)}
+        >
+          Show {market ? "Less" : "More"}
+        </button>
       </div>
     ),
-    Setup: () => (
+    Setup: (rebuild, setRebuild) => (
       <div
         className="col-lg-12 col-md-6 box wow bounceInUp"
         data-wow-delay="0.1s"
@@ -989,49 +1078,60 @@ export const servicesCons = {
           nghiệp đã lựa chọn dịch vụ setup nhà máy đến từ các đơn vị chuyên
           nghiệp thay vì tự mình làm lấy.
           <br />
-          <span className="span__description">
-            Tại sao nên chọn UNI làm đơn vị tư vấn
-          </span>
-          <br />
-          Với kiến thức chuyên sâu và hiểu biết thực tế, chúng tôi kết nối doanh
-          nghiệp với đội ngũ chuyên gia tư vấn và phân tích giàu kinh nghiệm,
-          hàng đầu trong lĩnh vực thương mại và hải quan. Các chuyên gia UNI hỗ
-          trợ doanh nghiệp về tư vấn về cách nhập khẩu nguyên liệu miễn thuế,
-          logistics, tận dụng các FTA, nhập thiết bị máy móc, thủ tục hải
-          quan...Giúp doanh nghiệp tiết kiệm chi phí, hạn chế rủi ro và thuận
-          lợi set up nhà máy hoặc M&A.
-          <br />
-          <span className="span__description">
-            Dịch vụ chuyên gia UNI cung cấp:
-          </span>
-          <br />
-          Đội ngũ chuyên gia tại UNI cung cấp các hạng mục sau:
-          <br />
-          Set up nhà máy: <br />
-          <ul>
-            <li>Tư vấn nhập khẩu nguyên liệu miễn thuế </li>
-            <li>
-              Tư vấn giao nhận hàng hóa
+          {rebuild && (
+            <div>
+              <span className="span__description">
+                Tại sao nên chọn UNI làm đơn vị tư vấn
+              </span>
+              <br />
+              Với kiến thức chuyên sâu và hiểu biết thực tế, chúng tôi kết nối
+              doanh nghiệp với đội ngũ chuyên gia tư vấn và phân tích giàu kinh
+              nghiệm, hàng đầu trong lĩnh vực thương mại và hải quan. Các chuyên
+              gia UNI hỗ trợ doanh nghiệp về tư vấn về cách nhập khẩu nguyên
+              liệu miễn thuế, logistics, tận dụng các FTA, nhập thiết bị máy
+              móc, thủ tục hải quan...Giúp doanh nghiệp tiết kiệm chi phí, hạn
+              chế rủi ro và thuận lợi set up nhà máy hoặc M&A.
+              <br />
+              <span className="span__description">
+                Dịch vụ chuyên gia UNI cung cấp:
+              </span>
+              <br />
+              Đội ngũ chuyên gia tại UNI cung cấp các hạng mục sau:
+              <br />
+              Set up nhà máy: <br />
               <ul>
-                <li>Tư vấn sử dụng FTA </li>
-                <li>Accounting consulting group </li>
-                <li>Machinery import consulting </li>
-                <li>Tư vấn nhập khẩu thiết bị máy móc </li>
-
+                <li>Tư vấn nhập khẩu nguyên liệu miễn thuế </li>
                 <li>
-                  Đại lý hải quan làm thủ tục đăng ký mới M&A:
+                  Tư vấn giao nhận hàng hóa
                   <ul>
-                    <li>Kiểm toán thuế quan mô phỏng </li>
-                    <li>Đánh giá rủi ro hải quan </li>
+                    <li>Tư vấn sử dụng FTA </li>
+                    <li>Accounting consulting group </li>
+                    <li>Machinery import consulting </li>
+                    <li>Tư vấn nhập khẩu thiết bị máy móc </li>
+
+                    <li>
+                      Đại lý hải quan làm thủ tục đăng ký mới M&A:
+                      <ul>
+                        <li>Kiểm toán thuế quan mô phỏng </li>
+                        <li>Đánh giá rủi ro hải quan </li>
+                      </ul>
+                    </li>
                   </ul>
                 </li>
               </ul>
-            </li>
-          </ul>
+            </div>
+          )}
         </div>
+        <button
+          type="button"
+          className="btn btn-uni description123"
+          onClick={() => setRebuild(!rebuild)}
+        >
+          Show {rebuild ? "Less" : "More"}
+        </button>
       </div>
     ),
-    Tariff: () => (
+    Tariff: (tariff, setTariff) => (
       <div
         className="col-lg-12 col-md-6 box wow bounceInUp"
         data-wow-delay="0.1s"
@@ -1055,32 +1155,43 @@ export const servicesCons = {
           thay mình làm chính xác công việc đó nhằm tiết tiệm thời gian, chi phí
           cũng như giảm thiểu rủi ro cho doanh nghiệp.
           <br />
-          <span className="span__description">
-            Tại sao nên chọn UNI làm đơn vị tư vấn
-          </span>
-          <br />
-          Với kiến thức chuyên sâu và hiểu biết thực tế, chúng tôi cam kết kết
-          nối doanh nghiệp với đội ngũ chuyên gia tư vấn và phân tích giàu kinh
-          nghiệm, hàng đầu trong lĩnh vực thương mại và hải quan. Các chuyên gia
-          UNI sẽ thay doanh nghiệp thực hiện thông quan hàng hóa, hỗ trợ doanh
-          nghiệp về tư vấn về cách nhập khẩu nguyên liệu miễn thuế, logistics,
-          tận dụng các FTA, nhập thiết bị máy móc,... nhanh chóng, hiểu quả với
-          chi phí tối ưu nhất.
-          <br />
-          <span className="span__description">
-            Dịch vụ chuyên gia UNI cung cấp:
-          </span>
-          <br />
-          Đội ngũ chuyên gia tại UNI cung cấp các hạng mục sau:
-          <br />
-          <ul>
-            <li>Đại lý hải quan </li>
-            <li>Trị giá hải quan </li>
-            <li>Kiểm tra về mã HS </li>
-            <li>Tư vấn quản lý nguyên liệu miễn thuế</li>
-            <li>Khác </li>
-          </ul>
+          {tariff && (
+            <div>
+              <span className="span__description">
+                Tại sao nên chọn UNI làm đơn vị tư vấn
+              </span>
+              <br />
+              Với kiến thức chuyên sâu và hiểu biết thực tế, chúng tôi cam kết
+              kết nối doanh nghiệp với đội ngũ chuyên gia tư vấn và phân tích
+              giàu kinh nghiệm, hàng đầu trong lĩnh vực thương mại và hải quan.
+              Các chuyên gia UNI sẽ thay doanh nghiệp thực hiện thông quan hàng
+              hóa, hỗ trợ doanh nghiệp về tư vấn về cách nhập khẩu nguyên liệu
+              miễn thuế, logistics, tận dụng các FTA, nhập thiết bị máy móc,...
+              nhanh chóng, hiểu quả với chi phí tối ưu nhất.
+              <br />
+              <span className="span__description">
+                Dịch vụ chuyên gia UNI cung cấp:
+              </span>
+              <br />
+              Đội ngũ chuyên gia tại UNI cung cấp các hạng mục sau:
+              <br />
+              <ul>
+                <li>Đại lý hải quan </li>
+                <li>Trị giá hải quan </li>
+                <li>Kiểm tra về mã HS </li>
+                <li>Tư vấn quản lý nguyên liệu miễn thuế</li>
+                <li>Khác </li>
+              </ul>
+            </div>
+          )}
         </div>
+        <button
+          type="button"
+          className="btn btn-uni description123"
+          onClick={() => setTariff(!tariff)}
+        >
+          Show {tariff ? "Less" : "More"}
+        </button>
       </div>
     ),
   },
