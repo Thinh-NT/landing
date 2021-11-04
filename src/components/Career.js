@@ -1,5 +1,6 @@
 import React from "react";
 import { headerCons } from "./constants/headerCons";
+import { careerCons } from "./constants/careerCons";
 
 function Career({ lang }) {
   return (
@@ -8,25 +9,24 @@ function Career({ lang }) {
         <div className="section-header">
           <h3>{headerCons[lang].carrer}</h3>
           <p>
-            Human resources are the core factor that ensures a stable and
-            sustainable business. UNI always ensures a fair talent recruitment
-            process and the best environment for employees
-            {/* <ui>
-              <li>Good welfare system </li>
-              <li>Fair incentive rewards </li>
-              <li>An equal and freedom environment. </li>
-              <li>Global corporate culture </li>
-            </ui>
-            <h4>
-              UNI employees will be equipped with a variety of knowledge and
-              skills, through training courses and workshops.
-            </h4> */}
+            {careerCons[lang].top()}
+            <div className="career-welfare">
+              <ul className="career-welfare__left border-right">
+                <li>{careerCons[lang].welfare[0]}</li>
+                <li>{careerCons[lang].welfare[1]} </li>
+              </ul>
+              <ul className="career-welfare__right">
+                <li>{careerCons[lang].welfare[2]}</li>
+                <li>{careerCons[lang].welfare[3]}</li>
+              </ul>
+            </div>
+            {careerCons[lang].bottom}
           </p>
         </div>
 
         <div className="row career-info">
           <div className="col-md-6">
-            <div className="carrer-address">
+            <div className="career-address">
               <i className="ion-ios-location-outline"></i>
               <h3>Recruitment</h3>
               <address>Recruitment content for each position</address>

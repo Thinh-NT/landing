@@ -43,13 +43,12 @@ function Footer() {
             <div className="col-lg-3 col-md-6 footer-contact">
               <h4>Contact Us</h4>
               <p>
-                Saigon Royal Residence, 34-35 Ben Van Don,
-                Ward 12, District 4,
+                <strong>Address: </strong>
+                Saigon Royal Residence, 34-35 Ben Van Don, Ward 12, District 4,
+                HCMC <br />
+                <strong>Phone: </strong> +1 5589 55488 55
                 <br />
-                Ho Chi Minh City <br />
-                <strong>Phone:</strong> +1 5589 55488 55
-                <br />
-                <strong>Email:</strong> info@example.com
+                <strong>Email: </strong> info@example.com
                 <br />
               </p>
 
@@ -78,7 +77,6 @@ function Footer() {
                 magna veniam enim veniam illum dolore legam minim quorum culpa
                 amet magna export quem marada parida nodela caramase seza.
               </p>
-              
             </div>
           </div>
         </div>

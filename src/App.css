@@ -1,5 +1,9 @@
-.btn.btn-uni {
-  background-color: var(--uni-color);
+.border-right {
+  border-right: 1px solid #ddd;
+}
+
+.border-left {
+  border-left: 1px solid #ddd;
 }
 
 select#languages {
@@ -31,8 +35,31 @@ select#languages:focus {
   padding: 60px 0;
 }
 
-#career {
-  padding: 60px 0;
+#career .section-header p {
+  margin: 40px 0;
+}
+
+#career .career-welfare {
+  display: flex;
+  margin: 12px 0;
+}
+
+#career .career-welfare ul {
+  list-style: none;
+  flex: 1;
+  padding-left: 0;
+}
+
+#career .career-welfare ul li {
+  padding: 2px 20px;
+}
+
+#career .career-welfare__left {
+  text-align: right;
+}
+
+#career .career-welfare__right {
+  text-align: left;
 }
 
 #career .career-info {
@@ -84,8 +111,7 @@ select#languages:focus {
 }
 
 @media (min-width: 768px) {
-  #career .career-phone {
-    border-left: 1px solid #ddd;
+  #career .career-info > div:first-child {
     border-right: 1px solid #ddd;
   }
 }

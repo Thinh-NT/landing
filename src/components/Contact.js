@@ -19,8 +19,8 @@ function Contact({ lang }) {
               <i className="ion-ios-location-outline"></i>
               <h3>Address</h3>
               <address>
-                Saigon Royal Residence,34-35 Ben Van Don Ward 12, District 4, Ho
-                Chi Minh City
+                Saigon Royal Residence, 34-35, Ben Van Don, Ward 12, District 4,
+                Ho Chi Minh City
               </address>
             </div>
           </div>
