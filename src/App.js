@@ -25,7 +25,11 @@ export const scroll = new SmoothScroll('a[href*="#"]', {
 
 const Lang = {
   get: function () {
-    return localStorage.getItem("lang");
+    let lang = localStorage.getItem("lang");
+    if (["VI", "EN", "KO"].includes(lang)) {
+      return lang;
+    }
+    return this.init();
   },
   set: function (lang) {
     localStorage.setItem("lang", lang);
