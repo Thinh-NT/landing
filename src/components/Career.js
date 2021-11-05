@@ -8,7 +8,7 @@ function Career({ lang }) {
       <div className="container">
         <div className="section-header">
           <h3>{headerCons[lang].carrer}</h3>
-          <p>
+          <div>
             {careerCons[lang].top()}
             <div className="career-welfare">
               <ul className="career-welfare__left border-right">
@@ -21,7 +21,7 @@ function Career({ lang }) {
               </ul>
             </div>
             {careerCons[lang].bottom}
-          </p>
+          </div>
         </div>
 
         <div className="row career-info">

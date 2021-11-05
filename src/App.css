@@ -35,8 +35,9 @@ select#languages:focus {
   padding: 60px 0;
 }
 
-#career .section-header p {
+#career .section-header div {
   margin: 40px 0;
+  text-align: center;
 }
 
 #career .career-welfare {

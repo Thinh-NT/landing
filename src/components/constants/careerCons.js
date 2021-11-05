@@ -1,12 +1,12 @@
 export const careerCons = {
   EN: {
     top: () => (
-      <>
+      <div>
         Human resources are the core factor that ensures a stable and
         sustainable business. <br />
         UNI always ensures a fair talent recruitment process and the best
         environment for employees
-      </>
+      </div>
     ),
     welfare: [
       "Good welfare system",
@@ -19,12 +19,12 @@ export const careerCons = {
   },
   VI: {
     top: () => (
-      <>
+      <div>
         Nhân sự là yếu tố cốt lõi đảm bảo cho một doanh nghiệp ổn định và phát
         triển bền vững. <br />
         UNI luôn đảm bảo một quy trình tuyển dụng nhân tài một cách công bằng và
         một môi trường tốt nhất cho nhân viên
-      </>
+      </div>
     ),
     welfare: [
       "Hệ thống phúc lợi tốt",
@@ -37,12 +37,12 @@ export const careerCons = {
   },
   KO: {
     top: () => (
-      <>
+      <div>
         Human resources are the core factor that ensures a stable and
         sustainable business. <br />
         UNI always ensures a fair talent recruitment process and the best
         environment for employees
-      </>
+      </div>
     ),
     welfare: [
       "Good welfare system",
