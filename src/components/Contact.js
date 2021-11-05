@@ -19,8 +19,13 @@ function Contact({ lang }) {
               <i className="ion-ios-location-outline"></i>
               <h3>Address</h3>
               <address>
-                Saigon Royal Residence, 34-35, Ben Van Don, Ward 12, District 4,
-                Ho Chi Minh City
+                <a
+                  href="https://goo.gl/maps/RXgV2XSpKgcdGiRV8"
+                  target="_blank"
+                  rel="noreferrer"
+                >
+                  Saigon Royal Residence
+                </a>
               </address>
             </div>
           </div>
@@ -30,7 +35,7 @@ function Contact({ lang }) {
               <i className="ion-ios-telephone-outline"></i>
               <h3>Phone Number</h3>
               <p>
-                <a href="tel:+155895548855">+1 5589 55488 55</a>
+                <a href="tel:+84908535898">+(84) 908 535 898</a>
               </p>
             </div>
           </div>
@@ -40,7 +45,7 @@ function Contact({ lang }) {
               <i className="ion-ios-email-outline"></i>
               <h3>Email</h3>
               <p>
-                <a href="mailto:info@example.com">info@example.com</a>
+                <a href="mailto:info@uni-cus.net">info@uni-cus.net</a>
               </p>
             </div>
           </div>

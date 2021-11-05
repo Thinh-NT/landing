@@ -43,12 +43,16 @@ function Footer() {
             <div className="col-lg-3 col-md-6 footer-contact">
               <h4>Contact Us</h4>
               <p>
-                <strong>Address: </strong>
-                Saigon Royal Residence, 34-35 Ben Van Don, Ward 12, District 4,
-                HCMC <br />
-                <strong>Phone: </strong> +1 5589 55488 55
+                <strong>Address 1: </strong>
+                Saigon Royal Residence, <br />
+                34-35 Ben Van Don, Ward 12, District 4, Ho Chi Minh City <br />
+                <strong>Address 2: </strong>
+                220 Hoang Ngan, Trung Hoa Ward, Cau Giay District, Hanoi <br />
+                <strong>Phone: </strong>
+                <a href="tel:+84908535898">+(84) 908 535 898</a>
                 <br />
-                <strong>Email: </strong> info@example.com
+                <strong>Email: </strong>
+                <a href="mailto:info@uni-cus.net">info@uni-cus.net</a>
                 <br />
               </p>
 
