@@ -57,21 +57,21 @@ function Footer() {
               </p>
 
               <div className="social-links">
-                <a href="#a" className="twitter">
+                <div className="twitter">
                   <i className="fa fa-twitter"></i>
-                </a>
-                <a href="#a" className="facebook">
+                </div>
+                <div className="facebook">
                   <i className="fa fa-facebook"></i>
-                </a>
-                <a href="#a" className="instagram">
+                </div>
+                <div className="instagram">
                   <i className="fa fa-instagram"></i>
-                </a>
-                <a href="#a" className="google-plus">
+                </div>
+                <div className="google-plus">
                   <i className="fa fa-google-plus"></i>
-                </a>
-                <a href="#a" className="linkedin">
+                </div>
+                <div className="linkedin">
                   <i className="fa fa-linkedin"></i>
-                </a>
+                </div>
               </div>
             </div>
             <div className="col-lg-3 col-md-6 footer-newsletter">

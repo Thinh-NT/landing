@@ -87,12 +87,6 @@ function Clients() {
                 <div className="member-info-content">
                   <h4>Walter White</h4>
                   <span>Chief Executive Officer</span>
-                  <div className="social">
-                    <a href="#a"><i className="fa fa-twitter"></i></a>
-                    <a href="#a"><i className="fa fa-facebook"></i></a>
-                    <a href="#a"><i className="fa fa-google-plus"></i></a>
-                    <a href="#a"><i className="fa fa-linkedin"></i></a>
-                  </div>
                 </div>
               </div>
             </div>
@@ -106,10 +100,6 @@ function Clients() {
                   <h4>Sarah Jhonson</h4>
                   <span>Product Manager</span>
                   <div className="social">
-                    <a href="#a"><i className="fa fa-twitter"></i></a>
-                    <a href="#a"><i className="fa fa-facebook"></i></a>
-                    <a href="#a"><i className="fa fa-google-plus"></i></a>
-                    <a href="#a"><i className="fa fa-linkedin"></i></a>
                   </div>
                 </div>
               </div>
@@ -124,10 +114,6 @@ function Clients() {
                   <h4>William Anderson</h4>
                   <span>CTO</span>
                   <div className="social">
-                    <a href="#a"><i className="fa fa-twitter"></i></a>
-                    <a href="#a"><i className="fa fa-facebook"></i></a>
-                    <a href="#a"><i className="fa fa-google-plus"></i></a>
-                    <a href="#a"><i className="fa fa-linkedin"></i></a>
                   </div>
                 </div>
               </div>
@@ -142,10 +128,6 @@ function Clients() {
                   <h4>Amanda Jepson</h4>
                   <span>Accountant</span>
                   <div className="social">
-                    <a href="#a"><i className="fa fa-twitter"></i></a>
-                    <a href="#a"><i className="fa fa-facebook"></i></a>
-                    <a href="#a"><i className="fa fa-google-plus"></i></a>
-                    <a href="#a"><i className="fa fa-linkedin"></i></a>
                   </div>
                 </div>
               </div>

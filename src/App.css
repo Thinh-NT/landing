@@ -219,3 +219,23 @@ select#languages:focus {
   position: absolute;
   top: 16px;
 }
+#footer .footer-top .social-links div {
+  cursor: pointer;
+  font-size: 18px;
+  display: inline-block;
+  background: #333;
+  color: #eee;
+  line-height: 1;
+  padding: 8px 0;
+  margin-right: 4px;
+  border-radius: 50%;
+  text-align: center;
+  width: 36px;
+  height: 36px;
+  transition: 0.3s;
+}
+
+#footer .footer-top .social-links div:hover {
+  background: var(--uni-color);
+  color: #fff;
+}
