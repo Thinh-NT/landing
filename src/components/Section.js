@@ -14,7 +14,7 @@ function Section() {
           <div className="carousel-inner" role="listbox">
             <div
               className="carousel-item active"
-              style={{ backgroundImage: `url('img/intro-carousel/1.jpg')` }}
+              style={{ backgroundImage: `url('img/intro-carousel/one.jpg')` }}
             >
               <div className="carousel-container">
                 <div className="carousel-content">
@@ -52,7 +52,7 @@ function Section() {
 
             <div
               className="carousel-item"
-              style={{ backgroundImage: `url('img/intro-carousel/2.jpg')` }}
+              style={{ backgroundImage: `url('img/intro-carousel/two.jpg')` }}
             >
               <div className="carousel-container">
                 <div className="carousel-content">
@@ -76,7 +76,7 @@ function Section() {
 
             <div
               className="carousel-item"
-              style={{ backgroundImage: `url('img/intro-carousel/3.jpg')` }}
+              style={{ backgroundImage: `url('img/intro-carousel/three.jpeg')` }}
             >
               <div className="carousel-container">
                 <div className="carousel-content">
@@ -100,11 +100,11 @@ function Section() {
 
             <div
               className="carousel-item"
-              style={{ backgroundImage: `url('img/intro-carousel/4.jpg')` }}
+              style={{ backgroundImage: `url('img/intro-carousel/four.jpg')` }}
             >
               <div className="carousel-container">
                 <div className="carousel-content">
-                  <h2>Hoa yeu Thu kkk</h2>
+                  <h2>Minh vip pro123 </h2>
                   <p>
                     Neque porro quisquam est, qui dolorem ipsum quia dolor sit
                     amet, consectetur, adipisci velit, sed quia non numquam eius
@@ -123,7 +123,7 @@ function Section() {
 
             <div
               className="carousel-item"
-              style={{ backgroundImage: `url('img/intro-carousel/5.jpg')` }}
+              style={{ backgroundImage: `url('img/intro-carousel/five.jpg')` }}
             >
               <div className="carousel-container">
                 <div className="carousel-content">

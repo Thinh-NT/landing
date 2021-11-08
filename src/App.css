@@ -239,3 +239,8 @@ select#languages:focus {
   background: var(--uni-color);
   color: #fff;
 }
+.img-fluid-about{
+  width: 100%;
+  height: 170px;
+  object-fit:cover;
+}

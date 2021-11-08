@@ -16,7 +16,7 @@ function About({ lang }) {
           <div className="col-md-4 wow fadeInUp">
             <div className="about-col">
               <div className="img">
-                <img src="img/about-mission.jpg" alt="" className="img-fluid" />
+                <img src="img/about_mission.jpg" alt="" className="img-fluid-about" />
                 <div className="icon">
                   <i className="ion-ios-speedometer-outline"></i>
                 </div>
@@ -35,7 +35,7 @@ function About({ lang }) {
           <div className="col-md-4 wow fadeInUp" data-wow-delay="0.1s">
             <div className="about-col">
               <div className="img">
-                <img src="img/about-plan.jpg" alt="" className="img-fluid" />
+                <img src="img/about_plan.jpeg" alt="" className="img-fluid-about" />
                 <div className="icon">
                   <i className="ion-ios-list-outline"></i>
                 </div>
@@ -52,7 +52,7 @@ function About({ lang }) {
           <div className="col-md-4 wow fadeInUp" data-wow-delay="0.2s">
             <div className="about-col">
               <div className="img">
-                <img src="img/about-vision.jpg" alt="" className="img-fluid" />
+                <img src="img/about_vision.jpg" alt="" className="img-fluid-about" />
                 <div className="icon">
                   <i className="ion-ios-eye-outline"></i>
                 </div>
