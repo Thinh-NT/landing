@@ -453,7 +453,7 @@ export const servicesCons = {
         data-wow-duration="1.4s"
       >
         <div className="icon">
-          <i className="ion-ios-people-outline"></i>
+          <i className="ion-ios-home-outline"></i>
         </div>
         <h4 className="title">Setup Rebuilding M&A</h4>
         <div className="description">
@@ -526,7 +526,7 @@ export const servicesCons = {
         data-wow-duration="1.4s"
       >
         <div className="icon">
-          <i className="ion-ios-people-outline"></i>
+          <i className="ion-ios-flower-outline"></i>
         </div>
         <h4 className="title">Tariff clearance</h4>
         <div className="description">
@@ -1048,7 +1048,7 @@ export const servicesCons = {
         data-wow-duration="1.4s"
       >
         <div className="icon">
-          <i className="ion-ios-people-outline"></i>
+          <i className="ion-ios-home-outline"></i>
         </div>
         <h4 className="title">Dịch vụ tư vấn setup nhà máy mới</h4>
         <div className="description">
@@ -1123,7 +1123,7 @@ export const servicesCons = {
         data-wow-duration="1.4s"
       >
         <div className="icon">
-          <i className="ion-ios-people-outline"></i>
+          <i className="ion-ios-flower-outline"></i>
         </div>
         <h4 className="title">Dịch vụ thông quan</h4>
         <div className="description">
@@ -1547,7 +1547,7 @@ export const servicesCons = {
         data-wow-duration="1.4s"
       >
         <div className="icon">
-          <i className="ion-ios-people-outline"></i>
+          <i className="ion-ios-home-outline "></i>
         </div>
         <h4 className="title">Setup Rebuilding M&A</h4>
         <div className="description">
@@ -1610,7 +1610,7 @@ export const servicesCons = {
         data-wow-duration="1.4s"
       >
         <div className="icon">
-          <i className="ion-ios-people-outline"></i>
+          <i className="ion-ios-flower-outline"></i>
         </div>
         <h4 className="title">Tariff clearance</h4>
         <div className="description">
