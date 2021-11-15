@@ -12,46 +12,66 @@ export const servicesCons = {
           <h4 className="title">Anti-dumping</h4>
           <div className="description">
             <span className="span__description">
-              Why is it important to prepare a request for exclusion from
-              anti-dumping?
+              Why is it important to prepare an anti-dumping exclusion request?
             </span>
             <br />
-            Currently, Vietnam is in the process of promoting world economic
-            exchanges, so goods are imported into Vietnam more and more.
-            However, when there are signs that too many imports will lead to
-            harm to the domestic manufacturing industry, the state will apply
-            trade remedies to limit the amount of goods imported into Vietnam.
-            Anti-dumping is one of these trade remedies. However, at present,
-            enterprises often do not have much experience in responding to
-            anti-dumping measures, leading to the import and export of
-            enterprises being subject to higher tariffs. <br />
+            At present, as Vietnam promotes global economic exchanges, more and
+            more goods are being imported into Vietnam. However, if there is a
+            possibility that the domestic industry will be harmed by the
+            increase in imports, trade remedies will be taken to limit the
+            number of imported goods to Vietnam. Anti-dumping duties are one
+            such trade remedy. However, at present, companies do not have much
+            experience in responding to anti-dumping measures. If fail to
+            respond to the dumping duty, a high rate of anti-dumping duty will
+            be imposed, and there is a risk of losing the Vietnamese market. If
+            the Vietnamese market is heavily weighted, even the company's
+            existence may be at stake. This is the reason why responding to
+            trade disputes has emerged as a major issue in corporate management
+            global activities. <br />
             {antiD && (
               <div>
                 <span className="span__description ">
-                  The reasonwhy you should choose UNI as a consultant
+                  The reason Why you should Choose UNI as a Consultant?
                 </span>
                 <br />
-                With in-depth knowledge and practical understanding, we provide
-                a team of experienced consultants and analysts, leading in the
-                field of trade and customs. UNI consultants prepare anti-dumping
-                measures immunity dossiers quickly, accurately, and
-                professionally. Support businesses with all issues related to
-                all imports and exports.
+                UNI supports countermeasures by forming a team of experienced
+                consultants and analysts with long experience in Vietnam's trade
+                and customs sector. UNI supports the rapid, accurate and
+                professional response of anti-dumping investigation steps and
+                exemption applications. For example, in the case of trade
+                disputes, in the investigation stage, companies often request
+                complex and massive data. In the case of anti-dumping
+                investigations, the Ministry of Industry and Trade (MoIT) of
+                Vietnam makes extensive requests for accurate cost data and
+                proofs for overall company information, domestic sales and
+                exports. It takes a lot of time and manpower to accurately
+                submit these data. Inaccurate or inconsistent data will not be
+                accepted. Therefore, an effective response to an investigation
+                with the help of experts minimizes damage and rather gives a
+                customs advantage over other companies, turning a crisis into an
+                opportunity.
                 <br />
                 <span className="span__description">
-                  How can UNI support customers?
+                  How can UNI support its customers?
                 </span>
                 <br />
-                Our goal is to provide consulting, supporting and customer
-                representation services in procedures to minimize anti-dumping
-                duties on imports and exports. In addition, the advisory team
-                can assist in the accurate classification of items and
-                certificates of origin to receive tariff benefits, as well as
-                advice throughout the trade process. <br />
-                Various media, dispatches, tax decisions and regulations should
-                be closely monitored, researched and responded in a timely
-                manner when new information and content are available... UNI
-                specialist services provide:
+                Our goal is to provide consulting, support and customer
+                representation services in the process to minimize anti-dumping
+                duties on imports and exports. In addition, the consulting team
+                supports successful responses based on accurate price research
+                on imports and exports in Vietnam. <br />
+                <span className="span__description">
+                  UNI Professional Services provides:
+                </span>
+                <br />
+                UNI's team experts offer the following categories: <br />
+                <ul>
+                  <li>
+                    Assistance in responding to dumping investigation steps
+                  </li>
+                  <li>Anti-dumping complaint support</li>
+                  <li> Vietnam Importer remedy Assistance</li>
+                </ul>
               </div>
             )}
           </div>
@@ -602,47 +622,64 @@ export const servicesCons = {
               phá giá lại quan trọng?
             </span>
             <br />
-            Hiện nay, Việt Nam đang trong quá trình thúc đẩy giao lưu kinh tế
-            thế giới, vì vậy, hàng hóa được nhập khẩu vào Việt Nam ngày càng
-            nhiều. Tuy nhiên, khi có dấu hiệu cho rằng việc nhập khẩu quá nhiều
-            sẽ dẫn đến nguy hại cho ngành sản xuất trong nước, nhà nước thường
-            áp dụng các biện pháp phòng vệ thương mại nhằm hạn chế lượng hàng
-            hóa nhập khẩu vào Việt Nam. Chống bán phá giá là một trong những
-            biện pháp phòng vệ thương mại này. Tuy nhiên, hiện nay doanh nghiệp
-            thường chưa có nhiều kinh nghiệm trong việc ứng phó với biện pháp
-            chống bán phá giá, dẫn đến việc các mặt hàng xuất nhập khẩu của
-            doanh nghiệp bị áp các mức thuế cao hơn. <br />
+            Hiện nay, khi Việt Nam đẩy mạnh giao lưu kinh tế toàn cầu, ngày càng
+            nhiều hàng hóa được nhập khẩu vào Việt Nam. Tuy nhiên, nếu có khả
+            năng ngành sản xuất trong nước bị tổn hại do nhập khẩu tăng, các
+            biện pháp phòng vệ thương mại sẽ được áp dụng để hạn chế số lượng
+            hàng hóa nhập khẩu vào Việt Nam. Thuế chống bán phá giá là một trong
+            những biện pháp phòng vệ thương mại. Tuy nhiên, hiện nay các công ty
+            chưa có nhiều kinh nghiệm trong việc ứng phó với các biện pháp chống
+            bán phá giá. Nếu không đáp ứng được mức thuế bán phá giá, mức thuế
+            chống bán phá giá cao sẽ bị áp dụng và có nguy cơ mất thị trường
+            Việt Nam. Nếu thị trường Việt Nam bị đặt nặng, ngay cả sự tồn tại
+            của công ty cũng có thể bị đe dọa. Đây là lý do tại sao ứng phó với
+            các tranh chấp thương mại đã nổi lên như một vấn đề chính trong các
+            hoạt động toàn cầu của quản lý doanh nghiệp.
+            <br />
             {antiD && (
               <div>
                 <span className="span__description">
                   Tại sao nên chọn UNI làm đơn vị tư vấn
                 </span>
                 <br />
-                Với kiến thức chuyên sâu và hiểu biết thực tế, chúng tôi cung
-                cấp đội ngũ chuyên gia tư vấn và phân tích giàu kinh nghiệm,
-                hàng đầu trong lĩnh vực thương mại và hải quan. Chuyên gia tư
-                vấn UNI mảng chuẩn bị hồ sơ miễn trừ biện pháp chống bán phá giá
-                một cách nhanh chóng, chính xác và chuyên nghiệp nhất. Hỗ trợ
-                doanh nghiệp tất cả các vấn đề liên quan đến tất cả hàng hóa
-                xuất nhập khẩu.
+                UNI hỗ trợ các biện pháp đối phó bằng cách hình thành một đội
+                ngũ chuyên gia tư vấn và phân tích có kinh nghiệm lâu năm trong
+                lĩnh vực thương mại và hải quan của Việt Nam. UNI hỗ trợ phản
+                ứng nhanh chóng, chính xác và chuyên nghiệp đối với các bước
+                điều tra chống bán phá giá và các đơn xin miễn trừ. Ví dụ, trong
+                trường hợp tranh chấp thương mại, trong giai đoạn điều tra, các
+                công ty thường yêu cầu dữ liệu phức tạp và lớn. Trong trường hợp
+                bị điều tra chống bán phá giá, Bộ Công Thương Việt Nam đưa ra
+                yêu cầu rộng rãi về dữ liệu chi phí chính xác và các bằng chứng
+                về thông tin tổng thể của công ty, doanh số bán hàng trong nước
+                và xuất khẩu. Phải mất rất nhiều thời gian và nhân lực để gửi
+                chính xác những dữ liệu này. Dữ liệu không chính xác hoặc không
+                nhất quán sẽ không được chấp nhận. Do đó, một phản ứng hiệu quả
+                đối với một cuộc điều tra với sự trợ giúp của các chuyên gia sẽ
+                giảm thiểu thiệt hại và thay vào đó mang lại lợi thế hải quan so
+                với các công ty khác, biến khủng hoảng thành cơ hội.
                 <br />
                 <span className="span__description">
                   UNI có thể hỗ trợ khách hàng như thế nào?
                 </span>
                 <br />
-                Mục tiêu của chúng tôi là cung cấp dịch vụ tư vấn, hỗ trợ, đại
-                diện khách hàng trong các thủ tục nhằm giảm thiểu thuế chống bán
-                phá giá đối với các mặt hàng xuất nhập khẩu của khách hàng.
-                Ngoài ra, đội ngũ tư vấn có thể hỗ trợ về phân loại chính xác
-                các mặt hàng và chứng nhận xuất xứ để nhận được các lợi ích về
-                thuế quan, cũng như tư vấn trong suốt quá trình thương mại. Các
-                phương tiện truyền thông khác nhau, công văn, quyết định thuế và
-                quy định cần được theo dõi chặt chẽ, nghiên cứu và phản hồi kịp
-                thời khi có thông tin và nội dung mới… <br />
+                Mục tiêu của chúng tôi là cung cấp dịch vụ tư vấn, hỗ trợ và đại
+                diện cho khách hàng trong quá trình giảm thiểu thuế chống bán
+                phá giá đối với hàng hóa xuất nhập khẩu. Ngoài ra, đội ngũ tư
+                vấn hỗ trợ phản hồi thành công dựa trên nghiên cứu giá chính xác
+                về hàng hóa xuất nhập khẩu tại Việt Nam. <br />
                 <span className="span__description">
                   Đội ngũ chuyên gia tại UNI cung cấp các hạng mục sau:
                 </span>
                 <br />
+                Nhóm chuyên gia của UNI đưa ra các hạng mục sau:
+                <ul>
+                  <li>
+                    Hỗ trợ trong việc đáp ứng các bước điều tra bán phá giá
+                  </li>
+                  <li>Hỗ trợ khiếu nại chống bán phá giá</li>
+                  <li>Hỗ trợ khắc phục hậu quả cho nhà nhập khẩu Việt Nam</li>
+                </ul>
               </div>
             )}
           </div>
@@ -1192,43 +1229,57 @@ export const servicesCons = {
           <h4 className="title">Anti-dumping</h4>
           <div className="description">
             <span className="span__description">
-              Why is it important to prepare a request for exclusion from
-              anti-dumping?
+              반덤핑 제외 요청을 준비하는 것이 왜 중요합니까?
             </span>
             <br />
-            Currently, Vietnam is in the process of promoting world economic
-            exchanges, so goods are imported into Vietnam more and more.
-            However, when there are signs that too many imports will lead to
-            harm to the domestic manufacturing industry, the state will apply
-            trade remedies to limit the amount of goods imported into Vietnam.
-            Anti-dumping is one of these trade remedies. However, at present,
-            enterprises often do not have much experience in responding to
-            anti-dumping measures, leading to the import and export of
-            enterprises being subject to higher tariffs. <br />
+            현재 베트남은 세계 경제 교류를 추진하고 있기 때문에 상품은 점점 더
+            베트남으로 수입되고 있습니다. 그러나 수입량의 증가로 인하여 국내
+            산업이 피해를 입을 가능성이 있다면, 베트남에 해당 상품의 수입수량을
+            제한하기 위해 무역구제조치를 취하게 될 것입니다. 반덤핑관세는 이러한
+            무역 구제 중하나입니다. 그러나 현재 기업은 반덤핑 조치에 대한
+            대응경험이 많지 않습니다. 덤핑관세 대응에 실패할 경우, 고세율의
+            반덤핑관세가 부과되고, 이로 인해 베트남시장을 상실할 위험이
+            있습니다. 베트남 시장이 비중이 높은 경우 회사 존립마저 위태로울 수
+            있습니다. 글로벌시대에 무역분쟁 대응이 기업의 경영활동에 큰 이슈로
+            떠오르는 이유 입니다. <br />
             <span className="span__description">
-              The reasonwhy you should choose UNI as a consultant
+              UNI를 컨설턴트로 선택해야 하는 이유
             </span>
             <br />
-            With in-depth knowledge and practical understanding, we provide a
-            team of experienced consultants and analysts, leading in the field
-            of trade and customs. UNI consultants prepare anti-dumping measures
-            immunity dossiers quickly, accurately, and professionally. Support
-            businesses with all issues related to all imports and exports.
+            UNI는 베트남 무역 및 관세 분야에서 오랜 경험을 토대로 숙련된
+            컨설턴트 및 분석가들로 팀을 구성하여 대응조치를 지원합니다. UNI는
+            반덤핑 조사 단계 및 면제 신청 과제들을 신속, 정확하고 전문적인
+            대응을 지원합니다. 예를 들어, 무역분쟁의 경우 조사단계에서 기업에게
+            복잡하고 방대한 자료를 요청하는 경우가 많습니다. 특히 반덤핑 조사의
+            경우, 베트남 산업통상부(MoIT)에서는 전반적인 회사정보, 내수판매 및
+            수출에 대한 정확한 원가자료와 증명을 방대하게 요청합니다. 이러한
+            자료를 정확하게 제출하기 위해서는 많은 시간과 인력이 소요됩니다.
+            부정확하거나 일관성이 없는 자료의 경우에는 인정되지 않습니다.
+            따라서, 전문가의 조력을 통한 조사 대응으로 효과적인 대응이 피해를
+            최소화하고, 오히려 타기업보다 관세 우위를 점하게 되어, 위기를 기회로
+            만들 수 있습니다.
             <br />
+            {/* How can UNI support its customers? */}
             <span className="span__description">
-              How can UNI support customers?
+              UNI는 고객을 어떻게 지원할 수 있습니까?
             </span>
             <br />
-            Our goal is to provide consulting, supporting and customer
-            representation services in procedures to minimize anti-dumping
-            duties on imports and exports. In addition, the advisory team can
-            assist in the accurate classification of items and certificates of
-            origin to receive tariff benefits, as well as advice throughout the
-            trade process. <br />
-            Various media, dispatches, tax decisions and regulations should be
-            closely monitored, researched and responded in a timely manner when
-            new information and content are available... UNI specialist services
-            provide:
+            우리의 목표는 수입 및 수출에 대한 반덤핑 관세를 최소화하기 위한
+            절차에 컨설팅, 지원 및 고객 표현 서비스를 제공하는 것입니다. 또한
+            컨설팅팀은 베트남 수출입 정확한 가격 조사를 바탕으로 성공적인 대응을
+            지원합니다. <br />
+            {/* UNI Professional Services provides */}
+            <span className="span__description">
+              UNI 전문 서비스는 다음을 제공합니다:
+            </span>
+            <br />
+            UNI의 팀 전문가는 다음과 같은 범주를 제공합니다.
+            <ul>
+              <li>덤핑 조사 단계 대응 지원</li>
+              <li>반덤핑 제소 지원</li>
+              <li>베트남 수입자 구제 지원</li>
+              <li>Safe Guard 조사 대응 지원</li>
+            </ul>
           </div>
         </div>
       );
