@@ -80,7 +80,7 @@ function Section() {
             >
               <div className="carousel-container">
                 <div className="carousel-content">
-                  <h2>Anh Thinh tre trau</h2>
+                  <h2>Lorem ipsum dolor sit.</h2>
                   <p>
                     Beatae vitae dicta sunt explicabo. Nemo enim ipsam
                     voluptatem quia voluptas sit aspernatur aut odit aut fugit,
@@ -104,7 +104,7 @@ function Section() {
             >
               <div className="carousel-container">
                 <div className="carousel-content">
-                  <h2>Minh vip pro123 </h2>
+                  <h2>Lorem, ipsum dolor.</h2>
                   <p>
                     Neque porro quisquam est, qui dolorem ipsum quia dolor sit
                     amet, consectetur, adipisci velit, sed quia non numquam eius
