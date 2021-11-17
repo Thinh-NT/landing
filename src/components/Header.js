@@ -30,13 +30,19 @@ function Header(props) {
         <nav id="nav-menu-container">
           <ul className="nav-menu">
             <li className="menu-active">
-              <a href="#intro">{data.Header[lang].home}</a>
+              <a href="#intro" className={lang === "KO" ? "fz18" : null}>
+                {data.Header[lang].home}
+              </a>
             </li>
             <li>
-              <a href="#about">{data.Header[lang].about}</a>
+              <a href="#about" className={lang === "KO" ? "fz18" : null}>
+                {data.Header[lang].about}
+              </a>
             </li>
             <li>
-              <a href="#services">{data.Header[lang].services}</a>
+              <a href="#services" className={lang === "KO" ? "fz18" : null}>
+                {data.Header[lang].services}
+              </a>
             </li>
             {/* <li>
               <a href="#portfolio">Portfolio</a>
@@ -45,17 +51,25 @@ function Header(props) {
               <a href="#news">News</a>
             </li> */}
             <li>
-              <a href="#career">{data.Header[lang].carrer}</a>
+              <a href="#career" className={lang === "KO" ? "fz18" : null}>
+                {data.Header[lang].carrer}
+              </a>
             </li>
             {/* <li>
               <a href="#team">Team</a>
             </li> */}
             <li>
-              <a href="#contact">{data.Header[lang].contact}</a>
+              <a href="#contact" className={lang === "KO" ? "fz18" : null}>
+                {data.Header[lang].contact}
+              </a>
             </li>
             <li className="nav-item dropdown">
               <a
-                className="nav-link dropdown-toggle"
+                className={
+                  lang === "KO"
+                    ? "nav-link dropdown-toggle fz18"
+                    : "nav-link dropdown-toggle"
+                }
                 data-toggle="dropdown"
                 href="#lang"
                 role="button"
@@ -72,7 +86,7 @@ function Header(props) {
                   VietNamese
                 </div>
                 <div className="dropdown-item" onClick={() => setLang("KO")}>
-                  Korea
+                  Korean
                 </div>
               </div>
             </li>

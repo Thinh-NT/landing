@@ -67,19 +67,44 @@ const Sidebar = ({ toggle, isOpen, data, lang, setLang }) => {
       </Icon>
       <SidebarWrapper>
         <SidebarMenu>
-          <SidebarLink to="intro" className="btn__mobile" onClick={toggle} smooth={true}> 
+          <SidebarLink
+            to="intro"
+            className="btn__mobile"
+            onClick={toggle}
+            smooth={true}
+          >
             {data.Header[lang].home}
           </SidebarLink>
-          <SidebarLink to="about" className="btn__mobile" onClick={toggle} smooth={true}>
+          <SidebarLink
+            to="about"
+            className="btn__mobile"
+            onClick={toggle}
+            smooth={true}
+          >
             {data.Header[lang].about}
           </SidebarLink>
-          <SidebarLink to="services" className="btn__mobile" onClick={toggle} smooth={true}>
+          <SidebarLink
+            to="services"
+            className="btn__mobile"
+            onClick={toggle}
+            smooth={true}
+          >
             {data.Header[lang].services}
           </SidebarLink>
-          <SidebarLink to="carrer" className="btn__mobile" onClick={toggle} smooth={true}>
+          <SidebarLink
+            to="carrer"
+            className="btn__mobile"
+            onClick={toggle}
+            smooth={true}
+          >
             {data.Header[lang].carrer}
           </SidebarLink>
-          <SidebarLink to="contact" className="btn__mobile" onClick={toggle} smooth={true}>
+          <SidebarLink
+            to="contact"
+            className="btn__mobile"
+            onClick={toggle}
+            smooth={true}
+          >
             {data.Header[lang].contact}
           </SidebarLink>
           <div className="nav-item dropdown">
@@ -100,7 +125,7 @@ const Sidebar = ({ toggle, isOpen, data, lang, setLang }) => {
                 VietNamese
               </div>
               <div className="dropdown-item" onClick={() => setLang("KO")}>
-                Korea
+                Korean
               </div>
             </div>
           </div>

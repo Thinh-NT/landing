@@ -6,6 +6,10 @@
   border-left: 1px solid #ddd;
 }
 
+.fz18 {
+  font-size: 18px !important;
+}
+
 select#languages {
   margin-left: 10px;
 }
@@ -239,8 +243,8 @@ select#languages:focus {
   background: var(--uni-color);
   color: #fff;
 }
-.img-fluid-about{
+.img-fluid-about {
   width: 100%;
   height: 170px;
-  object-fit:cover;
+  object-fit: cover;
 }
