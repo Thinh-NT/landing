@@ -45,7 +45,7 @@ function Contact({ lang }) {
               <i className="ion-ios-email-outline"></i>
               <h3>Email</h3>
               <p>
-                <a href="mailto:info@uni-cus.net">info@uni-cus.net</a>
+                <a href="mailto:univn@uni-cus.net">univn@uni-cus.net</a>
               </p>
             </div>
           </div>

@@ -214,7 +214,7 @@ export const servicesCons = {
                 Services UNI experts provide:
               </span>
               <br />
-              Đội ngũ chuyên gia tại UNI cung cấp các hạng mục sau:
+              UNI's team experts offer the following categories:
               <ul>
                 <li>EU-VIET FTA / CPTPP</li>
                 <li>GSP-REX</li>
@@ -274,21 +274,32 @@ export const servicesCons = {
               <br />
               With in-depth knowledge and practical understanding, we provide a
               team of experienced consultants and analysts, leading in the field
-              of trade and customs. Uni legal consultants will actively support
-              enterprises to carry out procedures and papers to be granted the
-              Certificate of Preferential Treatment "supporting industrial
-              product production projects". Support businesses all issues
-              related to the suppoting industry quickly and accurately. How can
-              UNI support customers? Our goal is to provide data checking,
-              management, and consulting services for post-customs clearance
-              activities to help businesses. In addition, the advisory team can
-              assist in the accurate classification of items and certificates of
-              origin to receive tariff benefits, as well as advice throughout
-              the trade process. Various media, dispatches, tax decisions and
-              regulations should be closely monitored, researched and responded
-              in a timely manner when new information and content are
-              available... UNI specialist services provide: The team of experts
-              at UNI offers the following categories:
+              of trade and customs. In particular, We have experiences in
+              handling various certifications with the Vietnam Ministry of
+              Industry Trade (MoIT). We are forming a deep tie with MoIT, which
+              is department in charge SI certification (parts and materials
+              industry certification). Uni legal consultants will actively
+              support enterprises to carry out procedures and papers to be
+              granted the Certificate of Preferential Treatment "supporting
+              industrial product production projects". Support businesses all
+              issues related to the suppoting industry quickly and accurately.
+              <br />
+              <span className="span__description">
+                UNI specialist services provide:
+              </span>
+              <br />
+              The team of experts at UNI offers the following categories:
+              <ul>
+                <li>SI Certificate(Support Industry Certificate) Review </li>
+                <li>
+                  SI Certificate(Support Industry Certificate) Application
+                  Support{" "}
+                </li>
+                <li>
+                  SI Certificate(Support Industry Certificate) Management and
+                  Maintenance Support
+                </li>
+              </ul>
             </div>
           )}
         </div>
@@ -1424,46 +1435,47 @@ export const servicesCons = {
         <div className="icon">
           <i className="ion-ios-speedometer-outline"></i>
         </div>
-        <h4 className="title">Giấy xác nhận ưu đãi</h4>
+        <h4 className="title">Certificate of Incentives</h4>
         <div className="description">
           <span className="span__description">
-            Why do businesses need a Certificate of Incentives "Project for
-            manufacturing supporting industry products"?
+            왜 기업은 인센티브 인증 "부품소재 공급 사업" 인센티브 기업 인증이
+            필요합니까?
           </span>
           <br />
-          Supporting industry according to the concept of Decree 111/2015/ND-CP,
-          is the industry that involves manufacturing materials, accessories,
-          components, and spare parts used for assembling finished goods.
-          According to the survey, Vietnam’s suppoting industry is growing and
-          plays an important role in participating in the global supply chain.
+          법령 111/2015/ND-CP에 따라 Support Industry certificate(SI인증 또는
+          부품소재산업인증)은 완제품 조립에 사용되는 제조 재료, 액세서리, 부품
+          및 예비 부품을 공급하는 산업분야입니다. 설문 조사에 따르면,
+          SI(부품소재)산업은 베트남 산업이 성장하고 글로벌 공급망에 참여하는 데
+          중요한 역할을 하고 있습니다.
           <br />
-          Therefore, Vietnam is prioritizing the promotion of these industries
-          through attractive preferential policies for businesses operating in
-          this field. However, in order to enjoy these preferential regimes, it
-          requires enterprises to understand the conditions, as well as the
-          orders and procedures to be granted the Certificate of Incentives
-          "Project for manufacturing supporting industry products".
+          따라서 베트남은 이 분야에서 사업을 영위하는 기업에게 매력적인 우대
+          정책을 제공하고 있으며 부품소재산업 진흥에 중점을 두고 있습니다.
+          그러나 이런 제도적인 혜택을 즐기기 위해서는 기업이 조건과 신청절차를
+          거쳐, “해당 사업이 제품 제조 지원(부품소재) 산업"임을 인정받아야
+          합니다. <br />
+          <span className="span__description">
+            UNI 컨설팅을 선택해야 하는 이유
+          </span>
+          <br />
+          심층적인 지식과 실무적인 이해를 통해 우리는 무역 및 관세 분야에서
+          다년간 노하우를 쌓은 분석전문가들로 구성된 팀을 제공합니다. 특히,
+          베트남 산업통상부와 무역분쟁 각종 인증 업무 처리 경험이 있습니다.
+          SI인증(부품소재산업인증)의 주부부처인 MoIT와 깊은 유대관계를 형성하고
+          있습니다. 유니 컨설팅은 기업이 "부품소재산업 지원"에 특혜를 부여할 수
+          있도록 모든 절차와 서류를 지원할 것입니다. SI (부품소재)산업과 관련된
+          모든 문제를 신속하고 정확하게 지원하겠습니다.
           <br />
           <span className="span__description">
-            The reason why you should choose UNI as a consultant
+            UNI 전문 서비스는 다음을 제공합니다.
           </span>
           <br />
-          With in-depth knowledge and practical understanding, we provide a team
-          of experienced consultants and analysts, leading in the field of trade
-          and customs. Uni legal consultants will actively support enterprises
-          to carry out procedures and papers to be granted the Certificate of
-          Preferential Treatment "supporting industrial product production
-          projects". Support businesses all issues related to the suppoting
-          industry quickly and accurately. How can UNI support customers? Our
-          goal is to provide data checking, management, and consulting services
-          for post-customs clearance activities to help businesses. In addition,
-          the advisory team can assist in the accurate classification of items
-          and certificates of origin to receive tariff benefits, as well as
-          advice throughout the trade process. Various media, dispatches, tax
-          decisions and regulations should be closely monitored, researched and
-          responded in a timely manner when new information and content are
-          available... UNI specialist services provide: The team of experts at
-          UNI offers the following categories:
+          UNI의 전문가 팀은 다음과 같은 범주를 제공합니다.
+          <ul>
+            <li>SI인증(부품소재산업인증) 사전 검토 </li>
+            <li>SI 인증(부품소재산업인증) 신청 대행</li>
+            <li>SI인증 관리 및 유지 지원 </li>
+          </ul>
+          <br />
         </div>
       </div>
     ),

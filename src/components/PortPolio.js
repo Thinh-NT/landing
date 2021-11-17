@@ -79,7 +79,7 @@ function PortPolio() {
                     Services UNI experts provide:
                   </span>
                   <br />
-                  Đội ngũ chuyên gia tại UNI cung cấp các hạng mục sau:
+                  UNI Professional Services provides:
                   <ul>
                     <li>EU-VIET FTA / CPTPP</li>
                     <li>GSP-REX</li>
@@ -125,8 +125,7 @@ function PortPolio() {
               </figure>
 
               <div className="portfolio-info">
-                <h4 data-toggle="modal"
-                  data-target="#exampleModal">
+                <h4 data-toggle="modal" data-target="#exampleModal">
                   FTA-CO consultation
                 </h4>
               </div>

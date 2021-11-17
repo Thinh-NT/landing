@@ -52,7 +52,7 @@ function Footer() {
                 <a href="tel:+84908535898">+(84) 908 535 898</a>
                 <br />
                 <strong>Email: </strong>
-                <a href="mailto:info@uni-cus.net">info@uni-cus.net</a>
+                <a href="mailto:univn@uni-cus.net">univn@uni-cus.net</a>
                 <br />
               </p>
 

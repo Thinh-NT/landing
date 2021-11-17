@@ -3,7 +3,7 @@ import React from "react";
 function Clients() {
   return (
     <div>
-     {/* <section id="testimonials" className="section-bg wow fadeInUp">
+      {/* <section id="testimonials" className="section-bg wow fadeInUp">
       <div className="container">
 
         <header className="section-header">
@@ -71,73 +71,75 @@ function Clients() {
 
       </div>
     </section> */}
-    <section id="team">
-      <div className="container">
-        <div className="section-header wow fadeInUp">
-          <h3>Team</h3>
-          <p>Sed ut perspiciatis unde omnis iste natus error sit voluptatem accusantium doloremque</p>
+      <section id="team">
+        <div className="container">
+          <div className="section-header wow fadeInUp">
+            <h3>Team</h3>
+            <p>Formation of UNI Professional Team</p>
+          </div>
+          <div className="row">
+            <div className="col-lg-3 col-md-6 wow fadeInUp">
+              <div className="member">
+                <img src="img/team-1.jpg" className="img-fluid" alt="" />
+                <div className="member-info">
+                  <div className="member-info-content">
+                    <h4>Walter White</h4>
+                    <span>Import/export customs</span>
+                  </div>
+                </div>
+              </div>
+            </div>
+
+            <div
+              className="col-lg-3 col-md-6 wow fadeInUp"
+              data-wow-delay="0.1s"
+            >
+              <div className="member">
+                <img src="img/team-2.jpg" className="img-fluid" alt="" />
+                <div className="member-info">
+                  <div className="member-info-content">
+                    <h4>Sarah Jhonson</h4>
+                    <span>Legal Analysis</span>
+                    <div className="social"></div>
+                  </div>
+                </div>
+              </div>
+            </div>
+
+            <div
+              className="col-lg-3 col-md-6 wow fadeInUp"
+              data-wow-delay="0.2s"
+            >
+              <div className="member">
+                <img src="img/team-3.jpg" className="img-fluid" alt="" />
+                <div className="member-info">
+                  <div className="member-info-content">
+                    <h4>William Anderson</h4>
+                    <span>Trade Dispute Mediation</span>
+                    <div className="social"></div>
+                  </div>
+                </div>
+              </div>
+            </div>
+
+            <div
+              className="col-lg-3 col-md-6 wow fadeInUp"
+              data-wow-delay="0.3s"
+            >
+              <div className="member">
+                <img src="img/team-4.jpg" className="img-fluid" alt="" />
+                <div className="member-info">
+                  <div className="member-info-content">
+                    <h4>Amanda Jepson</h4>
+                    <span>IT Big Data Analysis</span>
+                    <div className="social"></div>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
         </div>
-
-        <div className="row">
-
-          <div className="col-lg-3 col-md-6 wow fadeInUp">
-            <div className="member">
-              <img src="img/team-1.jpg" className="img-fluid" alt="" />
-              <div className="member-info">
-                <div className="member-info-content">
-                  <h4>Walter White</h4>
-                  <span>Chief Executive Officer</span>
-                </div>
-              </div>
-            </div>
-          </div>
-
-          <div className="col-lg-3 col-md-6 wow fadeInUp" data-wow-delay="0.1s">
-            <div className="member">
-              <img src="img/team-2.jpg" className="img-fluid" alt="" />
-              <div className="member-info">
-                <div className="member-info-content">
-                  <h4>Sarah Jhonson</h4>
-                  <span>Product Manager</span>
-                  <div className="social">
-                  </div>
-                </div>
-              </div>
-            </div>
-          </div>
-
-          <div className="col-lg-3 col-md-6 wow fadeInUp" data-wow-delay="0.2s">
-            <div className="member">
-              <img src="img/team-3.jpg" className="img-fluid" alt="" />
-              <div className="member-info">
-                <div className="member-info-content">
-                  <h4>William Anderson</h4>
-                  <span>CTO</span>
-                  <div className="social">
-                  </div>
-                </div>
-              </div>
-            </div>
-          </div>
-
-          <div className="col-lg-3 col-md-6 wow fadeInUp" data-wow-delay="0.3s">
-            <div className="member">
-              <img src="img/team-4.jpg" className="img-fluid" alt=""/>
-              <div className="member-info">
-                <div className="member-info-content">
-                  <h4>Amanda Jepson</h4>
-                  <span>Accountant</span>
-                  <div className="social">
-                  </div>
-                </div>
-              </div>
-            </div>
-          </div>
-
-        </div>
-
-      </div>
-    </section>
+      </section>
     </div>
   );
 }

@@ -58,11 +58,12 @@ function Section() {
                 <div className="carousel-content">
                   <h2>Company overview</h2>
                   <p>
-                    Nam libero tempore, cum soluta nobis est eligendi optio
-                    cumque nihil impedit quo minus id quod maxime placeat facere
-                    possimus, omnis voluptas assumenda est, omnis dolor
-                    repellendus. Temporibus autem quibusdam et aut officiis
-                    debitis aut.
+                    Founded and operated by a team of leaders who are experts
+                    with many years of experience and enthusiasm in the field of
+                    customs. We are the first company in Vietnam specializing in
+                    customs consulting and post-customs clearance data
+                    inspection, having accompanied and supported more than 30
+                    customers, typically Samsung, Posco, Dorco, Hyundai, Inzi,…
                   </p>
                   <a
                     href="#featured-services"
@@ -76,7 +77,9 @@ function Section() {
 
             <div
               className="carousel-item"
-              style={{ backgroundImage: `url('img/intro-carousel/three.jpeg')` }}
+              style={{
+                backgroundImage: `url('img/intro-carousel/three.jpeg')`,
+              }}
             >
               <div className="carousel-container">
                 <div className="carousel-content">

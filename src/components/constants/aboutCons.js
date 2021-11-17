@@ -1,11 +1,10 @@
 export const aboutCons = {
   EN: {
-    heading:
-      "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat.",
+    heading: "NEED CONTENT",
     companyFormation: {
-      heading: "Company Formation Process",
+      heading: "Formation process",
       content:
-        'In 2020, UNI started operations in Vietnam as a pioneer in the field of customs consultancy and post-customs clearance data inspection. During the Covid pandemic, even with a small number of personnel, UNI had more than 30 foreign companies and customers. Typical examples such as Samsung, Posco, Dongsuh, Elentec ... In March 2021, UNI was officially established as "UNI Consulting Co., Ltd".',
+        "In 2020, UNI started operations in Vietnam as a pioneer in the field of customs consultancy and post-customs clearance data inspection. During the Covid pandemic, even with a small number of personnel, UNI had more than 30 foreign companies and customers. Typical examples such as Samsung, Posco, Dongsuh, Elentec... In March 2021, UNI was officially established as “UNI Consulting Co., Ltd”. ",
     },
     vision: {
       heading: "Vision",
@@ -41,9 +40,9 @@ export const aboutCons = {
     heading:
       "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat.",
     companyFormation: {
-      heading: "Company Formation Process",
+      heading: "관세UNI",
       content:
-        'In 2020, UNI started operations in Vietnam as a pioneer in the field of customs consultancy and post-customs clearance data inspection. During the Covid pandemic, even with a small number of personnel, UNI had more than 30 foreign companies and customers. Typical examples such as Samsung, Posco, Dongsuh, Elentec ... In March 2021, UNI was officially established as "UNI Consulting Co., Ltd".',
+        "UNI는 수출입/통관/관세 컨설팅 및 통관 후 데이터 검사 분야의 개척자로서 베트남에서 사업을 시작했습니다. 코로나 격리 기간에도 불구하고 UNI는 30개 이상의 외국계 기업과 베트남 FDI기업을 고객으로 확보하였습니다. 삼성물산, 포스코, 동서가구, 도루코, Elentec, INZI 등",
     },
     vision: {
       heading: "Vision",
