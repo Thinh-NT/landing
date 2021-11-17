@@ -18,11 +18,15 @@ import { useState } from "react";
 import { headerCons } from "./components/constants/headerCons";
 import { servicesCons } from "./components/constants/servicesCons";
 import Sidebar from "./Sidebar";
+import styled from "styled-components";
 export const scroll = new SmoothScroll('a[href*="#"]', {
   speed: 500,
   speedAsDuration: true,
 });
+const Container = styled.div`
 
+  font-family: ${({ lang })=>lang==='KO'?`'Nanum Gothic Coding', serif`:''};
+`;
 const Lang = {
   get: function () {
     let lang = localStorage.getItem("lang");
@@ -60,7 +64,7 @@ function App() {
     <Router>
       <Switch>
         <Route exact path="/">
-          <div>
+          <Container lang={lang}>
             <Sidebar
               isOpen={isOpen}
               toggle={toggle}
@@ -92,7 +96,7 @@ function App() {
             <div style={{ cursor: "pointer" }} className="back-to-top">
               <i className="fa fa-chevron-up"></i>
             </div>
-          </div>
+          </Container>
         </Route>
         <Route>
           <div>404</div>
