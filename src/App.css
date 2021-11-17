@@ -5,14 +5,6 @@
 .border-left {
   border-left: 1px solid #ddd;
 }
-
-.korean-font {
-  font-size: 16px !important;
-  /* font-family: "Nanum Gothic", sans-serif !important; */
-  font-family: "Nanum Gothic Coding", monospace !important;
-  /* font-family: "Noto Sans KR", sans-serif !important; */
-}
-
 select#languages {
   margin-left: 10px;
 }
