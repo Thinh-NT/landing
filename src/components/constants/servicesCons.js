@@ -101,10 +101,10 @@ export const servicesCons = {
           Customs decisions have a huge impact on the operations, finances and
           operations of businesses related to import and export. But in reality,
           sometimes businesses see inadequate about some decisions of customs
-          such as HS codes, channeling or sanctioning... However, due to lack of
-          experience and expertise in legal and regulatory matters. procedures,
-          so businesses are still confused, leading to many difficulties,
-          unreasonable and unsuccessful complaints. <br />
+          such as HS codes,... However, due to lack of experience and expertise
+          in legal and regulatory matters. procedures, so businesses are still
+          confused, leading to many difficulties, unreasonable and unsuccessful
+          complaints. <br />
           {custom && (
             <div>
               <span className="span__description">
