@@ -92,7 +92,7 @@ export const servicesCons = {
         <div className="icon">
           <i className="ion-ios-bookmarks-outline"></i>
         </div>
-        <h4 className="title">Customs decition complaint</h4>
+        <h4 className="title">Customs decition Appeals Proceedings</h4>
         <div className="description">
           <span className="span__description">
             Why is it important to appeal a Customs decision?
@@ -1303,56 +1303,47 @@ export const servicesCons = {
         <div className="icon">
           <i className="ion-ios-bookmarks-outline"></i>
         </div>
-        <h4 className="title">Customs decition complaint</h4>
+        <h4 className="title">Customs decition Appeals Proceedings</h4>
         <div className="description">
           <span className="span__description">
-            Why is it important to appeal a Customs decision?
+            세관 결정에 대한 불복절차는 왜 필요한가요?
           </span>
           <br />
-          Customs decisions have a huge impact on the operations, finances and
-          operations of businesses related to import and export. But in reality,
-          sometimes businesses see inadequate about some decisions of customs
-          such as HS codes, channeling or sanctioning... However, due to lack of
-          experience and expertise in legal and regulatory matters. procedures,
-          so businesses are still confused, leading to many difficulties,
-          unreasonable and unsuccessful complaints. <br />
-          <span className="span__description">
-            Why should you choose UNI as your consulting agency?
-          </span>
-          <br />
-          With in-depth knowledge and practical understanding, we provide a team
-          of experienced consultants and analysts, leading in the field of trade
-          and customs. UNI legal consultants will connect with other related
-          experts to support businesses to review customs decisions, carry out
-          procedures and documents to appeal decisions reasonably and quickly.
-          Best. UNI supports businesses with all issues related to all import
-          and export goods. <br />
-          <span className="span__description">
-            How can UNI support customers?
-          </span>
-          <br />
-          Our goal is to integrate the services of checking data, managing and
-          consulting import and export activities for businesses. In addition,
-          the consulting team can assist with the correct classification of
-          items and certification of origin to receive tariff benefits, as well
-          as advice throughout the trade process.
+          세관 결정은 수출입과 관련된 사업의 재정 및 운영에 막대한 영향을
+          미칩니다. 그러나 실제 기업은 HS 코드, 면세처리 또는 세관절차 등 세관
+          결정이 부당하다고 생각하는 경우가 있습니다. 그러나 기업은 법규 및 규정
+          해석 경험과 전문성이 부족하고, 불복절차는 복잡하고 까다롭습니다. 이에
+          기업은 세관 결정의 불만족에도 불구하고, 불복절차 진행을 꺼리게 됩니다.
           <br />
           <span className="span__description">
-            Services UNI experts provide:
+            관세UNI를 선택해야 하는 이유는?
           </span>
           <br />
-          The team of experts at UNI offers the following items: <br />
+          심층적인 지식과 실무적인 이해를 통해 우리는 무역 및 관세 분야에서
+          다년간 노하우를 쌓은 분석전문가들로 구성된 팀을 제공합니다. 특히 관세
+          UNI는 다른 관련 전문가와 연결하여 기업이 관세 결정을 검토하고
+          합리적이고 신속하게 결정에 항소하기 위한 절차 및 문서를 수행할 수
+          있도록 지원합니다. UNI는 모든 수출입, 통관 및 관세 관련된 모든 문제에
+          애로를 겪고 있는 기업을 지원합니다. <br />
+          <span className="span__description">
+            UNI는 고객을 어떻게 지원할 수 있습니까?
+          </span>
+          <br />
+          우리의 목표는 데이터 확인, 기업의 수출입 활동 관리 및 컨설팅 서비스를
+          통합하는 것입니다. 또한 컨설팅 팀은 관세 혜택을 받을 수 있는 품목의
+          올바른 분류 및 원산지 인증을 지원하고 무역 프로세스 전반에 걸쳐 조언을
+          제공할 수 있습니다.
+          <br />
+          <span className="span__description">
+            UNI 전문가가 제공하는 서비스:
+          </span>
+          <br />
+          UNI의 전문가 팀은 다음 범주 서비스를 제공합니다. <br />
           <ul>
-            <li>
-              An objection to the decision on tax imposition of the General
-              Department of Customs
-            </li>
-            <li>
-              Procedures for complaining about tax decisions of the General
-              Department of Customs
-            </li>
-            <li>Review decision on HS </li>
-            <li>Other </li>
+            <li>세관당국의 조세 부과 결정에 대한 이의신청</li>
+            <li>세관당국의 세금 부과 결정에 대한 불복절차</li>
+            <li>HS심사 및 결정/결정에 대한 재심사 </li>
+            <li>기타 세관 결정에 대한 컨설팅 </li>
           </ul>
         </div>
       </div>

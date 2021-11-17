@@ -30,17 +30,17 @@ function Header(props) {
         <nav id="nav-menu-container">
           <ul className="nav-menu">
             <li className="menu-active">
-              <a href="#intro" className={lang === "KO" ? "fz18" : null}>
+              <a href="#intro" className={lang === "KO" ? "fz16" : null}>
                 {data.Header[lang].home}
               </a>
             </li>
             <li>
-              <a href="#about" className={lang === "KO" ? "fz18" : null}>
+              <a href="#about" className={lang === "KO" ? "fz16" : null}>
                 {data.Header[lang].about}
               </a>
             </li>
             <li>
-              <a href="#services" className={lang === "KO" ? "fz18" : null}>
+              <a href="#services" className={lang === "KO" ? "fz16" : null}>
                 {data.Header[lang].services}
               </a>
             </li>
@@ -51,7 +51,7 @@ function Header(props) {
               <a href="#news">News</a>
             </li> */}
             <li>
-              <a href="#career" className={lang === "KO" ? "fz18" : null}>
+              <a href="#career" className={lang === "KO" ? "fz16" : null}>
                 {data.Header[lang].carrer}
               </a>
             </li>
@@ -59,7 +59,7 @@ function Header(props) {
               <a href="#team">Team</a>
             </li> */}
             <li>
-              <a href="#contact" className={lang === "KO" ? "fz18" : null}>
+              <a href="#contact" className={lang === "KO" ? "fz16" : null}>
                 {data.Header[lang].contact}
               </a>
             </li>
@@ -67,7 +67,7 @@ function Header(props) {
               <a
                 className={
                   lang === "KO"
-                    ? "nav-link dropdown-toggle fz18"
+                    ? "nav-link dropdown-toggle fz16"
                     : "nav-link dropdown-toggle"
                 }
                 data-toggle="dropdown"
