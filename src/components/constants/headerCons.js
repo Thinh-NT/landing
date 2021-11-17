@@ -18,6 +18,6 @@ export const headerCons = {
     about: "소개",
     services: "서비스",
     carrer: "채용안내",
-    contact: "연락하다",
+    contact: "CONTACT",
   },
 };
