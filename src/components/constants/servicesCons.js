@@ -1293,7 +1293,7 @@ export const servicesCons = {
         <div className="icon">
           <i className="ion-ios-bookmarks-outline"></i>
         </div>
-        <h4 className="title">Customs decition Appeals Proceedings</h4>
+        <h4 className="title">세관 결정에 대한 불복 절차 </h4>
         <div className="description">
           <span className="span__description">
             세관 결정에 대한 불복절차는 왜 필요한가요?
@@ -1305,18 +1305,18 @@ export const servicesCons = {
           해석 경험과 전문성이 부족하고, 불복절차는 복잡하고 까다롭습니다. 이에
           기업은 세관 결정의 불만족에도 불구하고, 불복절차 진행을 꺼리게 됩니다.
           <br />
-          <span className="span__description">
-            관세UNI를 선택해야 하는 이유는?
-          </span>
-          <br />
-          심층적인 지식과 실무적인 이해를 통해 우리는 무역 및 관세 분야에서
-          다년간 노하우를 쌓은 분석전문가들로 구성된 팀을 제공합니다. 특히 관세
-          UNI는 다른 관련 전문가와 연결하여 기업이 관세 결정을 검토하고
-          합리적이고 신속하게 결정에 항소하기 위한 절차 및 문서를 수행할 수
-          있도록 지원합니다. UNI는 모든 수출입, 통관 및 관세 관련된 모든 문제에
-          애로를 겪고 있는 기업을 지원합니다. <br />
           {custom && (
             <div>
+              <span className="span__description">
+                관세UNI를 선택해야 하는 이유는?
+              </span>
+              <br />
+              심층적인 지식과 실무적인 이해를 통해 우리는 무역 및 관세 분야에서
+              다년간 노하우를 쌓은 분석전문가들로 구성된 팀을 제공합니다. 특히
+              관세 UNI는 다른 관련 전문가와 연결하여 기업이 관세 결정을 검토하고
+              합리적이고 신속하게 결정에 항소하기 위한 절차 및 문서를 수행할 수
+              있도록 지원합니다. UNI는 모든 수출입, 통관 및 관세 관련된 모든
+              문제에 애로를 겪고 있는 기업을 지원합니다. <br />
               <span className="span__description">
                 UNI는 고객을 어떻게 지원할 수 있습니까?
               </span>
