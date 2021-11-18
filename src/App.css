@@ -5,11 +5,6 @@
 .border-left {
   border-left: 1px solid #ddd;
 }
-
-.fz16 {
-  font-size: 16px !important;
-}
-
 select#languages {
   margin-left: 10px;
 }
