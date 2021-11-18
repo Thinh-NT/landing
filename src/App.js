@@ -25,7 +25,7 @@ export const scroll = new SmoothScroll('a[href*="#"]', {
 });
 const Container = styled.div`
 
-  font-family: ${({ lang })=>lang==='KO'?`'Nanum Gothic Coding', serif`:''};
+  font-family: ${({ lang })=>lang==='KO'?`'Nanum Gothic Coding', serif !important`:''};
 `;
 const Lang = {
   get: function () {
