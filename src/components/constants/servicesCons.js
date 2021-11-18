@@ -164,67 +164,46 @@ export const servicesCons = {
         <div className="icon">
           <i className="ion-ios-paper-outline"></i>
         </div>
-        <h4 className="title">FTA-CO consultation</h4>
+        <h4 className="title">FTA origin consulting </h4>
         <div className="description">
           <span className="span__description">
-            Why is consulting business metrics important?
+            Why is FTA origin consulting important?
           </span>
           <br />
-          In the period of global economic integration and trade liberalization,
-          Vietnam has actively participated in the negotiation and signing of
-          bilateral and multilateral FTAs. An FTA is an agreement between two or
-          more countries or territories for the purpose of liberalizing trade in
-          one or more groups of goods by reducing tariffs. In order to benefit
-          from FTAs, businesses also need to meet a lot of requirements on
-          documents, certification, strict rules on investment procedures,
-          customs, trade facilitation, and technical standards. , measures to
-          quarantine animals and plants, intellectual property ... require
-          Vietnamese enterprises to understand and apply flexibly and honestly
-          according to regulations. Therefore, If not, they will need an
-          professional agency to take care of it better.
+          In line with the trend of global economic integration and trade
+          liberalization, Vietnam has been an active participant in bilateral
+          and multilateral FTA negotiations and signing. In order to enjoy
+          benefit of FTAs, It must meet stringent standards of origin and prove
+          origin. Therefore, it is necessary to establish an origin management
+          internal procedure with the help of FTA experts.
           <br />
           {fta && (
             <div>
-              <span className="span__description">
-                Why should you choose UNI as your consulting consultant?
-              </span>
+              <span className="span__description">Why UNI FTA Consulting?</span>
               <br />
-              With in-depth knowledge and practical understanding, we provide a
-              team of experienced consultants and analysts, leading in the field
-              of trade and customs. The legal UNI consultant will actively
-              support businesses to carry out procedures and papers to make full
-              use of FTAs. Support businesses with all issues related to all
-              import and export goods.
-              <br />
-              <span className="span__description">
-                How can UNI support customers?
-              </span>
-              <br />
-              Our goal is to provide data checking, management and consulting
-              services for post-clearance activities to help businesses. In
-              addition, the consulting team can assist with the correct
-              classification of certified products of origin, the relevant
-              paperwork to receive tariff benefits, as well as advice throughout
-              the trade process. . Constantly updating various media,
-              dispatches, tax decisions and regulations need to be closely
-              monitored, researched and promptly responded to when there is new
-              information and regulations…
+              With in-depth knowledge and hands-on understanding, we provide a
+              team of analysts with many years of experience in the field of
+              trade and customs. UNI Consulting will actively support the
+              preparation of necessary procedures and documents for increase the
+              utilization of FTAs ​​by companies. UNI provide high-quality
+              consulting by considering all issues related to import/export and
+              customs clearance that may directly or indirectly affect the FTA
+              origin.
               <br />
               <span className="span__description">
-                Services UNI experts provide:
+                UNI Consulting FTA Services:
               </span>
               <br />
-              UNI's team experts offer the following categories:
+              We provide consulting services specializing in FTAs ​​in the
+              following fields:
               <ul>
-                <li>EU-VIET FTA / CPTPP</li>
-                <li>GSP-REX</li>
-                <li>Apply for an export license </li>
-                <li>Consulting certificate of origin C/O </li>
+                <li>EU/CPTPP/GSP/Korea/Japan/ASEAN/China </li>
+                <li>Consulting Certificate of Origin C/O Issuance </li>
                 <li>
-                  Advising on the application of FTAs ​​for each specific
-                  product or industry
+                  FTA company internal management system by specific product or
+                  industry
                 </li>
-                <li>Other</li>
+                <li>Other FTA and Origin Consulting </li>
               </ul>
             </div>
           )}
@@ -1356,63 +1335,34 @@ export const servicesCons = {
         <div className="icon">
           <i className="ion-ios-paper-outline"></i>
         </div>
-        <h4 className="title">FTA-CO consultation</h4>
+        <h4 className="title">FTA 원산지 컨설팅</h4>
         <div className="description">
           <span className="span__description">
-            Why is consulting business metrics important?
+            왜 FTA 원산지 컨설팅이 중요합니까?
           </span>
           <br />
-          In the period of global economic integration and trade liberalization,
-          Vietnam has actively participated in the negotiation and signing of
-          bilateral and multilateral FTAs. An FTA is an agreement between two or
-          more countries or territories for the purpose of liberalizing trade in
-          one or more groups of goods by reducing tariffs. In order to benefit
-          from FTAs, businesses also need to meet a lot of requirements on
-          documents, certification, strict rules on investment procedures,
-          customs, trade facilitation, and technical standards. , measures to
-          quarantine animals and plants, intellectual property ... require
-          Vietnamese enterprises to understand and apply flexibly and honestly
-          according to regulations. Therefore, If not, they will need an
-          professional agency to take care of it better.
+          세계 경제 통합 및 무역 자유화 시대 흐름에 맞추어, 베트남은 양자 및
+          다자간 FTA 협상 및 서명에 적극적으로 참여해 왔습니다. FTA의 혜택을
+          받기 위해서는 엄격한 원산지 기준 충족 및 원산지 입증이 필요합니다.
+          따라서 전문가의 도움을 받아 기업 내부 원산지 관리 절차를 정립할 필요가
+          있습니다.
           <br />
-          <span className="span__description">
-            Why should you choose UNI as your consulting consultant?
-          </span>
+          <span className="span__description">관세 유니 FTA 컨설팅?</span>
           <br />
-          With in-depth knowledge and practical understanding, we provide a team
-          of experienced consultants and analysts, leading in the field of trade
-          and customs. The legal UNI consultant will actively support businesses
-          to carry out procedures and papers to make full use of FTAs. Support
-          businesses with all issues related to all import and export goods.
+          심층적인 지식과 실무적인 이해를 통해 우리는 무역 및 관세 분야에서
+          다년간 노하우를 쌓은 분석전문가들로 구성된 팀을 제공합니다. UNI
+          컨설팅은 기업의 FTA 활용도를 높이기 위해 필요한 절차와 서류를 준비할
+          수 있도록 적극 지원하겠습니다. FTA원산지에 직간접 영향을 미칠 수 있는
+          수출입 통관 관련된 문제까지 고려하여 수준 높은 컨설팅을 지원합니다.
           <br />
-          <span className="span__description">
-            How can UNI support customers?
-          </span>
+          <span className="span__description">관세 유니 FTA 서비스:</span>
           <br />
-          Our goal is to provide data checking, management and consulting
-          services for post-clearance activities to help businesses. In
-          addition, the consulting team can assist with the correct
-          classification of certified products of origin, the relevant paperwork
-          to receive tariff benefits, as well as advice throughout the trade
-          process. . Constantly updating various media, dispatches, tax
-          decisions and regulations need to be closely monitored, researched and
-          promptly responded to when there is new information and regulations…
-          <br />
-          <span className="span__description">
-            Services UNI experts provide:
-          </span>
-          <br />
-          Đội ngũ chuyên gia tại UNI cung cấp các hạng mục sau:
+          다음 분야 FTA 전문 컨설팅 서비스를 제공합니다.
           <ul>
-            <li>EU-VIET FTA / CPTPP</li>
-            <li>GSP-REX</li>
-            <li>Apply for an export license </li>
-            <li>Consulting certificate of origin C/O </li>
-            <li>
-              Advising on the application of FTAs ​​for each specific product or
-              industry
-            </li>
-            <li>Other</li>
+            <li>EU/CPTPP/GSP/한국/일본/아세안/중국 </li>
+            <li>컨설팅 원산지증명서 C/O 발급 </li>
+            <li>특정 제품 또는 산업별 FTA 기업 내부 관리 시스템 </li>
+            <li>기타 FTA 및 원산지 컨설팅 </li>
           </ul>
         </div>
       </div>
