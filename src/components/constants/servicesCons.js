@@ -1368,7 +1368,6 @@ export const servicesCons = {
           따라서 전문가의 도움을 받아 기업 내부 원산지 관리 절차를 정립할 필요가
           있습니다.
           <br />
-<<<<<<< HEAD
           <span className="span__description">관세 유니 FTA 컨설팅?</span>
           <br />
           심층적인 지식과 실무적인 이해를 통해 우리는 무역 및 관세 분야에서
@@ -1386,59 +1385,6 @@ export const servicesCons = {
             <li>특정 제품 또는 산업별 FTA 기업 내부 관리 시스템 </li>
             <li>기타 FTA 및 원산지 컨설팅 </li>
           </ul>
-=======
-          {fta && (
-            <div>
-              <span className="span__description">
-                Why should you choose UNI as your consulting consultant?
-              </span>
-              <br />
-              With in-depth knowledge and practical understanding, we provide a
-              team of experienced consultants and analysts, leading in the field
-              of trade and customs. The legal UNI consultant will actively
-              support businesses to carry out procedures and papers to make full
-              use of FTAs. Support businesses with all issues related to all
-              import and export goods.
-              <br />
-              <span className="span__description">
-                How can UNI support customers?
-              </span>
-              <br />
-              Our goal is to provide data checking, management and consulting
-              services for post-clearance activities to help businesses. In
-              addition, the consulting team can assist with the correct
-              classification of certified products of origin, the relevant
-              paperwork to receive tariff benefits, as well as advice throughout
-              the trade process. . Constantly updating various media,
-              dispatches, tax decisions and regulations need to be closely
-              monitored, researched and promptly responded to when there is new
-              information and regulations…
-              <br />
-              <span className="span__description">
-                Services UNI experts provide:
-              </span>
-              <br />
-              UNI's team experts offer the following categories:
-              <ul>
-                <li>EU-VIET FTA / CPTPP</li>
-                <li>GSP-REX</li>
-                <li>Apply for an export license </li>
-                <li>Consulting certificate of origin C/O </li>
-                <li>
-                  Advising on the application of FTAs ​​for each specific
-                  product or industry
-                </li>
-                <li>Other</li>
-              </ul>
-            </div>
-          )}
-        </div>
-        <div
-          className="text-primary description123"
-          onClick={() => setFta(!fta)}
-        >
-          Show {fta ? "Less" : "More"}
->>>>>>> e8acdd1ccbf99f1c90181e68a0417d7edee24dbf
         </div>
       </div>
     ),
