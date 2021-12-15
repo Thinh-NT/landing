@@ -10,9 +10,9 @@ import Client7 from "../assets/customer/Picture7.png";
 import Client8 from "../assets/customer/Picture8.png";
 
 
-function Contact({ lang }) {
+function Client({ lang }) {
   return (
-    <section id="contact" className="section-bg wow fadeInUp">
+    <section id="client" className="section-bg wow fadeInUp">
       <div className="container">
         <div className="section-header">
           <h3>{headerCons[lang].customers}</h3>
@@ -50,4 +50,4 @@ function Contact({ lang }) {
   );
 }
 
-export default Contact;
+export default Client;

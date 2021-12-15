@@ -38,20 +38,14 @@ function Header(props) {
             <li>
               <a href="#services">{data.Header[lang].services}</a>
             </li>
-            {/* <li>
-              <a href="#portfolio">Portfolio</a>
-            </li> */}
-            {/* <li>
-              <a href="#news">News</a>
-            </li> */}
             <li>
               <a href="#career">{data.Header[lang].career}</a>
             </li>
-            {/* <li>
-              <a href="#team">Team</a>
-            </li> */}
             <li>
-              <a href="#contact">{data.Header[lang].contact}</a>
+              <a href="#client">{data.Header[lang].customers}</a>
+            </li>
+            <li>
+              <a href="#footer">{data.Header[lang].contact}</a>
             </li>
             <li className="nav-item dropdown">
               <a

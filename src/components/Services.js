@@ -25,17 +25,14 @@ function Services({ lang }) {
           {servicesCons[lang].FTA(fta, setFta)}
           {servicesCons[lang].Sale(sale, setSale)}
           <div id="logistics">
-          {servicesCons[lang].Logistics(logistic, setLogistic)}
+            {servicesCons[lang].Logistics(logistic, setLogistic)}
           </div>
           <div id="marketreseach">
-          {servicesCons[lang].MarketReseach(market, setMarket)}
+            {servicesCons[lang].MarketReseach(market, setMarket)}
           </div>
           {servicesCons[lang].Setup(rebuild, setRebuild)}
-          <div id="tariff">
-          {servicesCons[lang].Tariff(tariff, setTariff)}
-          </div>
-
-          {servicesCons[lang].Tax(tax, setTax)}
+          <div id="tariff">{servicesCons[lang].Tariff(tariff, setTariff)}</div>
+          <div id="tax">{servicesCons[lang].Tax(tax, setTax)}</div>
         </div>
       </div>
     </section>

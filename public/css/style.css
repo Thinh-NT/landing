@@ -714,6 +714,8 @@ body.mobile-nav-active #mobile-nav-toggle {
 
 #services .box {
   margin-bottom: 30px;
+  margin-top: 30px;
+
 }
 
 #services .icon {
@@ -1208,29 +1210,29 @@ body.mobile-nav-active #mobile-nav-toggle {
 
 /* Contact Section
 --------------------------------*/
-#contact {
+#client {
   padding: 60px 0;
 }
 
-#contact .contact-info {
+#client .contact-info {
   margin-bottom: 20px;
   text-align: center;
 }
 
-#contact .contact-info i {
+#client .contact-info i {
   font-size: 48px;
   display: inline-block;
   margin-bottom: 10px;
   color: var(--uni-color);
 }
 
-#contact .contact-info address,
-#contact .contact-info p {
+#client .contact-info address,
+#client .contact-info p {
   margin-bottom: 0;
   color: #000;
 }
 
-#contact .contact-info h3 {
+#client .contact-info h3 {
   font-size: 18px;
   margin-bottom: 15px;
   font-weight: bold;
@@ -1238,36 +1240,36 @@ body.mobile-nav-active #mobile-nav-toggle {
   color: #999;
 }
 
-#contact .contact-info a {
+#client .contact-info a {
   color: #000;
 }
 
-#contact .contact-info a:hover {
+#client .contact-info a:hover {
   color: var(--uni-color);
 }
 
-#contact .contact-address,
-#contact .contact-phone,
-#contact .contact-email {
+#client .contact-address,
+#client .contact-phone,
+#client .contact-email {
   margin-bottom: 20px;
 }
 
 @media (min-width: 768px) {
-  #contact .contact-address,
-  #contact .contact-phone,
-  #contact .contact-email {
+  #client .contact-address,
+  #client .contact-phone,
+  #client .contact-email {
     padding: 20px 0;
   }
 }
 
 @media (min-width: 768px) {
-  #contact .contact-phone {
+  #client .contact-phone {
     border-left: 1px solid #ddd;
     border-right: 1px solid #ddd;
   }
 }
 
-#contact .form #sendmessage {
+#client .form #sendmessage {
   color: var(--uni-color);
   border: 1px solid var(--uni-color);
   display: none;
@@ -1277,7 +1279,7 @@ body.mobile-nav-active #mobile-nav-toggle {
   margin-bottom: 15px;
 }
 
-#contact .form #errormessage {
+#client .form #errormessage {
   color: red;
   display: none;
   border: 1px solid red;
@@ -1287,13 +1289,13 @@ body.mobile-nav-active #mobile-nav-toggle {
   margin-bottom: 15px;
 }
 
-#contact .form #sendmessage.show,
-#contact .form #errormessage.show,
-#contact .form .show {
+#client .form #sendmessage.show,
+#client .form #errormessage.show,
+#client .form .show {
   display: block;
 }
 
-#contact .form .validation {
+#client .form .validation {
   color: red;
   display: none;
   margin: 0 0 20px;
@@ -1301,15 +1303,15 @@ body.mobile-nav-active #mobile-nav-toggle {
   font-size: 13px;
 }
 
-#contact .form input,
-#contact .form textarea {
+#client .form input,
+#client .form textarea {
   padding: 10px 14px;
   border-radius: 0;
   box-shadow: none;
   font-size: 15px;
 }
 
-#contact .form button[type="submit"] {
+#client .form button[type="submit"] {
   background: var(--uni-color);
   border: 0;
   padding: 10px 30px;
@@ -1318,7 +1320,7 @@ body.mobile-nav-active #mobile-nav-toggle {
   cursor: pointer;
 }
 
-#contact .form button[type="submit"]:hover {
+#client .form button[type="submit"]:hover {
   background: #13a456;
 }
 
@@ -1482,4 +1484,7 @@ body.mobile-nav-active #mobile-nav-toggle {
   text-align: center;
   font-size: 13px;
   color: #ddd;
+}
+.Slide__summary{
+  font-size:23px;
 }

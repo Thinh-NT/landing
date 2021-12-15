@@ -6,7 +6,7 @@ function Footer() {
       <div className="footer-top">
         <div className="container">
           <div className="row Footer__content">
-            <div className="col-lg-3 col-md-6 footer-info">
+            {/* <div className="col-lg-3 col-md-6 footer-info">
               <h3>Uni Consulting</h3>
               <p>
                 Thảo xinh dep odio eu feugiat lide par naso tierra. Justo eget
@@ -14,7 +14,7 @@ function Footer() {
                 iaculis eu non diam phasellus. Scelerisque felis imperdiet proin
                 fermentum leo. Amet volutpat consequat mauris nunc congue.
               </p>
-            </div>
+            </div> */}
             <div className="col-lg-3 col-md-6 footer-contact">
               <h4>Contact Us</h4>
               <p>

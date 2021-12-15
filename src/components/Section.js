@@ -18,9 +18,9 @@ function Section({ lang }) {
               <div className="carousel-container">
                 <div className="carousel-content">
                   <h2>{slideCons[lang].slide1.heading}</h2>
-                  <p>{slideCons[lang].slide1.content}</p>
-                  <a href="#tariff" className="btn-get-started scrollto">
-                    Get Started
+                  <p className="Slide__summary">{slideCons[lang].slide1.content}</p>
+                  <a href="#tax" className="btn-get-started scrollto">
+                    {slideCons[lang].start}
                   </a>
                 </div>
               </div>
@@ -32,9 +32,9 @@ function Section({ lang }) {
               <div className="carousel-container">
                 <div className="carousel-content">
                   <h2>{slideCons[lang].slide2.heading}</h2>
-                  <p>{slideCons[lang].slide2.content}</p>
+                  <p className="Slide__summary">{slideCons[lang].slide2.content}</p>
                   <a href="#logistics" className="btn-get-started scrollto">
-                    Get Started
+                    {slideCons[lang].start}
                   </a>
                 </div>
               </div>
@@ -48,9 +48,9 @@ function Section({ lang }) {
               <div className="carousel-container">
                 <div className="carousel-content">
                   <h2>{slideCons[lang].slide3.heading}</h2>
-                  <p>{slideCons[lang].slide3.content}</p>
+                  <p className="Slide__summary">{slideCons[lang].slide3.content}</p>
                   <a href="#tariff" className="btn-get-started scrollto">
-                    Get Started
+                    {slideCons[lang].start}
                   </a>
                 </div>
               </div>
@@ -62,12 +62,12 @@ function Section({ lang }) {
               <div className="carousel-container">
                 <div className="carousel-content">
                   <h2>{slideCons[lang].slide4.heading}</h2>
-                  <p>{slideCons[lang].slide4.content}</p>
+                  <p className="Slide__summary">{slideCons[lang].slide4.content}</p>
                   <a
                     href="#featured-services"
                     className="btn-get-started scrollto"
                   >
-                    Get Started
+                    {slideCons[lang].start}
                   </a>
                 </div>
               </div>
@@ -79,9 +79,9 @@ function Section({ lang }) {
               <div className="carousel-container">
                 <div className="carousel-content">
                   <h2>{slideCons[lang].slide5.heading}</h2>
-                  <p>{slideCons[lang].slide5.content}</p>
+                  <p className="Slide__summary">{slideCons[lang].slide5.content}</p>
                   <a href="#marketreseach" className="btn-get-started scrollto">
-                    Get Started
+                    {slideCons[lang].start}
                   </a>
                 </div>
               </div>

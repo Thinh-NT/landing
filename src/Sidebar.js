@@ -105,6 +105,14 @@ const Sidebar = ({ toggle, isOpen, data, lang, setLang }) => {
             onClick={toggle}
             smooth={true}
           >
+            {data.Header[lang].customers}
+          </SidebarLink>
+          <SidebarLink
+            to="contact"
+            className="btn__mobile"
+            onClick={toggle}
+            smooth={true}
+          >
             {data.Header[lang].contact}
           </SidebarLink>
           <div className="nav-item dropdown">

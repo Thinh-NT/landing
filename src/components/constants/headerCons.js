@@ -5,7 +5,7 @@ export const headerCons = {
     services: "Services",
     career: "Career Opportunities",
     contact: "Contact",
-    customers: "daooccho"
+    customers: "Client"
   },
   VI: {
     home: "Trang chủ",

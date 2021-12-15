@@ -23,6 +23,7 @@ export const slideCons = {
       content:
         "Phân tích và tư vấn chuẩn xác, nhanh chóng về xu hướng ngành, đối thủ cạnh tranh… theo yêu cầu, dựa trên việc phân tích số liệu thực tế.",
     },
+    start :"Get start"
   },
   VI: {
     slide1: {
@@ -50,6 +51,7 @@ export const slideCons = {
       content:
         "Phân tích và tư vấn chuẩn xác, nhanh chóng về xu hướng ngành, đối thủ cạnh tranh… theo yêu cầu, dựa trên việc phân tích số liệu thực tế.",
     },
+    start :"Chi tiết"
   },
   KO: {
     slide1: {
@@ -76,5 +78,7 @@ export const slideCons = {
       content:
         "Phân tích và tư vấn chuẩn xác, nhanh chóng về xu hướng ngành, đối thủ cạnh tranh… theo yêu cầu, dựa trên việc phân tích số liệu thực tế.",
     },
+    start :"Chi tiết KO"
+
   },
 };

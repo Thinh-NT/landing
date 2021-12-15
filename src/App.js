@@ -5,7 +5,7 @@ import Section from "./components/Section";
 import About from "./components/About";
 import Services from "./components/Services";
 // import Clients from "./components/Clients";
-import Contact from "./components/Contact";
+import Client from "./components/Client";
 import Footer from "./components/Footer";
 import Career from "./components/Career";
 import { BrowserRouter as Router, Switch, Route } from "react-router-dom";
@@ -77,7 +77,7 @@ function App() {
               <About lang={lang} />
               <Services data={data} lang={lang} />
               <Career lang={lang} />
-              <Contact lang={lang} />
+              <Client lang={lang} />
             </main>
             <Footer lang={lang} />
             <div style={{ cursor: "pointer" }} className="back-to-top">
