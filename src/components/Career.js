@@ -7,7 +7,7 @@ function Career({ lang }) {
     <section id="career" className="section-bg wow fadeInUp">
       <div className="container">
         <div className="section-header">
-          <h3>{headerCons[lang].carrer}</h3>
+          <h3>{headerCons[lang].career}</h3>
           <div>
             {careerCons[lang].top()}
             <div className="career-welfare">

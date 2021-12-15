@@ -15,31 +15,6 @@ function Footer() {
                 fermentum leo. Amet volutpat consequat mauris nunc congue.
               </p>
             </div>
-
-            {/* <div className="col-lg-3 col-md-6 footer-links">
-              <h4>Useful Links</h4>
-              <ul>
-                <li>
-                  <i className="ion-ios-arrow-right"></i> <a href="#a">Home</a>
-                </li>
-                <li>
-                  <i className="ion-ios-arrow-right"></i>{" "}
-                  <a href="#a">About us</a>
-                </li>
-                <li>
-                  <i className="ion-ios-arrow-right"></i>{" "}
-                  <a href="#a">Services</a>
-                </li>
-                <li>
-                  <i className="ion-ios-arrow-right"></i>{" "}
-                  <a href="#a">Terms of service</a>
-                </li>
-                <li>
-                  <i className="ion-ios-arrow-right"></i>{" "}
-                  <a href="#a">Privacy policy</a>
-                </li>
-              </ul>
-            </div> */}
             <div className="col-lg-3 col-md-6 footer-contact">
               <h4>Contact Us</h4>
               <p>
@@ -55,24 +30,6 @@ function Footer() {
                 <a href="mailto:univn@uni-cus.net">univn@uni-cus.net</a>
                 <br />
               </p>
-
-              <div className="social-links">
-                <div className="twitter">
-                  <i className="fa fa-twitter"></i>
-                </div>
-                <div className="facebook">
-                  <i className="fa fa-facebook"></i>
-                </div>
-                <div className="instagram">
-                  <i className="fa fa-instagram"></i>
-                </div>
-                <div className="google-plus">
-                  <i className="fa fa-google-plus"></i>
-                </div>
-                <div className="linkedin">
-                  <i className="fa fa-linkedin"></i>
-                </div>
-              </div>
             </div>
             <div className="col-lg-3 col-md-6 footer-newsletter">
               <h4>Our Newsletter</h4>

@@ -3,21 +3,25 @@ export const headerCons = {
     home: "Home",
     about: "About",
     services: "Services",
-    carrer: "Carrer Opportunities",
+    career: "Career Opportunities",
     contact: "Contact",
+    customers: "daooccho"
   },
   VI: {
     home: "Trang chủ",
     about: "Giới thiệu",
     services: "Dịch vụ",
-    carrer: "Tuyển dụng",
+    career: "Tuyển dụng",
     contact: "Liên hệ",
+    customers: "Khách hàng"
+
   },
   KO: {
     home: "홈",
     about: "소개",
     services: "서비스",
-    carrer: "채용안내",
+    career: "채용안내",
     contact: "CONTACT",
+    customers: "Khách hàng"
   },
 };

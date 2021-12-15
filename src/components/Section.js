@@ -1,6 +1,6 @@
 import React from "react";
-
-function Section() {
+import { slideCons } from "./constants/slideCons";
+function Section({ lang }) {
   return (
     <section id="intro">
       <div className="intro-container">
@@ -10,71 +10,35 @@ function Section() {
           data-ride="carousel"
         >
           <ol className="carousel-indicators"></ol>
-
           <div className="carousel-inner" role="listbox">
             <div
               className="carousel-item active"
-              style={{ backgroundImage: `url('img/intro-carousel/one.jpg')` }}
+              style={{ backgroundImage: `url('img/intro-carousel/five.jpg')` }}
             >
               <div className="carousel-container">
                 <div className="carousel-content">
-                  <h2>Outstanding fields</h2>
-                  <p>
-                    Consectetur adipiscing elit, sed do eiusmod tempor
-                    incididuntLorem ipsum dolor sit amet, consectetur adipiscing
-                    elit, sed do eiusmod tempor incididunt Lorem ipsum dolor sit
-                    amet, consectetur adipiscing elit, sed do eiusmod tempor
-                    incididunt Lorem ipsum dolor sit amet, consectetur
-                    adipiscing elit, sed do eiusmod tempor incididunt Lorem
-                    ipsum dolor sit amet, consectetur adipiscing elit, sed do
-                    eiusmod tempor incididunt Lorem ipsum dolor sit amet,
-                    consectetur adipiscing elit, sed do eiusmod tempor
-                    incididunt Lorem ipsum dolor sit amet, consectetur
-                    adipiscing elit, sed do eiusmod tempor incididunt Lorem
-                    ipsum dolor sit amet, consectetur adipiscing elit, sed do
-                    eiusmod tempor incididunt Lorem ipsum dolor sit amet,
-                    consectetur adipiscing elit, sed do eiusmod tempor
-                    incididunt Lorem ipsum dolor sit amet, consectetur
-                    adipiscing elit, sed do eiusmod tempor incididunt ut labore
-                    et dolore magna aliqua. Ut enim ad minim veniam, quis
-                    nostrud exercitation ullamco laboris nisi ut aliquip ex ea
-                    commodo consequat.
-                  </p>
-                  <a
-                    href="#featured-services"
-                    className="btn-get-started scrollto"
-                  >
+                  <h2>{slideCons[lang].slide1.heading}</h2>
+                  <p>{slideCons[lang].slide1.content}</p>
+                  <a href="#tariff" className="btn-get-started scrollto">
                     Get Started
                   </a>
                 </div>
               </div>
             </div>
-
             <div
               className="carousel-item"
               style={{ backgroundImage: `url('img/intro-carousel/two.jpg')` }}
             >
               <div className="carousel-container">
                 <div className="carousel-content">
-                  <h2>Company overview</h2>
-                  <p>
-                    Founded and operated by a team of leaders who are experts
-                    with many years of experience and enthusiasm in the field of
-                    customs. We are the first company in Vietnam specializing in
-                    customs consulting and post-customs clearance data
-                    inspection, having accompanied and supported more than 30
-                    customers, typically Samsung, Posco, Dorco, Hyundai, Inzi,…
-                  </p>
-                  <a
-                    href="#featured-services"
-                    className="btn-get-started scrollto"
-                  >
+                  <h2>{slideCons[lang].slide2.heading}</h2>
+                  <p>{slideCons[lang].slide2.content}</p>
+                  <a href="#logistics" className="btn-get-started scrollto">
                     Get Started
                   </a>
                 </div>
               </div>
             </div>
-
             <div
               className="carousel-item"
               style={{
@@ -83,37 +47,22 @@ function Section() {
             >
               <div className="carousel-container">
                 <div className="carousel-content">
-                  <h2>Lorem ipsum dolor sit.</h2>
-                  <p>
-                    Beatae vitae dicta sunt explicabo. Nemo enim ipsam
-                    voluptatem quia voluptas sit aspernatur aut odit aut fugit,
-                    sed quia consequuntur magni dolores eos qui ratione
-                    voluptatem sequi nesciunt omnis iste natus error sit
-                    voluptatem accusantium.
-                  </p>
-                  <a
-                    href="#featured-services"
-                    className="btn-get-started scrollto"
-                  >
+                  <h2>{slideCons[lang].slide3.heading}</h2>
+                  <p>{slideCons[lang].slide3.content}</p>
+                  <a href="#tariff" className="btn-get-started scrollto">
                     Get Started
                   </a>
                 </div>
               </div>
             </div>
-
             <div
               className="carousel-item"
               style={{ backgroundImage: `url('img/intro-carousel/four.jpg')` }}
             >
               <div className="carousel-container">
                 <div className="carousel-content">
-                  <h2>Lorem, ipsum dolor.</h2>
-                  <p>
-                    Neque porro quisquam est, qui dolorem ipsum quia dolor sit
-                    amet, consectetur, adipisci velit, sed quia non numquam eius
-                    modi tempora incidunt ut labore et dolore magnam aliquam
-                    quaerat voluptatem. Ut enim ad minima veniam, quis nostrum.
-                  </p>
+                  <h2>{slideCons[lang].slide4.heading}</h2>
+                  <p>{slideCons[lang].slide4.content}</p>
                   <a
                     href="#featured-services"
                     className="btn-get-started scrollto"
@@ -123,31 +72,21 @@ function Section() {
                 </div>
               </div>
             </div>
-
             <div
               className="carousel-item"
-              style={{ backgroundImage: `url('img/intro-carousel/five.jpg')` }}
+              style={{ backgroundImage: `url('img/intro-carousel/one.jpg')` }}
             >
               <div className="carousel-container">
                 <div className="carousel-content">
-                  <h2>Lorem, ipsum dolor.</h2>
-                  <p>
-                    Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed
-                    do eiusmod tempor incididunt ut labore et dolore magna
-                    aliqua. Ut enim ad minim veniam, quis nostrud exercitation
-                    ullamco laboris nisi ut aliquip ex ea commodo consequat.
-                  </p>
-                  <a
-                    href="#featured-services"
-                    className="btn-get-started scrollto"
-                  >
+                  <h2>{slideCons[lang].slide5.heading}</h2>
+                  <p>{slideCons[lang].slide5.content}</p>
+                  <a href="#marketreseach" className="btn-get-started scrollto">
                     Get Started
                   </a>
                 </div>
               </div>
             </div>
           </div>
-
           <a
             className="carousel-control-prev"
             href="#introCarousel"
@@ -160,7 +99,6 @@ function Section() {
             ></span>
             <span className="sr-only">Previous</span>
           </a>
-
           <a
             className="carousel-control-next"
             href="#introCarousel"
@@ -178,5 +116,4 @@ function Section() {
     </section>
   );
 }
-
 export default Section;

@@ -92,12 +92,12 @@ const Sidebar = ({ toggle, isOpen, data, lang, setLang }) => {
             {data.Header[lang].services}
           </SidebarLink>
           <SidebarLink
-            to="carrer"
+            to="career"
             className="btn__mobile"
             onClick={toggle}
             smooth={true}
           >
-            {data.Header[lang].carrer}
+            {data.Header[lang].career}
           </SidebarLink>
           <SidebarLink
             to="contact"

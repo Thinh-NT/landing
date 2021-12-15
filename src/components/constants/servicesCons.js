@@ -594,6 +594,85 @@ export const servicesCons = {
         </div>
       </div>
     ),
+    Tax: (tax, setTax) => (
+      <div
+        className="col-lg-12 col-md-6 box wow bounceInUp"
+        data-wow-delay="0.1s"
+        data-wow-duration="1.4s"
+      >
+        <div className="icon">
+          <i className="ion-ios-book-outline"></i>
+        </div>
+        <h4 className="title">Tax refund material balance management</h4>
+        <div className="description">
+          <span className="span__description">
+            Why is it important to check data after customs clearance?
+          </span>
+          <br />
+          In recent years, the implementation of customs procedures has been
+          reformed and shortened greatly by state agencies to facilitate
+          businesses. Therefore, customs also tightened the post-clearance
+          inspection of goods more in order to check the truthfulness,
+          reasonableness and reliability of the information declared by the
+          goods owner. However, if you do not have a lot of experience and
+          expertise, it will take a lot of time and a lot of costs for
+          businesses such as paying administrative fines, paying additional
+          taxes for the amount of imported materials used. improper purposes…
+          <br />
+          {tax && (
+            <div>
+              <span className="span__description">
+                Why should you choose UNI as your consulting unit?
+              </span>
+              <br />
+              With in-depth knowledge and practical understanding, we provide a
+              team of experienced consultants and analysts, leading in the field
+              of trade and customs. UNI consulting experts in balance field will
+              support businesses to perform (settle) general tasks related to
+              customs tax and check data after customs clearance in the fastest,
+              most accurate and professional way. UNI support businesses with
+              all issues related to all import and export goods.
+              <br />
+              <span className="span__description">
+                How can UNI support customers?
+              </span>
+              <br />
+              Our goal is to provide data checking, management and consulting
+              services for post-clearance activities to help businesses. In
+              addition, the consulting team can assist with the correct
+              classification of items and certification of origin to receive
+              tariff benefits, as well as advice throughout the trade process.
+              Various media, dispatches, tax decisions and regulations need to
+              be closely monitored, researched and promptly responded to when
+              new information and content becomes available… <br />
+              <span className="span__description">
+                Services UNI experts provide:
+              </span>
+              <br />
+              The team of experts at UNI offers the following items:
+              <br />
+              <ul>
+                <li>
+                  Check import and export data of export processing enterprises
+                </li>
+                <li>Balance management for export processing enterprises</li>
+                <li>Export processing Liquidation</li>
+                <li>Consumption, stock management consulting</li>
+                <li>Financial reports</li>
+                <li>Tax refund consulting </li>
+                <li>Others </li>
+              </ul>
+            </div>
+          )}
+        </div>
+        <div
+          className="text-primary description123"
+          onClick={() => setTax(!tax)}
+        >
+          Show {tax ? "Less" : "More"}
+        </div>
+      </div>
+    ),
   },
   VI: {
     AntiDumping: (antiD, setAntiD) => {
@@ -1205,6 +1284,90 @@ export const servicesCons = {
         </div>
       </div>
     ),
+    Tax: (tax, setTax) => (
+      <div
+        className="col-lg-12 col-md-6 box wow bounceInUp"
+        data-wow-delay="0.1s"
+        data-wow-duration="1.4s"
+      >
+        <div className="icon">
+          <i className="ion-ios-book-outline"></i>
+        </div>
+        <h4 className="title">
+          Xác nhận ưu đãi dự án sản xuất sản phẩm công nghiệp
+        </h4>
+        <div className="description">
+          <span className="span__description">
+            Tại sao doanh nghiệp lại cần Giấy xác nhận ưu đãi “dự án sản xuất
+            sản phẩm công nghiệp hỗ trợ”?
+          </span>
+          <br />
+          Công nghiệp hỗ trợ theo khái niệm của nghị định 111/2015/NĐ-CP, là các
+          ngành công nghiệp sản xuất nguyên liệu, vật liệu, linh kiện và phụ
+          tùng để cung cấp cho sản xuất sản phẩm hoàn chỉnh. Theo khảo sát,
+          ngành công nghiệp hỗ trợ của Việt Nam đang ngày càng phát triển và có
+          vai trò quan trọng trong việc tham gia vào chuỗi cung ứng toàn cầu. Do
+          đó, Việt Nam đang ưu tiên chú trọng thúc đẩy các ngành công nghiệp này
+          thông qua các chính sách ưu đãi hấp dẫn cho các doanh nghiệp hoạt động
+          trong lĩnh vực này. Tuy nhiên, để hưởng được các chế độ ưu đãi này,
+          đòi hỏi doanh nghiệp phải nắm rõ các điều kiện, cũng như là các trình
+          tự, thủ tục để được cấp Giấy xác nhận ưu đãi “dự án sản xuất sản phẩm
+          công nghiệp hỗ trợ”.
+          <br />
+          {tax && (
+            <div>
+              <span className="span__description">
+                Tại sao nên chọn UNI làm đơn vị tư vấn
+              </span>
+              <br />
+              Với kiến thức chuyên sâu và hiểu biết thực tế, chúng tôi cung cấp
+              đội ngũ chuyên gia tư vấn và phân tích giàu kinh nghiệm, hàng đầu
+              trong lĩnh vực thương mại và hải quan. Chuyên gia tư vấn UNI mảng
+              pháp lý sẽ tích cực hỗ trợ doanh nghiệp thực hiện các thủ tục,
+              giấy tờ để được cấp Giấy xác nhận ưu đãi “dự án sản xuất sản phẩm
+              công nghiệp hỗ trợ”. Hỗ trợ doanh nghiệp tất cả các vấn đề liên
+              quan đến ngành công nghiệp hỗ trợ nhanh chóng và chính xác nhất.
+              <br />
+              <span className="span__description">
+                UNI có thể hỗ trợ khách hàng như thế nào?
+              </span>
+              <br />
+              Mục tiêu của chúng tôi là cung cấp dịch vụ kiểm tra số liệu, quản
+              lý và tư vấn các hoạt động sau thông quan giúp doanh nghiệp. Ngoài
+              ra, đội ngũ tư vấn có thể hỗ trợ về phân loại chính xác các mặt
+              hàng và chứng nhận xuất xứ để nhận được các lợi ích về thuế quan,
+              cũng như tư vấn trong suốt quá trình thương mại. Các phương tiện
+              truyền thông khác nhau, công văn, quyết định thuế và quy định cần
+              được theo dõi chặt chẽ, nghiên cứu và phản hồi kịp thời khi có
+              thông tin và nội dung mới… <br />
+              <span className="span__description">
+                Dịch vụ chuyên gia UNI cung cấp:
+              </span>
+              <br />
+              Đội ngũ chuyên gia tại UNI cung cấp các hạng mục sau:
+              <br />
+              <ul>
+                <li>
+                  Check import and export data of export processing enterprises
+                </li>
+                <li>Balance management for export processing enterprises</li>
+                <li>Export processing Liquidation</li>
+                <li>Consumption, stock management consulting</li>
+                <li>Financial reports</li>
+                <li>Tax refund consulting </li>
+                <li>Others </li>
+              </ul>
+            </div>
+          )}
+        </div>
+        <div
+          className="text-primary description123"
+          onClick={() => setTax(!tax)}
+        >
+          {tax ? "Thu gọn" : "Xem thêm"}
+        </div>
+      </div>
+    ),
   },
   KO: {
     AntiDumping: (antiD, setAntiD) => {
@@ -1368,23 +1531,34 @@ export const servicesCons = {
           따라서 전문가의 도움을 받아 기업 내부 원산지 관리 절차를 정립할 필요가
           있습니다.
           <br />
-          <span className="span__description">관세 유니 FTA 컨설팅?</span>
-          <br />
-          심층적인 지식과 실무적인 이해를 통해 우리는 무역 및 관세 분야에서
-          다년간 노하우를 쌓은 분석전문가들로 구성된 팀을 제공합니다. UNI
-          컨설팅은 기업의 FTA 활용도를 높이기 위해 필요한 절차와 서류를 준비할
-          수 있도록 적극 지원하겠습니다. FTA원산지에 직간접 영향을 미칠 수 있는
-          수출입 통관 관련된 문제까지 고려하여 수준 높은 컨설팅을 지원합니다.
-          <br />
-          <span className="span__description">관세 유니 FTA 서비스:</span>
-          <br />
-          다음 분야 FTA 전문 컨설팅 서비스를 제공합니다.
-          <ul>
-            <li>EU/CPTPP/GSP/한국/일본/아세안/중국 </li>
-            <li>컨설팅 원산지증명서 C/O 발급 </li>
-            <li>특정 제품 또는 산업별 FTA 기업 내부 관리 시스템 </li>
-            <li>기타 FTA 및 원산지 컨설팅 </li>
-          </ul>
+          {fta && (
+            <div>
+              <span className="span__description">관세 유니 FTA 컨설팅?</span>
+              <br />
+              심층적인 지식과 실무적인 이해를 통해 우리는 무역 및 관세 분야에서
+              다년간 노하우를 쌓은 분석전문가들로 구성된 팀을 제공합니다. UNI
+              컨설팅은 기업의 FTA 활용도를 높이기 위해 필요한 절차와 서류를
+              준비할 수 있도록 적극 지원하겠습니다. FTA원산지에 직간접 영향을
+              미칠 수 있는 수출입 통관 관련된 문제까지 고려하여 수준 높은
+              컨설팅을 지원합니다.
+              <br />
+              <span className="span__description">관세 유니 FTA 서비스:</span>
+              <br />
+              다음 분야 FTA 전문 컨설팅 서비스를 제공합니다.
+              <ul>
+                <li>EU/CPTPP/GSP/한국/일본/아세안/중국 </li>
+                <li>컨설팅 원산지증명서 C/O 발급 </li>
+                <li>특정 제품 또는 산업별 FTA 기업 내부 관리 시스템 </li>
+                <li>기타 FTA 및 원산지 컨설팅 </li>
+              </ul>
+            </div>
+          )}
+        </div>
+        <div
+          className="text-primary description123"
+          onClick={() => setFta(!fta)}
+        >
+          Show {fta ? "Less" : "More"}
         </div>
       </div>
     ),
@@ -1752,6 +1926,85 @@ export const servicesCons = {
           onClick={() => setTariff(!tariff)}
         >
           Show {tariff ? "Less" : "More"}
+        </div>
+      </div>
+    ),
+    Tax: (tax, setTax) => (
+      <div
+        className="col-lg-12 col-md-6 box wow bounceInUp"
+        data-wow-delay="0.1s"
+        data-wow-duration="1.4s"
+      >
+        <div className="icon">
+          <i className="ion-ios-book-outline"></i>
+        </div>
+        <h4 className="title">Tax refund material balance management</h4>
+        <div className="description">
+          <span className="span__description">
+            Why is it important to check data after customs clearance?
+          </span>
+          <br />
+          In recent years, the implementation of customs procedures has been
+          reformed and shortened greatly by state agencies to facilitate
+          businesses. Therefore, customs also tightened the post-clearance
+          inspection of goods more in order to check the truthfulness,
+          reasonableness and reliability of the information declared by the
+          goods owner. However, if you do not have a lot of experience and
+          expertise, it will take a lot of time and a lot of costs for
+          businesses such as paying administrative fines, paying additional
+          taxes for the amount of imported materials used. improper purposes…
+          <br />
+          {tax && (
+            <div>
+              <span className="span__description">
+                Why should you choose UNI as your consulting unit?
+              </span>
+              <br />
+              With in-depth knowledge and practical understanding, we provide a
+              team of experienced consultants and analysts, leading in the field
+              of trade and customs. UNI consulting experts in balance field will
+              support businesses to perform (settle) general tasks related to
+              customs tax and check data after customs clearance in the fastest,
+              most accurate and professional way. UNI support businesses with
+              all issues related to all import and export goods.
+              <br />
+              <span className="span__description">
+                How can UNI support customers?
+              </span>
+              <br />
+              Our goal is to provide data checking, management and consulting
+              services for post-clearance activities to help businesses. In
+              addition, the consulting team can assist with the correct
+              classification of items and certification of origin to receive
+              tariff benefits, as well as advice throughout the trade process.
+              Various media, dispatches, tax decisions and regulations need to
+              be closely monitored, researched and promptly responded to when
+              new information and content becomes available… <br />
+              <span className="span__description">
+                Services UNI experts provide:
+              </span>
+              <br />
+              The team of experts at UNI offers the following items:
+              <br />
+              <ul>
+                <li>
+                  Check import and export data of export processing enterprises
+                </li>
+                <li>Balance management for export processing enterprises</li>
+                <li>Export processing Liquidation</li>
+                <li>Consumption, stock management consulting</li>
+                <li>Financial reports</li>
+                <li>Tax refund consulting </li>
+                <li>Others </li>
+              </ul>
+            </div>
+          )}
+        </div>
+        <div
+          className="text-primary description123"
+          onClick={() => setTax(!tax)}
+        >
+          Show {tax ? "Less" : "More"}
         </div>
       </div>
     ),

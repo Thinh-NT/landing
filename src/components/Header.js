@@ -45,7 +45,7 @@ function Header(props) {
               <a href="#news">News</a>
             </li> */}
             <li>
-              <a href="#career">{data.Header[lang].carrer}</a>
+              <a href="#career">{data.Header[lang].career}</a>
             </li>
             {/* <li>
               <a href="#team">Team</a>

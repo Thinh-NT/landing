@@ -11,6 +11,8 @@ function Services({ lang }) {
   const [market, setMarket] = useState(false);
   const [rebuild, setRebuild] = useState(false);
   const [tariff, setTariff] = useState(false);
+  const [tax, setTax] = useState(false);
+
   return (
     <section id="services">
       <div className="container">
@@ -22,10 +24,18 @@ function Services({ lang }) {
           {servicesCons[lang].CustomsDecitionComplaint(custom, setCustom)}
           {servicesCons[lang].FTA(fta, setFta)}
           {servicesCons[lang].Sale(sale, setSale)}
+          <div id="logistics">
           {servicesCons[lang].Logistics(logistic, setLogistic)}
+          </div>
+          <div id="marketreseach">
           {servicesCons[lang].MarketReseach(market, setMarket)}
+          </div>
           {servicesCons[lang].Setup(rebuild, setRebuild)}
+          <div id="tariff">
           {servicesCons[lang].Tariff(tariff, setTariff)}
+          </div>
+
+          {servicesCons[lang].Tax(tax, setTax)}
         </div>
       </div>
     </section>
