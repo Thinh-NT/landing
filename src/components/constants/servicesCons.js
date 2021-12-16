@@ -272,7 +272,7 @@ export const servicesCons = {
                 <li>SI Certificate(Support Industry Certificate) Review </li>
                 <li>
                   SI Certificate(Support Industry Certificate) Application
-                  Support{" "}
+                  Support
                 </li>
                 <li>
                   SI Certificate(Support Industry Certificate) Management and
@@ -960,22 +960,23 @@ export const servicesCons = {
               quan đến ngành công nghiệp hỗ trợ nhanh chóng và chính xác nhất.
               <br />
               <span className="span__description">
-                UNI có thể hỗ trợ khách hàng như thế nào?
-              </span>
-              <br />
-              Mục tiêu của chúng tôi là cung cấp dịch vụ kiểm tra số liệu, quản
-              lý và tư vấn các hoạt động sau thông quan giúp doanh nghiệp. Ngoài
-              ra, đội ngũ tư vấn có thể hỗ trợ về phân loại chính xác các mặt
-              hàng và chứng nhận xuất xứ để nhận được các lợi ích về thuế quan,
-              cũng như tư vấn trong suốt quá trình thương mại. Các phương tiện
-              truyền thông khác nhau, công văn, quyết định thuế và quy định cần
-              được theo dõi chặt chẽ, nghiên cứu và phản hồi kịp thời khi có
-              thông tin và nội dung mới…
-              <br />
-              <span className="span__description">
                 Dịch vụ chuyên gia UNI cung cấp:
               </span>
-              <br />
+              <ul>
+                <li>
+                  Review Giấy xác nhận ưu đãi “dự án sản xuất sản phẩm công
+                  nghiệp hỗ trợ” (Support Industry Certificate)
+                </li>
+                <li>
+                  Chuẩn bị hồ sơ cấp Giấy xác nhận ưu đãi “dự án sản xuất sản
+                  phẩm công nghiệp hỗ trợ”
+                </li>
+                <li>
+                  Hỗ trợ quản lý và duy trì Giấy xác nhận ưu đãi “dự án sản xuất
+                  sản phẩm công nghiệp hỗ trợ
+                </li>
+                <li></li>
+              </ul>
             </div>
           )}
         </div>
@@ -1612,7 +1613,7 @@ export const servicesCons = {
               UNI의 전문가 팀은 다음과 같은 범주를 제공합니다.
               <ul>
                 <li>SI인증(부품소재산업인증) 사전 검토 </li>
-                <li>SI 인증(부품소재산업인증) 신청 대행</li>
+                <li>SI 인증(부품소재산업인증) 신청 대행 </li>
                 <li>SI인증 관리 및 유지 지원 </li>
               </ul>
             </div>
