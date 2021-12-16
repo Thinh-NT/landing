@@ -20,19 +20,15 @@ function Services({ lang }) {
           <h3>{headerCons[lang].services}</h3>
         </header>
         <div className="row">
+          {servicesCons[lang].Tax(tax, setTax)}
+          {servicesCons[lang].Logistics(logistic, setLogistic)}
+          {servicesCons[lang].Tariff(tariff, setTariff)}
           {servicesCons[lang].AntiDumping(antiD, setAntiD)}
           {servicesCons[lang].CustomsDecitionComplaint(custom, setCustom)}
           {servicesCons[lang].FTA(fta, setFta)}
           {servicesCons[lang].Sale(sale, setSale)}
-          <div id="logistics">
-            {servicesCons[lang].Logistics(logistic, setLogistic)}
-          </div>
-          <div id="marketreseach">
-            {servicesCons[lang].MarketReseach(market, setMarket)}
-          </div>
           {servicesCons[lang].Setup(rebuild, setRebuild)}
-          <div id="tariff">{servicesCons[lang].Tariff(tariff, setTariff)}</div>
-          <div id="tax">{servicesCons[lang].Tax(tax, setTax)}</div>
+          {servicesCons[lang].MarketReseach(market, setMarket)}
         </div>
       </div>
     </section>

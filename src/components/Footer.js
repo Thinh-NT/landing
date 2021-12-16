@@ -38,6 +38,10 @@ function Footer() {
                 magna veniam enim veniam illum dolore legam minim quorum culpa
                 amet magna export quem marada parida nodela caramase seza.
               </p>
+              <form action="" method="post">
+                <input type="email" name="email" placeholder="Email"/>
+                <input type="submit" value="Subscribe" />
+              </form>
             </div>
           </div>
         </div>

@@ -5,7 +5,7 @@ import Logo from "../assets/logo.png";
 import { Link } from "react-scroll";
 export const MobileIcon = styled.div`
   display: none;
-  @media screen and (max-width: 768px) {
+  @media screen and (max-width: 900px) {
     display: block;
     position: absolute;
     top: 0;

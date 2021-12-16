@@ -1,16 +1,16 @@
 export const slideCons = {
   EN: {
     slide1: {
-      heading: "Company overview",
+      heading: "Tax refund material balance management",
       content:
         "In 2020, UNI started operations in Vietnam as a pioneer in the field of customs consultancy and post-customs clearance data inspection. During the Covid pandemic, even with a small number of personnel, UNI had more than 30 foreign companies and customers. Typical examples such as Samsung, Posco, Dongsuh, Elentec... In March 2021, UNI was officially established as “UNI Consulting Co., Ltd”.",
     },
     slide2: {
-      heading: "Services",
+      heading: "Logistics",
       content: "In 2020, UNI started operations in Vi",
     },
     slide3: {
-      heading: "Career Opportunities",
+      heading: "Tariff clearance",
       content:
         "Human resources are the core factor that ensures a stable and sustainable business. UNI always ensures a fair talent recruitment process and the best environment for employees",
     },
@@ -19,7 +19,7 @@ export const slideCons = {
       content: "Human resources are the core",
     },
     slide5: {
-      heading: "Dịch vụ Nghiên cứu thị trường ",
+      heading: "Market reseach",
       content:
         "Phân tích và tư vấn chuẩn xác, nhanh chóng về xu hướng ngành, đối thủ cạnh tranh… theo yêu cầu, dựa trên việc phân tích số liệu thực tế.",
     },

@@ -21,9 +21,9 @@ export const aboutCons = {
     heading:
       "Doanh nghiệp tiên phong hàng đầu Việt Nam trong lĩnh vực tư vấn xuất nhập khẩu, hải quan và kiểm tra dữ liệu sau thông quan. ",
     companyFormation: {
-      heading: "UNI customs consulting",
+      heading: "UNI Customs Consulting",
       content:
-        "UNI bắt đầu hoạt động kinh doanh tại Việt Nam với tư cách là đơn vị tiên phong trong lĩnh vực tư vấn xuất nhập khẩu/ hải quan/ hải quan và kiểm tra dữ liệu sau thông quan. Bất chấp thời gian cách ly corona, UNI đã có lượng khách hàng lớn là các công ty nước ngoài và các công ty FDI tại Việt Nam như: Samsung C&T, POSCO, Dongseo Furniture, Dorco, Elentec, INZI, v.v.",
+        "UNI bắt đầu hoạt động kinh doanh tại Việt Nam với tư cách là đơn vị tiên phong trong lĩnh vực tư vấn xuất nhập khẩu hải quan và kiểm tra dữ liệu sau thông quan. Bất chấp thời gian cách ly corona, UNI đã có lượng khách hàng lớn là các công ty nước ngoài và các công ty FDI tại Việt Nam như: Samsung C&T, POSCO, Dongseo Furniture, Dorco, Elentec, INZI, v.v.",
     },
     vision: {
       heading: "Tầm nhìn",

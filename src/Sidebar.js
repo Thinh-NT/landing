@@ -100,7 +100,7 @@ const Sidebar = ({ toggle, isOpen, data, lang, setLang }) => {
             {data.Header[lang].career}
           </SidebarLink>
           <SidebarLink
-            to="contact"
+            to="client"
             className="btn__mobile"
             onClick={toggle}
             smooth={true}
@@ -108,7 +108,7 @@ const Sidebar = ({ toggle, isOpen, data, lang, setLang }) => {
             {data.Header[lang].customers}
           </SidebarLink>
           <SidebarLink
-            to="contact"
+            to="footer"
             className="btn__mobile"
             onClick={toggle}
             smooth={true}

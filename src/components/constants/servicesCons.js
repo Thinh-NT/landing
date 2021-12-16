@@ -678,6 +678,7 @@ export const servicesCons = {
     AntiDumping: (antiD, setAntiD) => {
       return (
         <div
+          id="antidumping"
           className="col-lg-12 col-md-6 box wow bounceInUp"
           data-wow-duration="1.4s"
         >
@@ -922,7 +923,9 @@ export const servicesCons = {
         <div className="icon">
           <i className="ion-ios-speedometer-outline"></i>
         </div>
-        <h4 className="title">Giấy xác nhận ưu đãi</h4>
+        <h4 className="title">
+          Xác nhận ưu đãi dự án sản xuất sản phẩm công nghiệp
+        </h4>
         <div className="description">
           <span className="span__description">
             Tại sao doanh nghiệp lại cần Giấy xác nhận ưu đãi “dự án sản xuất
@@ -986,6 +989,7 @@ export const servicesCons = {
     ),
     Logistics: (logistic, setLogistic) => (
       <div
+        id="logistics"
         className="col-lg-12 col-md-6 box wow bounceInUp"
         data-wow-delay="0.1s"
         data-wow-duration="1.4s"
@@ -1055,6 +1059,7 @@ export const servicesCons = {
     ),
     MarketReseach: (market, setMarket) => (
       <div
+        id="marketreseach"
         className="col-lg-12 col-md-6 box wow bounceInUp"
         data-wow-delay="0.1s"
         data-wow-duration="1.4s"
@@ -1224,6 +1229,7 @@ export const servicesCons = {
     ),
     Tariff: (tariff, setTariff) => (
       <div
+        id="tariff"
         className="col-lg-12 col-md-6 box wow bounceInUp"
         data-wow-delay="0.1s"
         data-wow-duration="1.4s"
@@ -1286,6 +1292,7 @@ export const servicesCons = {
     ),
     Tax: (tax, setTax) => (
       <div
+        id="tax"
         className="col-lg-12 col-md-6 box wow bounceInUp"
         data-wow-delay="0.1s"
         data-wow-duration="1.4s"
@@ -1293,26 +1300,18 @@ export const servicesCons = {
         <div className="icon">
           <i className="ion-ios-book-outline"></i>
         </div>
-        <h4 className="title">
-          Xác nhận ưu đãi dự án sản xuất sản phẩm công nghiệp
-        </h4>
+        <h4 className="title">Dịch vụ kiểm tra số liệu sau thông quan</h4>
         <div className="description">
           <span className="span__description">
-            Tại sao doanh nghiệp lại cần Giấy xác nhận ưu đãi “dự án sản xuất
-            sản phẩm công nghiệp hỗ trợ”?
+            Tại sao việc kiểm tra số liệu doanh nghiệp lại quan trọng?
           </span>
           <br />
-          Công nghiệp hỗ trợ theo khái niệm của nghị định 111/2015/NĐ-CP, là các
-          ngành công nghiệp sản xuất nguyên liệu, vật liệu, linh kiện và phụ
-          tùng để cung cấp cho sản xuất sản phẩm hoàn chỉnh. Theo khảo sát,
-          ngành công nghiệp hỗ trợ của Việt Nam đang ngày càng phát triển và có
-          vai trò quan trọng trong việc tham gia vào chuỗi cung ứng toàn cầu. Do
-          đó, Việt Nam đang ưu tiên chú trọng thúc đẩy các ngành công nghiệp này
-          thông qua các chính sách ưu đãi hấp dẫn cho các doanh nghiệp hoạt động
-          trong lĩnh vực này. Tuy nhiên, để hưởng được các chế độ ưu đãi này,
-          đòi hỏi doanh nghiệp phải nắm rõ các điều kiện, cũng như là các trình
-          tự, thủ tục để được cấp Giấy xác nhận ưu đãi “dự án sản xuất sản phẩm
-          công nghiệp hỗ trợ”.
+          Trong những năm gần đây, công tác thực hiện thủ tục hải quan đã được
+          cơ quan nhà nước cải cách và rút ngắn đi rất nhiều để tạo thuận lợi
+          cho doanh nghiệp. Chính vì thế, hải quan cũng thắt chặt việc kiểm tra
+          sau thông quan của hàng hóa nhiều hơn nhằm mục đích kiểm tra tính
+          trung thực, hợp lý và độ tin cậy của các thông tin chủ hàng đã khai
+          báo. Tr
           <br />
           {tax && (
             <div>
@@ -1320,13 +1319,14 @@ export const servicesCons = {
                 Tại sao nên chọn UNI làm đơn vị tư vấn
               </span>
               <br />
-              Với kiến thức chuyên sâu và hiểu biết thực tế, chúng tôi cung cấp
-              đội ngũ chuyên gia tư vấn và phân tích giàu kinh nghiệm, hàng đầu
-              trong lĩnh vực thương mại và hải quan. Chuyên gia tư vấn UNI mảng
-              pháp lý sẽ tích cực hỗ trợ doanh nghiệp thực hiện các thủ tục,
-              giấy tờ để được cấp Giấy xác nhận ưu đãi “dự án sản xuất sản phẩm
-              công nghiệp hỗ trợ”. Hỗ trợ doanh nghiệp tất cả các vấn đề liên
-              quan đến ngành công nghiệp hỗ trợ nhanh chóng và chính xác nhất.
+              Với kiến thức chuyên sâu và hiểu biết thực tế, UNI là công ty tư
+              vấn, cung cấp dịch vụ chuyên nghiệp, uy tín cho các doanh nghiệp
+              kinh doanh xuất nhập khẩu, sản xuất và doanh nghiệp nước ngoài đầu
+              tư tại Việt Nam. Qua quá trình làm việc thực tế, chúng tôi cung
+              cấp đội ngũ chuyên gia tư vấn và phân tích giàu kinh nghiệm, hàng
+              đầu trong lĩnh vực thương mại và hải quan. Chuyên gia tư vấn UNI
+              thực hiện (giải quyết) các công việc chung liên quan đến thuế hải
+              quan và thông quan liên quan đến tất cả hàng hóa xuất nhập khẩu.
               <br />
               <span className="span__description">
                 UNI có thể hỗ trợ khách hàng như thế nào?
@@ -1348,14 +1348,15 @@ export const servicesCons = {
               <br />
               <ul>
                 <li>
-                  Check import and export data of export processing enterprises
+                  Kiểm tra dữ liệu nhập xuất tồn của doanh nghiệp chế xuất
                 </li>
-                <li>Balance management for export processing enterprises</li>
-                <li>Export processing Liquidation</li>
-                <li>Consumption, stock management consulting</li>
-                <li>Financial reports</li>
-                <li>Tax refund consulting </li>
-                <li>Others </li>
+                <li>Quản lý Balance cho doanh nghiệp chế xuất </li>
+                <li>Xử lý báo cáo quyết toán </li>
+                <li>Thanh khoản hàng gia công và sản xuất xuất khẩu </li>
+                <li>Tư vấn quản lý hàng tồn kho và vật tư tiêu hao </li>
+                <li>Báo cáo tài chính </li>
+                <li>Tư vấn hoàn thuế </li>
+                <li>Khác </li>
               </ul>
             </div>
           )}
