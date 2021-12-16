@@ -975,7 +975,6 @@ export const servicesCons = {
                   Hỗ trợ quản lý và duy trì Giấy xác nhận ưu đãi “dự án sản xuất
                   sản phẩm công nghiệp hỗ trợ
                 </li>
-                <li></li>
               </ul>
             </div>
           )}
