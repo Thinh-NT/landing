@@ -1,29 +1,19 @@
 import React from "react";
-
-function Footer() {
+import {footerCons} from "./constants/footerCons";
+function Footer({ lang }) {
   return (
     <footer id="footer">
       <div className="footer-top">
         <div className="container">
           <div className="row Footer__content">
-            {/* <div className="col-lg-3 col-md-6 footer-info">
-              <h3>Uni Consulting</h3>
-              <p>
-                Thảo xinh dep odio eu feugiat lide par naso tierra. Justo eget
-                nada terra videa magna derita valies darta donna mare fermentum
-                iaculis eu non diam phasellus. Scelerisque felis imperdiet proin
-                fermentum leo. Amet volutpat consequat mauris nunc congue.
-              </p>
-            </div> */}
             <div className="col-lg-3 col-md-6 footer-contact">
-              <h4>Contact Us</h4>
+              <h4>{footerCons[lang].contact}</h4>
               <p>
-                <strong>Address 1: </strong>
-                Saigon Royal Residence, <br />
-                34-35 Ben Van Don, Ward 12, District 4, Ho Chi Minh City <br />
-                <strong>Address 2: </strong>
-                220 Hoang Ngan, Trung Hoa Ward, Cau Giay District, Hanoi <br />
-                <strong>Phone: </strong>
+                <strong>{footerCons[lang].address1}: </strong>
+                {footerCons[lang].address1_}<br />
+                <strong>{footerCons[lang].address2}: </strong>
+                {footerCons[lang].address2_} <br />
+                <strong>{footerCons[lang].phone}: </strong>
                 <a href="tel:+84908535898">+(84) 908 535 898</a>
                 <br />
                 <strong>Email: </strong>
@@ -32,7 +22,7 @@ function Footer() {
               </p>
             </div>
             <div className="col-lg-3 col-md-6 footer-newsletter">
-              <h4>Our Newsletter</h4>
+              <h4>{footerCons[lang].newletter}</h4>
               <p>
                 Tamen quem nulla quae legam multos aute sint culpa legam noster
                 magna veniam enim veniam illum dolore legam minim quorum culpa

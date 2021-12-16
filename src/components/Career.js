@@ -24,7 +24,7 @@ function Career({ lang }) {
           </div>
         </div>
 
-        <div className="row career-info">
+        {/* <div className="row career-info">
           <div className="col-md-6">
             <div className="career-address">
               <i className="ion-ios-location-outline"></i>
@@ -40,7 +40,7 @@ function Career({ lang }) {
               <p>Recruitment content for each position</p>
             </div>
           </div>
-        </div>
+        </div> */}
       </div>
     </section>
   );
