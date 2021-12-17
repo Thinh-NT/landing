@@ -2,19 +2,19 @@ export const aboutCons = {
   EN: {
     heading: "The Viet Nam pioneer in the field of import-export consulting, customs and post-clearance data checking.",
     companyFormation: {
-      heading: "Formation process",
+      heading: "UNI Customs Consulting ",
       content:
-        "In 2020, UNI started operations in Vietnam as a pioneer in the field of customs consultancy and post-customs clearance data inspection. During the Covid pandemic, even with a small number of personnel, UNI had more than 30 foreign companies and customers. Typical examples such as Samsung, Posco, Dongsuh, Elentec... In March 2021, UNI was officially established as “UNI Consulting Co., Ltd”. ",
+        "UNI started business in Vietnam as a pioneer in the field of import and export customs consulting and post-clearance data checking. Despite the time of corona isolation, UNI has had a large number of clients who are foreign companies and FDI companies in Vietnam such as: Samsung C&T, POSCO, Dongseo Furniture, Dorco, Elentec, INZI, etc.",
     },
     vision: {
       heading: "Vision",
       content:
-        "In the context of Vietnam expanding foreign trade activities, economic exchanges with other countries around the world, companies providing services today often only provide a certain segment, typically, law firms, including large companies, often have only strengths in legal advice with little practical experience in import and export procedures and post-customs clearance material management.",
+        "Currently, Vietnam is increasingly promoting the development of foreign trade and global economic exchanges. This is not only an opportunity for businesses but also poses great challenges, especially the ongoing international customs issues such as: FTA origin, non-tariff barriers, dumping tax and other measures. Self defence. These issues are related to import and export practices. Therefore, it is difficult for accounting firms and law companies to give accurate advice. At UNI, we provide accurate customs advice by reviewing relevant regulations and practical practices. ",
     },
     ourMission: {
       heading: "Our Mission",
       content:
-        'On the other hand, logistics companies, despite their extensive experience, often lack an in-depth team to advise on the problems that import-export enterprises often encounter. Therefore, UNI is proud to be the first enterprise in Vietnam specializing in providing customs consultancy services and post-customs clearance data inspection, ensuring "specializing in customs" superior to the companies providing services in the market today.',
+        "In Vietnam, complex and diverse customs issues arise. At the level of logistics companies in general, it is often difficult to accurately respond to customs related matters. As a 'Vietnam Customs Specialist', UNI correctly handles all customs formalities, including customs clearance of import-export goods in Vietnam, customs feedback and post-clearance data check.  "
     },
   },
   VI: {
