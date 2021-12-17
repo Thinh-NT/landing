@@ -1311,7 +1311,7 @@ export const servicesCons = {
           cho doanh nghiệp. Chính vì thế, hải quan cũng thắt chặt việc kiểm tra
           sau thông quan của hàng hóa nhiều hơn nhằm mục đích kiểm tra tính
           trung thực, hợp lý và độ tin cậy của các thông tin chủ hàng đã khai
-          báo. Tr
+          báo.
           <br />
           {tax && (
             <div>
