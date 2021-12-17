@@ -10,7 +10,7 @@ export const slideCons = {
       content: "Consulting on import and export of tax-free materials and related legal issues quickly and effectively with the most optimal cost. UNI always puts prestige and customer satisfaction first. ",
     },
     slide3: {
-      heading: "Tariff clearance",
+      heading: "Tariff & Clearance",
       content:
         "Fast and professional service by experienced staff.",
     },
