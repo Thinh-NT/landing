@@ -465,7 +465,7 @@ export const servicesCons = {
         <div className="icon">
           <i className="ion-ios-home-outline"></i>
         </div>
-        <h4 className="title">Factory setup/Re-bulding/M&A</h4>
+        <h4 className="title">Factory setup/ Re-building/ M&A</h4>
         <div className="description">
           <span className="span__description">
             Why are factory setup and M&A consulting important?
@@ -1801,7 +1801,7 @@ export const servicesCons = {
         <div className="icon">
           <i className="ion-ios-home-outline"></i>
         </div>
-        <h4 className="title">Factory setup/Re-bulding/M&A</h4>
+        <h4 className="title">Factory setup/ Re-building/ M&A</h4>
         <div className="description">
           <span className="span__description">
             Why are factory setup and M&A consulting important?
