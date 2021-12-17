@@ -1,6 +1,6 @@
 export const aboutCons = {
   EN: {
-    heading: "NEED CONTENT",
+    heading: "The Viet Nam pioneer in the field of import-export consulting, customs and post-clearance data checking.",
     companyFormation: {
       heading: "Formation process",
       content:
