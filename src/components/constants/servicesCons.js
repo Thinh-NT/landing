@@ -3,6 +3,7 @@ export const servicesCons = {
     AntiDumping: (antiD, setAntiD) => {
       return (
         <div
+          id="antidumping"
           className="col-lg-12 col-md-6 box wow bounceInUp"
           data-wow-duration="1.4s"
         >
@@ -292,6 +293,7 @@ export const servicesCons = {
     ),
     Logistics: (logistic, setLogistic) => (
       <div
+        id="logistics"
         className="col-lg-12 col-md-6 box wow bounceInUp"
         data-wow-delay="0.1s"
         data-wow-duration="1.4s"
@@ -360,6 +362,7 @@ export const servicesCons = {
     ),
     MarketReseach: (market, setMarket) => (
       <div
+        id="marketreseach"
         className="col-lg-12 col-md-6 box wow bounceInUp"
         data-wow-delay="0.1s"
         data-wow-duration="1.4s"
@@ -531,6 +534,7 @@ export const servicesCons = {
     ),
     Tariff: (tariff, setTariff) => (
       <div
+        id="tariff"
         className="col-lg-12 col-md-6 box wow bounceInUp"
         data-wow-delay="0.1s"
         data-wow-duration="1.4s"
@@ -596,6 +600,7 @@ export const servicesCons = {
     ),
     Tax: (tax, setTax) => (
       <div
+        id="tax"
         className="col-lg-12 col-md-6 box wow bounceInUp"
         data-wow-delay="0.1s"
         data-wow-duration="1.4s"
@@ -1374,6 +1379,7 @@ export const servicesCons = {
     AntiDumping: (antiD, setAntiD) => {
       return (
         <div
+          id="antidumping"
           className="col-lg-12 col-md-6 box wow bounceInUp"
           data-wow-duration="1.4s"
         >
@@ -1628,6 +1634,7 @@ export const servicesCons = {
     ),
     Logistics: (logistic, setLogistic) => (
       <div
+        id="logistics"
         className="col-lg-12 col-md-6 box wow bounceInUp"
         data-wow-delay="0.1s"
         data-wow-duration="1.4s"
@@ -1696,6 +1703,7 @@ export const servicesCons = {
     ),
     MarketReseach: (market, setMarket) => (
       <div
+        id="marketreseach"
         className="col-lg-12 col-md-6 box wow bounceInUp"
         data-wow-delay="0.1s"
         data-wow-duration="1.4s"
@@ -1867,6 +1875,7 @@ export const servicesCons = {
     ),
     Tariff: (tariff, setTariff) => (
       <div
+        id="tariff"
         className="col-lg-12 col-md-6 box wow bounceInUp"
         data-wow-delay="0.1s"
         data-wow-duration="1.4s"
@@ -1932,6 +1941,7 @@ export const servicesCons = {
     ),
     Tax: (tax, setTax) => (
       <div
+        id="tax"
         className="col-lg-12 col-md-6 box wow bounceInUp"
         data-wow-delay="0.1s"
         data-wow-duration="1.4s"
