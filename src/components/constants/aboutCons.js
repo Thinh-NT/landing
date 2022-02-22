@@ -1,20 +1,21 @@
 export const aboutCons = {
   EN: {
-    heading: "The Viet Nam pioneer in the field of import-export consulting, customs and post-clearance data checking.",
+    heading:
+      "The Viet Nam pioneer in the field of import-export consulting, customs and post-clearance data checking.",
     companyFormation: {
       heading: "UNI Customs Consulting ",
       content:
-        "UNI started business in Vietnam as a pioneer in the field of import and export customs consulting and post-clearance data checking. Despite the time of corona isolation, UNI has had a large number of clients who are foreign companies and FDI companies in Vietnam such as: Samsung C&T, POSCO, Dongseo Furniture, Dorco, Elentec, INZI, etc.",
+        "UNI started business in Vietnam as a pioneer in the field of import and export customs consulting and post-clearance data checking. Despite the time of corona isolation, UNI has had a large number of clients who are foreign companies and FDI companies in Vietnam such as: Samsung C&T, POSCO, Dongsuh, Dorco, Elentec, INZI, etc.",
     },
     vision: {
       heading: "Vision",
       content:
-        "Currently, Vietnam is increasingly promoting the development of foreign trade and global economic exchanges. This is not only an opportunity for businesses but also poses great challenges, especially the ongoing international customs issues such as: FTA origin, non-tariff barriers, dumping tax and other measures. Self defence. These issues are related to import and export practices. Therefore, it is difficult for accounting firms and law companies to give accurate advice. At UNI, we provide accurate customs advice by reviewing relevant regulations and practical practices. ",
+        "At UNI, we provide accurate customs advice by reviewing relevant regulations and practical practices.",
     },
     ourMission: {
       heading: "Our Mission",
       content:
-        "In Vietnam, complex and diverse customs issues arise. At the level of logistics companies in general, it is often difficult to accurately respond to customs related matters. As a 'Vietnam Customs Specialist', UNI correctly handles all customs formalities, including customs clearance of import-export goods in Vietnam, customs feedback and post-clearance data check.  "
+        "As a 'Vietnam Customs Specialist', UNI correctly handles all customs formalities, including customs clearance of import-export goods in Vietnam, customs feedback and post-clearance data check.",
     },
   },
   VI: {
@@ -23,17 +24,17 @@ export const aboutCons = {
     companyFormation: {
       heading: "UNI Customs Consulting",
       content:
-        "UNI bắt đầu hoạt động kinh doanh tại Việt Nam với tư cách là đơn vị tiên phong trong lĩnh vực tư vấn xuất nhập khẩu hải quan và kiểm tra dữ liệu sau thông quan. Bất chấp thời gian cách ly corona, UNI đã có lượng khách hàng lớn là các công ty nước ngoài và các công ty FDI tại Việt Nam như: Samsung C&T, POSCO, Dongseo Furniture, Dorco, Elentec, INZI, v.v.",
+        "UNI bắt đầu hoạt động kinh doanh tại Việt Nam với tư cách là đơn vị tiên phong trong lĩnh vực tư vấn xuất nhập khẩu hải quan và kiểm tra dữ liệu sau thông quan. Bất chấp thời gian cách ly corona, UNI đã có lượng khách hàng lớn là các công ty nước ngoài và các công ty FDI tại Việt Nam như: Samsung C&T, POSCO, Dongsuh, Dorco, Elentec, INZI, v.v.",
     },
     vision: {
       heading: "Tầm nhìn",
       content:
-        "Hiện nay, Việt Nam đang ngày càng đẩy mạnh phát triển ngoại thương và giao lưu kinh tế toàn cầu. Đây không những là cơ hội cho doanh nghiệp mà còn đặt ra những thách thức lớn, đặc biệt là vấn đề hải quan quốc tế như: Nguồn gốc FTA, hàng rào phi thuế quan, thuế bán phá giá và các biện pháp tự vệ đang diễn ra. Những vấn đề này liên quan đến tập quán xuất nhập khẩu. Do đó, các công ty kế toán, công ty luật khó có thể đưa ra lời khuyên chính xác. Tại UNI, chúng tôi cung cấp lời khuyên hải quan chính xác bằng cách xem xét các quy định liên quan và các thông lệ thực tế.",
+        "Tại UNI, chúng tôi cung cấp lời khuyên hải quan chính xác bằng cách xem xét các quy định liên quan và các thông lệ thực tế.",
     },
     ourMission: {
       heading: "Sứ mệnh",
       content:
-        "Tại Việt Nam, các vấn đề hải quan phức tạp và đa dạng nảy sinh. Ở cấp độ của các công ty logistics nói chung, thường khó có thể phản hồi chính xác các vấn đề liên quan đến hải quan. Với tư cách là 'Chuyên gia Hải quan Việt Nam', UNI xử lý chính xác tất cả các thủ tục hải quan, bao gồm thông quan hàng hóa xuất nhập khẩu tại Việt Nam, phản hồi hải quan và kiểm tra số liệu sau thông quan.",
+        "Với tư cách là 'Chuyên gia Hải quan Việt Nam', UNI xử lý chính xác tất cả các thủ tục hải quan, bao gồm thông quan hàng hóa xuất nhập khẩu tại Việt Nam, phản hồi hải quan và kiểm tra số liệu sau thông quan.",
     },
   },
   KO: {

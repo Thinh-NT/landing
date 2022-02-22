@@ -8011,9 +8011,9 @@ button.bg-dark:hover {
     margin-left: auto !important;
   }
 }
-.text-justify {
+/* .text-justify {
   text-align: justify !important;
-}
+} */
 .text-nowrap {
   white-space: nowrap !important;
 }
