@@ -713,9 +713,7 @@ body.mobile-nav-active #mobile-nav-toggle {
 }
 
 #services .box {
-  margin-bottom: 30px;
-  margin-top: 30px;
-  padding-top:30px;
+  padding-top: 30px;
 }
 
 #services .icon {
@@ -1485,6 +1483,6 @@ body.mobile-nav-active #mobile-nav-toggle {
   font-size: 13px;
   color: #ddd;
 }
-.Slide__summary{
-  font-size:23px;
+.Slide__summary {
+  font-size: 23px;
 }

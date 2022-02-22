@@ -8649,9 +8649,9 @@ button.bg-dark:hover {
   }
 }
 
-.text-justify {
+/* .text-justify {
   text-align: justify !important;
-}
+} */
 
 .text-nowrap {
   white-space: nowrap !important;
