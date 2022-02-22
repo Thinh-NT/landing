@@ -5,7 +5,7 @@ export const aboutCons = {
     companyFormation: {
       heading: "UNI Customs Consulting ",
       content:
-        "UNI started business in Vietnam as a pioneer in the field of import and export customs consulting and post-clearance data checking. Despite the time of corona isolation, UNI has had a large number of clients who are foreign companies and FDI companies in Vietnam such as: Samsung C&T, POSCO, Dongsuh, Dorco, Elentec, INZI, etc.",
+        "UNI was established in Vietnam as a pioneer in the field of logistics and customs consulting. Despite the outbreak of covid, UNI has owned a large number of FDI companies in Vietnam such as: Samsung C&T, POSCO, Dongsuh, Dorco, Elentec, INZI, etc.",
     },
     vision: {
       heading: "Vision",
@@ -24,7 +24,7 @@ export const aboutCons = {
     companyFormation: {
       heading: "UNI Customs Consulting",
       content:
-        "UNI bắt đầu hoạt động kinh doanh tại Việt Nam với tư cách là đơn vị tiên phong trong lĩnh vực tư vấn xuất nhập khẩu hải quan và kiểm tra dữ liệu sau thông quan. Bất chấp thời gian cách ly corona, UNI đã có lượng khách hàng lớn là các công ty nước ngoài và các công ty FDI tại Việt Nam như: Samsung C&T, POSCO, Dongsuh, Dorco, Elentec, INZI, v.v.",
+        "UNI thành lập tại Việt Nam với tư cách là đơn vị tiên phong trong lĩnh vực logistics và tư vấn hải quan. Mặc dù dịch covid bùng phát, UNI đã có lượng khách hàng lớn là các công ty nước ngoài tại Việt Nam như: Samsung C&T, POSCO, Dongsuh, Dorco, Elentec, INZI, v.v.",
     },
     vision: {
       heading: "Tầm nhìn",

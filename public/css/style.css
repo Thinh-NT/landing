@@ -697,11 +697,12 @@ body.mobile-nav-active #mobile-nav-toggle {
 }
 
 #about .about-col p {
-  font-size: 14px;
+  font-size: 16px;
   line-height: 24px;
   color: #333;
   margin-bottom: 0;
   padding: 0 20px 20px 20px;
+  text-align: justify;
 }
 
 /* Services Section
